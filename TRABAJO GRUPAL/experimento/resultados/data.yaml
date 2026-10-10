@@ -1,0 +1,8 @@
+path: /kaggle/input/datasets/agajarnold/epp-casco-chaleco-yolo26
+train: train/images
+val: val/images
+test: test/images
+nc: 2
+names:
+  0: casco
+  1: chaleco

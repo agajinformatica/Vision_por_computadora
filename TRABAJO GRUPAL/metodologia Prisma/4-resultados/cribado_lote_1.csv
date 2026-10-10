@@ -1,0 +1,75 @@
+id,prioridad,revisor_A,revisor_B,decision_R1,motivo_R1,decision_R2,motivo_R2,discrepancia,decision_final,motivo_final,citas,anio,titulo,revista,doi,a_verificar_segun_resumen
+1,0,R1,R2,,,,,,,,244,2021,Fast personal protective equipment detection for real construction sites using deep learning approaches,Sensors,10.3390/s21103478,cumple I1-I7 en título/resumen
+2,0,R1,R2,,,,,,,,189,2021,Detection algorithm of safety helmet wearing based on deep learning,Concurrency and Computation: Practice and Experience,10.1002/cpe.6234,cumple I1-I7 en título/resumen
+3,0,R1,R2,,,,,,,,164,2021,Detecting safety helmet wearing on construction sites with bounding-box regression and deep transfer learning,Computer-Aided Civil and Infrastructure Engineering,10.1111/mice.12579,cumple I1-I7 en título/resumen
+4,0,R1,R2,,,,,,,,127,2022,Deep Learning-Based Automatic Safety Helmet Detection System for Construction Safety,Applied Sciences (Switzerland),10.3390/app12168268,cumple I1-I7 en título/resumen
+5,0,R1,R2,,,,,,,,97,2024,Safety Helmet Detection Based on Improved YOLOv8,IEEE Access,10.1109/ACCESS.2024.3368161,cumple I1-I7 en título/resumen
+6,0,R1,R2,,,,,,,,89,2022,Deep Learning-Based Workers Safety Helmet Wearing Detection on Construction Sites Using Multi-Scale Features,IEEE Access,10.1109/ACCESS.2021.3138407,cumple I1-I7 en título/resumen
+7,0,R1,R2,,,,,,,,75,2022,Standardized use inspection of workers' personal protective equipment based on deep learning,Safety Science,10.1016/j.ssci.2022.105689,cumple I1-I7 en título/resumen
+8,0,R1,R2,,,,,,,,74,2021,A Novel Implementation of an AI-Based Smart Construction Safety Inspection Protocol in the UAE,IEEE Access,10.1109/ACCESS.2021.3135662,cumple I1-I7 en título/resumen
+9,0,R1,R2,,,,,,,,68,2023,Real-Time Personal Protective Equipment Compliance Detection Based on Deep Learning Algorithm,Sustainability (Switzerland),10.3390/su15010391,cumple I1-I7 en título/resumen
+10,0,R1,R2,,,,,,,,65,2022,Investigation Into Recognition Algorithm of Helmet Violation Based on YOLOv5-CBAM-DCN,IEEE Access,10.1109/ACCESS.2022.3180796,cumple I1-I7 en título/resumen
+11,0,R1,R2,,,,,,,,64,2024,Personal protective equipment detection using YOLOv8 architecture on object detection benchmark datasets: a comparative study,Cogent Engineering,10.1080/23311916.2024.2333209,cumple I1-I7 en título/resumen
+12,0,R1,R2,,,,,,,,63,2022,SHEL5K: An Extended Dataset and Benchmarking for Safety Helmet Detection,Sensors,10.3390/s22062315,cumple I1-I7 en título/resumen
+13,0,R1,R2,,,,,,,,60,2023,Verification and performance comparison of CNN-based algorithms for two-step helmet-wearing detection,Expert Systems with Applications,10.1016/j.eswa.2023.120096,cumple I1-I7 en título/resumen
+14,0,R1,R2,,,,,,,,59,2023,Real-Time Safety Helmet Detection Using Yolov5 at Construction Sites,Intelligent Automation and Soft Computing,10.32604/iasc.2023.031359,cumple I1-I7 en título/resumen
+15,0,R1,R2,,,,,,,,52,2025,Automated non-PPE detection on construction sites using YOLOv10 and transformer architectures for surveillance and body worn cameras with benchmark datasets,Scientific Reports,10.1038/s41598-025-12468-8,cumple I1-I7 en título/resumen
+16,0,R1,R2,,,,,,,,51,2023,Unmanned Aerial Systems and Deep Learning for Safety and Health Activity Monitoring on Construction Sites,Sensors,10.3390/s23156690,cumple I1-I7 en título/resumen
+17,0,R1,R2,,,,,,,,45,2023,Safety Helmet Wearing Detection Model Based on Improved YOLO-M,IEEE Access,10.1109/ACCESS.2023.3257183,cumple I1-I7 en título/resumen
+18,0,R1,R2,,,,,,,,45,2025,Safety Helmet Monitoring on Construction Sites Using YOLOv10 and Advanced Transformer Architectures with Surveillance and Body-Worn Cameras,Journal of Construction Engineering and Management,10.1061/JCEMD4.COENG-16760,cumple I1-I7 en título/resumen
+19,0,R1,R2,,,,,,,,38,2022,Real-Time ISR-YOLOv4 Based Small Object Detection for Safe Shop Floor in Smart Factories,Electronics (Switzerland),10.3390/electronics11152348,cumple I1-I7 en título/resumen
+20,0,R1,R2,,,,,,,,38,2026,Domain-adaptive faster R-CNN for non-PPE identification on construction sites from body-worn and general images,Scientific Reports,10.1038/s41598-026-35148-7,cumple I1-I7 en título/resumen
+21,0,R1,R2,,,,,,,,37,2021,Automatic detection of safety helmet wearing based on head region location,IET Image Processing,10.1049/ipr2.12231,cumple I1-I7 en título/resumen
+22,0,R1,R2,,,,,,,,37,2022,Deep Learning Technique for Object Detection from Panoramic Video Frames,International Journal of Computer Theory and Engineering,10.7763/IJCTE.2022.V14.1306,cumple I1-I7 en título/resumen
+23,0,R1,R2,,,,,,,,35,2023,Research on Safety Helmet Detection Algorithm Based on Improved YOLOv5s,Sensors,10.3390/s23135824,cumple I1-I7 en título/resumen
+24,0,R1,R2,,,,,,,,35,2023,BDC-YOLOv5: a helmet detection model employs improved YOLOv5,"Signal, Image and Video Processing",10.1007/s11760-023-02677-x,cumple I1-I7 en título/resumen
+25,0,R1,R2,,,,,,,,32,2023,Research on the algorithm of helmet-wearing detection based on the optimized yolov4,Visual Computer,10.1007/s00371-022-02471-9,cumple I1-I7 en título/resumen
+26,0,R1,R2,,,,,,,,30,2024,DST-DETR: Image Dehazing RT-DETR for Safety Helmet Detection in Foggy Weather,Sensors,10.3390/s24144628,cumple I1-I7 en título/resumen
+27,0,R1,R2,,,,,,,,29,2023,YOLOv7-WFD: A Novel Convolutional Neural Network Model for Helmet Detection in High-Risk Workplaces,IEEE Access,10.1109/ACCESS.2023.3323588,cumple I1-I7 en título/resumen
+28,0,R1,R2,,,,,,,,28,2022,SAFETY HELMET WEARING DETECTION BASED ON AN IMPROVED YOLOV3 SCHEME,"International Journal of Innovative Computing, Information and Control",10.24507/ijicic.18.03.973,cumple I1-I7 en título/resumen
+29,0,R1,R2,,,,,,,,26,2021,Helmet detection based on deep learning and random forest on UAV for power construction safety,Journal of Advanced Computational Intelligence and Intelligent Informatics,10.20965/JACIII.2021.P0040,cumple I1-I7 en título/resumen
+30,0,R1,R2,,,,,,,,26,2023,Improved Vision-Based Method for Detection of Unauthorized Intrusion by Construction Sites Workers,Journal of Construction Engineering and Management,10.1061/JCEMD4.COENG-13294,cumple I1-I7 en título/resumen
+31,0,R1,R2,,,,,,,,25,2022,Multi-Scale Safety Helmet Detection Based on RSSE-YOLOv3,Sensors,10.3390/s22166061,cumple I1-I7 en título/resumen
+32,0,R1,R2,,,,,,,,25,2023,Helmet-Wearing Tracking Detection Based on StrongSORT,Sensors,10.3390/s23031682,cumple I1-I7 en título/resumen
+33,0,R1,R2,,,,,,,,24,2022,Real-time Safety Helmet-wearing Detection Based on Improved YOLOv5,Computer Systems Science and Engineering,10.32604/csse.2022.028224,cumple I1-I7 en título/resumen
+34,0,R1,R2,,,,,,,,24,2024,Research on helmet wearing detection method based on deep learning,Scientific Reports,10.1038/s41598-024-57433-z,cumple I1-I7 en título/resumen
+35,0,R1,R2,,,,,,,,23,2024,A Detailed Comparative Analysis of You Only Look Once-Based Architectures for the Detection of Personal Protective Equipment on Construction Sites,Eng,10.3390/eng5010019,cumple I1-I7 en título/resumen
+36,0,R1,R2,,,,,,,,21,2025,Detection Method for Safety Helmet Wearing on Construction Sites Based on UAV Images and YOLOv8,Buildings,10.3390/buildings15030354,cumple I1-I7 en título/resumen
+37,0,R1,R2,,,,,,,,21,2023,A Remote-Vision-Based Safety Helmet and Harness Monitoring System Based on Attribute Knowledge Modeling,Remote Sensing,10.3390/rs15020347,cumple I1-I7 en título/resumen
+38,0,R1,R2,,,,,,,,20,2023,"Enhanced YOLOv5 algorithm for helmet wearing detection via combining bi-directional feature pyramid, attention mechanism and transfer learning",Multimedia Tools and Applications,10.1007/s11042-023-14395-0,cumple I1-I7 en título/resumen
+39,0,R1,R2,,,,,,,,16,2023,Detection of Safety Helmet-Wearing Based on the YOLO_CA Model,"Computers, Materials and Continua",10.32604/cmc.2023.043671,cumple I1-I7 en título/resumen
+40,0,R1,R2,,,,,,,,16,2024,YOLO-Helmet: A Novel Algorithm for Detecting Dense Small Safety Helmets in Construction Scenes,IEEE Access,10.1109/ACCESS.2024.3435700,cumple I1-I7 en título/resumen
+41,0,R1,R2,,,,,,,,14,2024,EGS-YOLO: A Fast and Reliable Safety Helmet Detection Method Modified Based on YOLOv7,Applied Sciences (Switzerland),10.3390/app14177923,cumple I1-I7 en título/resumen
+42,0,R1,R2,,,,,,,,13,2025,Dynamic gesture recognition during human–robot interaction in autonomous earthmoving machinery used for construction,Advanced Engineering Informatics,10.1016/j.aei.2025.103315,cumple I1-I7 en título/resumen
+43,0,R1,R2,,,,,,,,12,2024,SDCB-YOLO: A High-Precision Model for Detecting Safety Helmets and Reflective Clothing in Complex Environments,Applied Sciences (Switzerland),10.3390/app14167267,cumple I1-I7 en título/resumen
+44,0,R1,R2,,,,,,,,12,2023,Detection of safety helmet and mask wearing using improved YOLOv5s,Scientific Reports,10.1038/s41598-023-48943-3,cumple I1-I7 en título/resumen
+45,0,R1,R2,,,,,,,,12,2024,Efficient and Lightweight Neural Network for Hard Hat Detection,Electronics (Switzerland),10.3390/electronics13132507,cumple I1-I7 en título/resumen
+46,0,R1,R2,,,,,,,,11,2025,Intelligent detection of safety helmets and reflective vests based on deep learning,Journal of Real-Time Image Processing,10.1007/s11554-024-01573-y,cumple I1-I7 en título/resumen
+47,0,R1,R2,,,,,,,,10,2024,Safety helmet wearing correctly detection based on capsule network,Multimedia Tools and Applications,10.1007/s11042-023-15309-w,cumple I1-I7 en título/resumen
+48,0,R1,R2,,,,,,,,10,2024,HWD-YOLO: A New Vision-Based Helmet Wearing Detection Method,"Computers, Materials and Continua",10.32604/cmc.2024.055115,cumple I1-I7 en título/resumen
+49,0,R1,R2,,,,,,,,10,2025,Advancing construction safety: YOLOv8-CGS helmet detection model,PLOS ONE,10.1371/journal.pone.0321713,cumple I1-I7 en título/resumen
+50,0,R1,R2,,,,,,,,9,2025,A dynamic weighted feature fusion lightweight algorithm for safety helmet detection based on YOLOv8,Measurement: Journal of the International Measurement Confederation,10.1016/j.measurement.2025.117572,cumple I1-I7 en título/resumen
+51,0,R1,R2,,,,,,,,7,2021,Authentication control system for the efficient detection of hard-hats using deep learning algorithms,Journal of Discrete Mathematical Sciences and Cryptography,10.1080/09720529.2021.2011109,cumple I1-I7 en título/resumen
+52,0,R1,R2,,,,,,,,7,2024,DPPNet: A Deformable-Perspective-Perception Network for Safety Helmet Violation Detection,"Engineering, Technology and Applied Science Research",10.48084/etasr.6633,cumple I1-I7 en título/resumen
+53,0,R1,R2,,,,,,,,7,2026,YOLOv10-based multi-scale variant object detection for multi-category PPE non-compliance monitoring on construction sites,Scientific Reports,10.1038/s41598-026-53052-y,cumple I1-I7 en título/resumen
+54,0,R1,R2,,,,,,,,6,2025,Enhancing Worker Safety at Heights: A Deep Learning Model for Detecting Helmets and Harnesses Using DETR Architecture,IEEE Access,10.1109/ACCESS.2025.3603202,cumple I1-I7 en título/resumen
+55,0,R1,R2,,,,,,,,6,2025,Enhancing construction safety management efficiency with AI-Powered real-time helmet detection,Journal of Science and Transport Technology,10.58845/jstt.utt.2025.en.5.1.77-91,cumple I1-I7 en título/resumen
+56,0,R1,R2,,,,,,,,5,2025,Lightweight Helmet-Wearing Detection Algorithm Based on StarNet-YOLOv10,Processes,10.3390/pr13040946,cumple I1-I7 en título/resumen
+57,0,R1,R2,,,,,,,,4,2023,A deep learning method for hard-hat-wearing detection based on head center localization,Bulletin of the Polish Academy of Sciences: Technical Sciences,10.24425/bpasts.2023.147340,cumple I1-I7 en título/resumen
+58,0,R1,R2,,,,,,,,4,2025,DAF-YOLO: Detection of Unsafe Behaviors on Construction Sites,Sensors,10.3390/s25237216,cumple I1-I7 en título/resumen
+59,0,R1,R2,,,,,,,,4,2025,LSH-YOLO: A Lightweight Algorithm for Helmet-Wear Detection,Buildings,10.3390/buildings15162918,cumple I1-I7 en título/resumen
+60,0,R1,R2,,,,,,,,4,2025,CSOD-24: Construction Site Object Detection Dataset for Safety Monitoring at Construction Site using Deep Learning,Journal of Innovative Image Processing,10.36548/jiip.2025.1.009,cumple I1-I7 en título/resumen
+61,0,R1,R2,,,,,,,,3,2025,Efficient helmet detection based on deep learning and pruning methods,Journal of Electronic Imaging,10.1117/1.JEI.34.2.023006,cumple I1-I7 en título/resumen
+62,0,R1,R2,,,,,,,,3,2025,AF-YOLOv8: a lightweight algorithm suitable for helmet and vest detection,Journal of Supercomputing,10.1007/s11227-025-07496-0,cumple I1-I7 en título/resumen
+63,0,R1,R2,,,,,,,,3,2024,Detection and tracking of safety helmet wearing based on deep learning,Open Computer Science,10.1515/comp-2024-0017,cumple I1-I7 en título/resumen
+64,0,R1,R2,,,,,,,,3,2025,Faster-PPENet: Advancing Logistic Intelligence for PPE Recognition at Construction Sites,IEEE Access,10.1109/ACCESS.2025.3578110,cumple I1-I7 en título/resumen
+65,0,R1,R2,,,,,,,,2,2025,Intelligent construction quality remote management integrating intelligent construction sites and PDCA cycle,Intelligent Buildings International,10.1080/17508975.2025.2502015,cumple I1-I7 en título/resumen
+66,0,R1,R2,,,,,,,,2,2025,Deep Learning and Industrial Internet of Things (IIoT) Approach for Detecting Worker’s Protective Equipment,National Academy Science Letters,10.1007/s40009-025-01740-0,cumple I1-I7 en título/resumen
+67,0,R1,R2,,,,,,,,2,2024,Enhanced Helmet Wearing Detection Using Improved YOLO Algorithm,IAENG International Journal of Computer Science,,cumple I1-I7 en título/resumen
+68,0,R1,R2,,,,,,,,1,2025,Enhanced YOLOv8n-Based Three-Module Lightweight Helmet Detection System,Sensors,10.3390/s25247664,cumple I1-I7 en título/resumen
+69,0,R1,R2,,,,,,,,1,2024,An open dataset for intelligent recognition and classification of abnormal condition in longwall mining,Coal International,,cumple I1-I7 en título/resumen
+70,0,R1,R2,,,,,,,,1,2025,"CBTi-YOLOv5: Improved YOLOv5 with CBAM, Transformer, and BiFPN for Real-Time Safety Helmet Detection",Journal of Information Systems Engineering and Business Intelligence,10.20473/jisebi.11.3.353-363,cumple I1-I7 en título/resumen
+71,0,R1,R2,,,,,,,,1,2026,Utilizing YOLOv11 for Real-Time Construction PPE Compliance Detection,"Engineering, Technology and Applied Science Research",10.48084/etasr.15801,cumple I1-I7 en título/resumen
+72,0,R1,R2,,,,,,,,1,2023,Detection of Protective Apparatus for Municipal Engineering Construction Personnel Based on Improved YOLOv5s,International Journal of Advanced Computer Science and Applications,10.14569/IJACSA.2023.0140741,cumple I1-I7 en título/resumen
+73,0,R1,R2,,,,,,,,1,2024,Workers and Safety Helmets Detection in Day and Night Scenes based on improved YOLOv5,Applied Mathematics and Nonlinear Sciences,10.2478/amns-2024-1542,cumple I1-I7 en título/resumen
+74,0,R1,R2,,,,,,,,0,2023,One-Stage Safety Helmet Wearing Detection Based on Network-Structure-Improved YOLOv3,Journal of Network Intelligence,,cumple I1-I7 en título/resumen

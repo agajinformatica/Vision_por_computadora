@@ -1,0 +1,3 @@
+pesos/*.pt
+__pycache__/
+*.pyc

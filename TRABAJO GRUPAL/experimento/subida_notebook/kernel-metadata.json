@@ -1,0 +1,15 @@
+{
+  "id": "agajarnold/entrenamiento-epp-yolo26",
+  "title": "Entrenamiento EPP YOLO26",
+  "code_file": "entrenamiento-epp-yolo26.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["agajarnold/epp-casco-chaleco-yolo26"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

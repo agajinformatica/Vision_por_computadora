@@ -1,0 +1,344 @@
+# Checklist de redacción — Esqueleto_Paper_EPP_YOLO26.docx
+
+Instrumento de seguimiento, **no texto del paper**. Un ítem por unidad de redacción, con
+criterio de cierre. Las cifras están incrustadas para no tener que ir a buscarlas.
+
+**Redacción: 100% humana.** Última actualización: **2026-10-09, 22:55** — tras completarse el entrenamiento
+
+| Estado | Significa |
+|---|---|
+| 🟢 | escribible hoy, sin dependencias |
+| 🟡 | escribible con huecos marcados `⟦ ⟧` |
+| 🔴 | bloqueado por la corrida o por una decisión |
+
+Convención para huecos: escribir `⟦dato pendiente: X⟧` en el docx. Al cerrar, buscar `⟦`
+y verificar que no queda ninguno.
+
+---
+
+## 0 · Portada 🟢
+
+- [ ] Nombres y apellidos completos de los tres integrantes, en el orden acordado
+- [ ] Correo de contacto único (decidir cuál)
+- [ ] Afiliación verificada: *Maestría en Inteligencia Artificial · Universidad Nacional Mayor de San Marcos*
+- [ ] Título definitivo confirmado (hoy: *Detección de casco y chaleco de seguridad en obras de construcción mediante YOLO26*)
+
+---
+
+## 1 · Resumen 🟡  ·  150-200 palabras  ·  se escribe AL FINAL
+
+> Desbloqueado en lo técnico: el resultado principal ya existe (**mAP50 0,8592**). Sigue
+> conviniendo escribirlo al final, cuando Discusión esté cerrada.
+
+Los seis elementos en este orden. Cada uno es un ítem porque la rúbrica los busca uno por uno.
+
+- [ ] Problema (seguridad en obra, incumplimiento de EPP)
+- [ ] Datos (corpus unificado, 20 944 imágenes, tres fuentes)
+- [ ] Método (YOLO26 + protocolo idéntico contra dos generaciones previas)
+- [ ] **Resultado principal con su cifra** ← sin esto el resumen no cumple
+- [ ] Conclusión en una frase
+- [ ] Recuento de palabras entre 150 y 200
+- [ ] Palabras clave: de 3 a 5, separadas por punto y coma
+
+---
+
+## 2 · Introducción 🟡  ·  ~1,3 páginas  ·  Rúbrica: problema y justificación (5 pts)
+
+> **✔ DECIDIDO el 2026-10-09 (D16): se ajusta el texto a lo medible.**
+>
+> El esqueleto prometía *modo NMS-free* y *generalización entre datasets*. El experimento no
+> midió ninguna de las dos: CHV quedó repartido en train/val/test, y no se comparó NMS contra
+> NMS-free. En lugar de correr experimentos adicionales, se ajusta el aporte declarado.
+>
+> **Aporte definitivo, para el párrafo (c):**
+>
+> *YOLO26 supera a dos generaciones previas en detección de casco y chaleco con un 19 % menos
+> de parámetros, bajo protocolo idéntico, sobre un corpus unificado de tres fuentes heterogéneas.*
+>
+> Las dos promesas descartadas pasan a **trabajo futuro** en la Discusión. Declarar lo que no
+> se midió, en lugar de omitirlo, juega a favor.
+
+- [x] ✔ **Decisión tomada (D16)**: se ajusta el texto. Aporte definitivo en el recuadro de arriba
+- [ ] (a) El problema de visión planteado y su relevancia para la seguridad en obra
+- [ ] (a) Dato de contexto con cita (informe HSE, ref. 10) — magnitud del problema, no opinión
+- [ ] (b) Antecedentes **integrados en la prosa**, no listados
+- [ ] (b) Mención de la revisión sistemática previa como antecedente (ref. 12, *AI Review* 2024)
+- [ ] (b) Al menos una frase que identifique el hueco que este trabajo cubre
+- [ ] (c) Objetivo del trabajo, explícito
+- [ ] (c) Aporte, usando la frase fijada en D16 — **no prometer NMS-free ni generalización**
+- [ ] Todas las citas de esta sección existen en la lista de Referencias
+- [ ] Extensión ≈ 1,3 páginas
+
+---
+
+## 3 · Métodos  ·  ~2,2 páginas en total  ·  Rúbrica: rigor técnico (4) + reproducibilidad (3)
+
+Criterio global de la sección: **otra persona debe poder repetir el trabajo leyéndola**.
+
+### 3.1 Protocolo de revisión sistemática 🟡  ·  ~0,6 pág
+
+Insumo: `metodologia Prisma/2-protocolo/` · Reportar según PRISMA-S.
+
+- [ ] Bases consultadas y plataforma — Scopus; **declarar WoS como no accesible**
+- [ ] Fecha exacta de ejecución: **2026-10-09**
+- [ ] Cadena de búsqueda **literal**, tal como se pegó en Scopus
+- [ ] Filtros aplicados: `DOCTYPE "ar"`, `PUBYEAR 2021-2026`, inglés y español
+- [ ] Criterios de inclusión I1-I7, enunciados
+- [ ] Criterios de exclusión E1-E6, enunciados
+- [ ] Nº de revisores independientes (2) y cómo se resolvieron discrepancias (un tercero)
+- [ ] Cita de PRISMA 2020 (Page et al., *BMJ* n71) y de PRISMA-S (Rethlefsen et al.)
+- [ ] Limitación declarada: búsqueda en una sola base
+- [ ] ⟦quién ejecutó la búsqueda⟧ y ⟦formato de exportación⟧ — faltan en `CADENAS_BUSQUEDA.md`
+- [ ] Cifras del embudo coherentes con la Figura 1
+
+**Cifras disponibles:** 158 identificados en Scopus · 9 por otros métodos · 10 excluidos en
+título/resumen · 148 a texto completo · incluidos ⟦pendiente del cribado, cierre 1 nov⟧
+
+### 3.2 Conjuntos de datos 🟢  ·  ~0,4 pág
+
+- [x] ✔ **Decidido por coherencia con D16: NO se usa `--chv-externo`.** CHV se queda
+      repartido en train/val/test, que es como se entrenó. Las cifras de la Tabla 1 son las
+      ya verificadas más abajo. El modo externo queda documentado como trabajo futuro: el
+      script lo admite, pero exigiría reentrenar los tres modelos
+- [ ] Origen de cada una de las tres fuentes, con su cita
+- [ ] Nº de imágenes aportadas por fuente **después** del remapeo
+- [ ] Licencia de Construction-PPE declarada (**AGPL-3.0**, copyleft fuerte)
+- [ ] Dicho que dos de las tres fuentes no están revisadas por pares
+- [ ] ✔ **RESUELTO**: el casco del Roboflow pasa de 55 393 a 42 428 porque 55 393 = `Hardhat`
+      42 428 + `NO-Hardhat` 12 965. El remapeo (D10) toma **solo `Hardhat`**; las clases
+      negativas se descartan por diseño, al ser un esquema de 2 clases positivas
+- [ ] Clases: 2 positivas (`casco`, `chaleco`) y por qué solo esas
+- [ ] División train/val/test y la decisión de conservar las particiones originales
+- [ ] Dataset descartado (Pictor-v3) **con su motivo medido**: 39,2:1, solo 42 instancias de chaleco
+- [ ] Tabla 1 construida
+- [ ] Pie de la Tabla 1 redactado (describe qué muestra, no repite la tabla)
+
+**Cifras verificadas** (`experimento/dataset_unificado/estadisticas.json`):
+
+| Fuente | Imágenes | Casco | Chaleco | Razón |
+|---|---:|---:|---:|---:|
+| Roboflow Combined v8 | 18 521 | 42 428 | 6 448 | 6,58 : 1 |
+| Construction-PPE | 1 113 | 1 734 | 1 618 | 1,07 : 1 |
+| CHV | 1 310 | 3 538 | 1 784 | 1,98 : 1 |
+| **Total** | **20 944** | **47 700** | **9 850** | **4,84 : 1** |
+
+| Partición | Imágenes | Casco | Chaleco | Razón |
+|---|---:|---:|---:|---:|
+| train | 14 729 | 33 099 | 7 164 | 4,62 : 1 |
+| val | 4 044 | 9 512 | 1 629 | 5,84 : 1 |
+| test | 2 171 | 5 089 | 1 057 | 4,81 : 1 |
+
+### 3.3 Preprocesamiento 🟢  ·  ~0,25 pág
+
+Insumo: `experimento/01_preparar_dataset.py`
+
+- [ ] Redimensionado a 640 × 640 y quién lo aplica (Ultralytics, en carga)
+- [ ] **Regla de remapeo de clases**, explícita y repetible
+- [ ] Filtrado: 25 804 imágenes descartadas por no contener ninguna clase relevante
+- [ ] Aumento de datos — **valores reales leídos de `resultados/runs/yolo26n/args.yaml`**:
+
+| Aumento | Valor |
+|---|---|
+| `mosaic` | 1.0 (desactivado en las últimas 10 épocas por `close_mosaic=10`) |
+| `hsv_h` / `hsv_s` / `hsv_v` | 0.015 / 0.7 / 0.4 |
+| `fliplr` | 0.5 (horizontal) |
+| `scale` | 0.5 · `translate` 0.1 · `erasing` 0.4 |
+| `auto_augment` | randaugment |
+| Desactivados | `flipud`, `degrees`, `shear`, `perspective`, `mixup`, `cutmix`, `copy_paste` |
+- [ ] Mención de que la unificación usa enlaces simbólicos (no duplica los 6 GB)
+- [ ] Referencia al script por nombre, para el criterio de reproducibilidad
+
+### 3.4 Modelo 🟢  ·  ~0,4 pág
+
+Insumo: dict `PROTOCOLO` en `experimento/03_entrenamiento_kaggle.ipynb`
+
+- [ ] Arquitectura: YOLO26, escala `n`
+- [ ] Transfer learning desde pesos COCO (no desde cero) — dicho explícitamente
+- [ ] Hiperparámetros: imgsz 640 · batch 32 · optimizer `auto` · seed 42 · patience 15 · epochs 50
+- [ ] ✔ **Épocas efectivas: las 50 en los tres modelos.** `patience=15` no llegó a activarse
+- [ ] ✔ **GPU: Tesla T4** (14 912 MiB utilizables) · 1 unidad, `device=0`
+- [ ] ✔ **Tiempos**: yolov8n 120,4 min · yolo11n 121,9 min · yolo26n 132,9 min
+- [ ] ✔ **Entorno**: Ultralytics 8.4.175 · PyTorch 2.11.0+cu128 · Python 3.13.15
+- [ ] Mención de la semilla fija como condición de la comparación
+
+### 3.5 Línea base 🟢  ·  ~0,25 pág
+
+Insumo: decisión D14 de `GUIA_INVESTIGADOR.md`
+
+- [ ] YOLOv8n declarado como **línea base simple** (es lo que pide la rúbrica, literal)
+- [ ] YOLO11n declarado como **comparador directo** de generación anterior
+- [ ] Justificación de por qué se declaran dos y no una
+- [ ] Mismo protocolo para los tres, dicho de forma que se entienda que es un único diccionario
+
+### 3.6 Métricas de evaluación 🟢  ·  ~0,3 pág
+
+- [ ] Métrica principal nombrada (mAP50-95) y **por qué se eligió** ← la justificación es criterio explícito
+- [ ] mAP50, precisión y recall como métricas secundarias
+- [ ] Argumento del **peso del recall**: en seguridad el falso negativo no cuesta lo mismo que el falso positivo
+- [ ] Métricas desagregadas por clase, anunciadas aquí
+- [ ] Si se reportan por tamaño de objeto, decirlo aquí (régimen de objeto pequeño en el casco)
+- [ ] Conjunto sobre el que se reporta: test, nunca visto en entrenamiento
+
+### Figura 1 — Diagrama de flujo PRISMA 🔴
+
+- [ ] Plantilla **new_SRs_v2** rellenada (la v2, por la columna de «otros métodos»)
+- [ ] Números reales, cuadrando con el texto de 3.1
+- [ ] Exportada a imagen e insertada en el docx
+- [ ] Pie redactado
+
+---
+
+## 4 · Resultados 🟢  ·  ~1,8 páginas  ·  reportar SIN interpretar
+
+> **Desbloqueado el 2026-10-09 a las 21:05.** Cifras en `experimento/RESULTADOS.md`;
+> 96 figuras en `experimento/resultados/runs/`.
+
+**Tabla 2 — evaluación sobre el conjunto de prueba (2 171 imágenes):**
+
+| Modelo | Papel | mAP50 | mAP50-95 | Precisión | Recall | Parámetros |
+|---|---|---:|---:|---:|---:|---:|
+| yolov8n | Línea base simple | 0,8415 | 0,5215 | 0,7586 | 0,8253 | 3 138 246 |
+| yolo11n | Comparador directo | 0,8473 | 0,5223 | 0,7647 | 0,8316 | 2 605 126 |
+| **yolo26n** | **Modelo propuesto** | **0,8592** | **0,5322** | 0,7505 | **0,8526** | **2 534 372** |
+
+**Tabla 3 — desagregado por clase (mAP50):**
+
+| Modelo | Casco | Chaleco | Brecha |
+|---|---:|---:|---:|
+| yolov8n | 0,9170 | 0,7661 | 0,1509 |
+| yolo11n | 0,9181 | 0,7765 | 0,1416 |
+| yolo26n | 0,9251 | 0,7933 | **0,1318** |
+
+**Cifras para el texto:** mejora sobre la línea base **+0,0177 de mAP50 (+2,1 %)** con
+**un 19 % menos de parámetros**. Ganancia en chaleco **+0,0272** frente a casco **+0,0081**.
+
+- [ ] Tabla 2 — los tres modelos en la misma métrica
+- [ ] Pie de la Tabla 2
+- [ ] Tabla 3 — desagregado por clase (casco vs chaleco)
+- [ ] Pie de la Tabla 3
+- [ ] Figura 2 — matriz de confusión (+ pie)
+- [ ] Figura 3 — curvas de entrenamiento (+ pie)
+- [ ] Figura 4 — ejemplos de predicción, **con aciertos y fallos** (+ pie)
+- [ ] Texto que guía la lectura de cada tabla y figura sin repetir todos los valores
+- [ ] Cifra de la mejora sobre la línea base, en puntos y en porcentaje
+- [ ] Brecha casco vs chaleco, reportada como dato
+- [ ] Ninguna interpretación se ha colado en esta sección
+
+---
+
+## 5 · Discusión 🟢  ·  ~1,2 páginas  ·  Rúbrica: discusión y análisis (2,6 pts)
+
+- [ ] (a) 🟢 Comparación con la línea base y **explicación** de la diferencia *(cifras disponibles)*
+- [ ] (b) 🟢 Análisis de errores: oclusión entre trabajadores, régimen de objeto pequeño en el
+      casco, efecto del desbalance 4,84:1. **Material medido disponible**: matrices de confusión
+      en `runs/*_test/` y la prueba de umbral del servicio desplegado (0,25 → 1 falso positivo;
+      0,40 → exacto; 0,60 → pierde el chaleco)
+- [ ] (b) 🟢 **Declarar el compromiso precisión-exhaustividad**: yolo26n tiene la precisión más
+      baja (0,7505) y el recall más alto (0,8526). Detecta más y se equivoca más. Favorable en
+      seguridad, pero **no debe omitirse**
+- [ ] (c) 🟢 Limitación: heterogeneidad de las tres fuentes y sus paradigmas de anotación
+- [ ] (c) 🟢 Limitación: deformación por redimensionado a 640
+- [ ] (c) 🟢 Limitación: ausencia de clase negativa para el chaleco
+- [ ] (c) 🟢 Limitación: dos de los tres datasets sin revisión por pares
+- [ ] (c) 🟢 Limitación: búsqueda sistemática en una sola base (WoS inaccesible)
+- [ ] (c) 🟢 Limitación: escala `n` de los modelos, no `s`/`m`
+- [ ] (d) 🟢 Conclusión anclada en los datos, sin afirmar más de lo medido
+- [ ] (d) 🟢 **Trabajo futuro, con lo descartado por D16**: evaluación del modo NMS-free,
+      generalización entre datasets manteniendo CHV como test externo (el script ya admite
+      `--chv-externo`), clases negativas para cumplimiento, y escalas `s`/`m`
+
+---
+
+## 6 · Declaración sobre uso de IA 🟢  ·  obligatoria por rúbrica
+
+Nadie depende de ti para esto y vale puntos. Insumo: sección 6 de `GUIA_INVESTIGADOR.md`.
+
+- [ ] Declarar que la redacción es íntegramente humana
+- [ ] Declarar el apoyo en **estructura y esqueletos**
+- [ ] Declarar el apoyo en **decisiones metodológicas, cadenas de búsqueda y criterios**
+- [ ] Declarar el apoyo en **análisis de datasets y tablas de medición**
+- [ ] Declarar el apoyo en **código** (scripts, notebook, despliegue)
+- [ ] Declarar el apoyo en **cribado preliminar** de la literatura
+- [ ] Declarar el apoyo en **verificación de cifras y referencias**
+- [ ] Nombrar la herramienta y el periodo de uso
+
+---
+
+## 7 · Referencias 🟢  ·  formato IEEE
+
+- [ ] Mínimo **25** referencias (hoy: 30 PDFs, 26 cumplen I1-I7)
+- [ ] Todas de revistas indexadas en Scopus y/o WoS
+- [ ] Formato IEEE **consistente** en las 30: autores, título, revista, vol., n.º, pp., año
+- [ ] Numeración en orden de primera aparición en el texto
+- [ ] Toda cita del texto aparece en la lista
+- [ ] Nada en la lista queda sin citar en el texto ← error más frecuente
+- [ ] Referencias metodológicas incluidas: PRISMA 2020, PRISMA-S, fuentes de los 3 datasets, YOLO26
+- [ ] ⟦resolver P1⟧ si entra LACCEI (actas de congreso) — consulta al docente
+
+---
+
+## 8 · Cierre del documento 🟡
+
+- [ ] **Todos los bloques naranja de GUÍA eliminados** (son instrucciones, no texto)
+- [ ] Todos los recuadros grises sustituidos por la tabla o figura real
+- [ ] Búsqueda de `⟦` en el documento: cero resultados
+- [ ] Búsqueda de `[` en el documento: solo lo que debe quedar
+- [ ] Extensión total entre 6 y 8 páginas
+- [ ] Todas las tablas y figuras están citadas en el texto («como muestra la Tabla 2…»)
+- [ ] Numeración de tablas y figuras continua y sin saltos
+- [ ] Revisión ortográfica y de concordancia
+- [ ] Una lectura completa en voz alta de principio a fin
+
+### Entregables anexos (no van dentro del docx)
+
+- [ ] Checklist PRISMA de 27 ítems, cumplimentada
+- [ ] Notebook reproducible de principio a fin
+- [ ] Repositorio ordenado con los scripts citados en Métodos
+
+---
+
+## Panel de avance
+
+| Bloque | Ítems | Hechos | Estado |
+|---|---:|---:|---|
+| 0 Portada | 4 | 0 | 🟢 |
+| 1 Resumen | 7 | 0 | 🟡 |
+| 2 Introducción | 10 | 1 | 🟡 |
+| 3.1 PRISMA | 11 | 0 | 🟡 |
+| 3.2 Datasets | 11 | 2 | 🟢 |
+| 3.3 Preprocesamiento | 6 | 0 | 🟢 |
+| 3.4 Modelo | 7 | 4 | 🟢 |
+| 3.5 Línea base | 4 | 0 | 🟢 |
+| 3.6 Métricas | 6 | 0 | 🟢 |
+| Figura 1 | 4 | 0 | 🔴 |
+| 4 Resultados | 11 | 0 | 🟢 |
+| 5 Discusión | 11 | 0 | 🟢 |
+| 6 Declaración IA | 8 | 0 | 🟢 |
+| 7 Referencias | 8 | 0 | 🟢 |
+| 8 Cierre | 9 | 0 | 🟡 |
+| **Total** | **117** | **7** | |
+
+**Escribible hoy sin ninguna dependencia: 76 ítems.** Con el entrenamiento cerrado, se suman
+Resultados (11), Discusión (11), 3.4 Modelo (7) y el Resumen en lo técnico.
+
+**Único bloqueo real que queda: la Figura 1**, que espera al cribado de los 148 textos
+(cierre 1 de noviembre).
+
+---
+
+## Cómo lo usamos
+
+1. Eliges un bloque y lo redactas en el docx.
+2. Me dices «revisemos 3.2» y yo lo contrasto ítem por ítem contra este checklist y contra
+   las cifras de los archivos fuente. Señalo lo que falta o no cuadra; **no reescribo el texto**.
+3. Marcamos los `[x]` y actualizamos el panel.
+
+Orden recomendado: **3.2 → 3.3 → 3.5 → 3.6 → 6 → 7 → 3.1 → 2 → 5(c) → [corrida] → 4 → 5 → 1 → 8**
+
+## Bitácora de revisiones
+
+| Fecha | Bloque | Resultado |
+|---|---|---|
+| 2026-10-10 | 3.2 Datasets | Cerrado `--chv-externo` por coherencia con D16: no se usa. Bloque 3.2 pasa a 🟢 |
+| 2026-10-09 23:35 | 2 Introducción | **D16: se ajusta el texto a lo medible.** Aporte fijado; NMS-free y generalización pasan a trabajo futuro. Actualizado también el esqueleto .docx |
+| 2026-10-09 22:55 | Actualización general | Entrenamiento completado. Desbloqueados Resultados, Discusión y Resumen. Cerrados 5 huecos ⟦⟧ de 3.2 y 3.4 con datos reales. Único bloqueo restante: Figura 1 (cribado) |

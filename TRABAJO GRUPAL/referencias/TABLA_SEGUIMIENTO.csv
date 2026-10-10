@@ -1,0 +1,31 @@
+ID,archivo,aportado_por,titulo,revista,anio,doi,en_scopus_158,criterios,uso_previsto
+01,01_Fast-PPE-Detection-CHV_Sensors-2021.pdf,Arnold,Fast PPE Detection for Real Construction Sites (dataset CHV),Sensors,2021,10.3390/s21103478,SI,cumple,Métodos (dataset) + Intro
+02,02_SHEL5K-Dataset-Benchmark_Sensors-2022.pdf,Arnold,SHEL5K: Extended Dataset and Benchmarking for Safety Helmet Detection,Sensors,2022,10.3390/s22062315,SI,cumple,Intro
+03,03_MRC-DETR-Transformer_Sensors-2025.pdf,Arnold,MRC-DETR: detección de alta precisión en operaciones eléctricas,Sensors,2025,10.3390/s25134152,no,cumple*,Intro (arquitectura no-YOLO)
+04,04_PPE-EYE-Compliance_Computers-2026.pdf,Arnold,PPE-EYE: deep learning para cumplimiento de EPP,Computers,2026,10.3390/computers15010045,SI,cumple,Intro
+05,05_Real-Synthetic-Data-Mixing_Buildings-2026.pdf,Arnold,Fixed-Budget: mezcla de datos reales y sintéticos,Buildings,2026,10.3390/buildings16102034,no,cumple,Métodos (métrica) + Discusión
+06,06_YOLOv11-SRA-Casco-Subterraneo_SciRep-2026.pdf,Javier,YOLOv11-SRA: cascos en minería subterránea,Scientific Reports,2026,10.1038/s41598-026-37148-z,no,cumple*,Intro
+07,07_AE-LFOG-YOLO-Tunel-Iluminacion_SciRep-2026.pdf,Javier,AE-LFOG-YOLO: cascos con invariancia a iluminación,Scientific Reports,2026,10.1038/s41598-026-37326-z,SI,cumple,Intro + Discusión
+08,08_DRR-YOLOv11s-Hidroelectrica_SciRep-2026.pdf,Javier,DRR-YOLOv11s: EPP ligero en centrales hidroeléctricas,Scientific Reports,2026,10.1038/s41598-026-49094-x,no,cumple*,Intro (edge)
+09,09_YOLOv10-Multiescala-PPE_SciRep-2026.pdf,Javier,YOLOv10 multiescala: incumplimiento multiclase de EPP,Scientific Reports,2026,10.1038/s41598-026-53052-y,SI,cumple,Intro + Discusión
+10,10_HSE-Annual-Report_HSE-2023.pdf,eladio,HSE Annual Report and Accounts 2022-23,HSE (informe de gobierno),2023,—,no,NO (E1),Intro (contexto)
+11,11_Framework-Actos-Inseguros_IJERPH-2023.pdf,eladio,Framework: trabajo productivo y actos/condiciones inseguras,IJERPH,2023,10.3390/ijerph20043412,no,dudoso (I4),Intro (contexto)
+12,12_Revision-Sistematica-CV-PPE_AIReview-2024.pdf,eladio,Revisión sistemática de cumplimiento de EPP con visión,Artificial Intelligence Review,2024,10.1007/s10462-024-10978-x,SI,NO (E1),Intro (antecedente)
+13,13_Smart-SSOMA_LACCEI-2026.pdf,eladio,Smart SSOMA: gestión de seguridad con visión y edge,LACCEI (actas),2026,10.18687/laccei2026.1.1.2671,no,NO (E1),Intro (contexto local)
+14,14_Non-PPE-YOLOv10-transformers_SciRep-2025.pdf,búsqueda,Detección de no-EPP con YOLOv10 y transformers,Scientific Reports,2025,10.1038/s41598-025-12468-8,SI,cumple,Intro
+15,15_PPE-Detection-Novel-Dataset_IEEEAccess-2024.pdf,búsqueda,PPE Detection for Construction Workers: nuevo dataset,IEEE Access,2024,10.1109/access.2024.3382817,SI,cumple,Intro + Métodos
+16,16_PPE-Detection-Sustainable-YOLOX_Sustainability-2023.pdf,búsqueda,PPE Detection: enfoque sostenible con YOLOX,Sustainability,2023,10.3390/su151813990,SI,cumple,Intro
+20,20_Automatic-Safety-Helmet-System_ApplSci-2022.pdf,búsqueda,Sistema automático de detección de casco,Applied Sciences,2022,10.3390/app12168268,SI,cumple,Intro
+21,21_Helmet-Wearing-Multi-Scale_IEEEAccess-2021.pdf,búsqueda,Detección de casco con características multiescala,IEEE Access,2021,10.1109/access.2021.3138407,SI,cumple,Intro
+23,23_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf,búsqueda,Casco con YOLOv5 y superresolución,Sensors,2023,10.3390/s23041822,SI,cumple,Intro + Discusión
+24,24_Lightweight-Helmet-YOLOv4_Sensors-2023.pdf,búsqueda,Detección ligera de casco con YOLOv4 mejorado,Sensors,2023,10.3390/s23031256,no,cumple,Intro
+25,25_Helmet-Improved-YOLOv5s_Sensors-2023.pdf,búsqueda,Detección de casco con YOLOv5s mejorado,Sensors,2023,10.3390/s23135824,SI,cumple,Intro
+27,27_Real-Time-Helmet-YOLOv5_IASC-2022.pdf,búsqueda,Detección de casco en tiempo real con YOLOv5,Intell. Autom. Soft Comput.,2022,10.32604/iasc.2023.031359,SI,cumple,Intro
+28,28_Domain-adaptive-FasterRCNN-nonPPE_SciRep-2026.pdf,búsqueda,Faster R-CNN con adaptación de dominio para no-EPP,Scientific Reports,2026,10.1038/s41598-026-35148-7,SI,cumple,Intro + Discusión (clave)
+29,29_Helmet-improved-YOLOv5_SciRep-2023.pdf,búsqueda,Algoritmo mejorado de detección de casco con YOLOv5,Scientific Reports,2023,10.1038/s41598-023-45383-x,no,cumple,Intro
+30,30_Helmet-wearing-deep-learning_SciRep-2024.pdf,búsqueda,Detección de uso de casco con deep learning,Scientific Reports,2024,10.1038/s41598-024-57433-z,SI,cumple,Intro
+31,31_Helmet-Harness-Remote-Vision_RemoteSens-2023.pdf,búsqueda,Monitoreo remoto de casco y arnés,Remote Sensing,2023,10.3390/rs15020347,SI,cumple,Intro
+32,32_Edge-Computing-Construction-CV_Buildings-2022.pdf,búsqueda,Edge computing en monitoreo de obra con visión,Buildings,2022,10.3390/buildings12122167,no,cumple*,Discusión (despliegue)
+33,33_FasterRCNN-LSTM-Unsafe-Behavior_ApplSci-2023.pdf,búsqueda,Faster R-CNN-LSTM para conductas inseguras,Applied Sciences,2023,10.3390/app131910700,SI,cumple,Intro (dos etapas)
+34,34_UAS-DeepLearning-Safety-Monitoring_Sensors-2023.pdf,búsqueda,Sistemas aéreos no tripulados y deep learning en seguridad,Sensors,2023,10.3390/s23156690,SI,cumple,Intro
+35,35_Real-Time-PPE-Compliance_Sustainability-2022.pdf,raíz,Detección de cumplimiento de EPP en tiempo real,Sustainability,2022,10.3390/su15010391,SI,cumple,Intro + Métodos (línea base)

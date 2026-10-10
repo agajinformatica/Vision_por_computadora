@@ -1,0 +1,29 @@
+# ─── Credenciales · nunca versionar ───────────────────────────────
+kaggle.json
+*.pem
+*.key
+.env
+.env.*
+
+# ─── Excluido por indicación expresa ──────────────────────────────
+TAREA accidentes y falta.txt
+
+# ─── Datos pesados · regenerables ─────────────────────────────────
+# Datasets crudos (6 GB). Se reconstruyen con 01_preparar_dataset.py
+TRABAJO GRUPAL/dataset/
+TRABAJO GRUPAL/experimento/dataset_unificado/
+TRABAJO GRUPAL/experimento/*.zip
+TRABAJO GRUPAL/experimento/subida_kaggle/
+
+# Pesos de modelos. Git conserva cada versión para siempre: con varios
+# reentrenamientos el repositorio crecería sin control.
+# Se descargan con:  kaggle kernels output agajarnold/entrenamiento-epp-yolo26
+*.pt
+
+# ─── Temporales ───────────────────────────────────────────────────
+.~*
+~$*
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

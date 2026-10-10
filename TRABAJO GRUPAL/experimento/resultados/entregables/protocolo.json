@@ -1,0 +1,26 @@
+{
+  "protocolo": {
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 32,
+    "optimizer": "auto",
+    "seed": 42,
+    "patience": 15,
+    "device": 0,
+    "workers": 4,
+    "val": true,
+    "plots": true,
+    "exist_ok": true
+  },
+  "modelos": {
+    "yolov8n": "Línea base simple",
+    "yolo11n": "Comparador directo",
+    "yolo26n": "Modelo propuesto"
+  },
+  "prueba_rapida": false,
+  "tiempos_min": {
+    "yolov8n": 120.4,
+    "yolo11n": 121.9,
+    "yolo26n": 132.9
+  }
+}
