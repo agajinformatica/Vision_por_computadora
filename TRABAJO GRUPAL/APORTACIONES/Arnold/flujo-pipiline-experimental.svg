@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1570.453 465.8125" width="1570.453" height="465.8125" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="ORIGEN" data-label="Fuentes Crudas (46,748 imgs)">
+  <rect x="40" y="40" width="255.495" height="359.20000000000005" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="40" width="255.495" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="52" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Fuentes Crudas (46,748 imgs)</text>
+</g>
+<g class="subgraph" data-id="KAGGLE" data-label="Kaggle (1x GPU Tesla T4)">
+  <rect x="902.9309999999999" y="148.4125" width="251.04899999999992" height="277.40000000000003" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="902.9309999999999" y="148.4125" width="251.04899999999992" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="914.9309999999999" y="162.4125" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Kaggle (1x GPU Tesla T4)</text>
+</g>
+<polyline class="edge" data-from="SCRIPT" data-to="FILT" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Filtro: sin EPP objetivo" points="578.918,227.70833333333331 590.9180000000001,227.70833333333331 590.9180000000001,101.9625 765.7060000000001,101.9625" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SCRIPT" data-to="CORPUS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="578.918,251.27499999999998 614.918,251.27499999999998 614.918,301.1125 626.918,301.1125" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S1" data-to="SCRIPT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="280.977,274.5 315.236,274.5 315.236,239.49166666666665 349.495,239.49166666666665" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S2" data-to="SCRIPT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="279.495,110.9 315.236,110.9 315.236,239.49166666666665 349.495,239.49166666666665" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S3" data-to="SCRIPT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="278.01300000000003,356.3 315.236,356.3 315.236,239.49166666666665 349.495,239.49166666666665" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CORPUS" data-to="M1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="848.9309999999999,301.11250000000007 883.9309999999999,301.11250000000007 883.9309999999999,219.3125 918.9309999999999,219.3125" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CORPUS" data-to="M2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="848.9309999999999,301.11250000000007 883.9309999999999,301.11250000000007 883.9309999999999,301.11249999999995 918.9309999999999,301.11249999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CORPUS" data-to="M3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="848.9309999999999,301.11250000000007 883.9309999999999,301.11250000000007 883.9309999999999,382.9125 918.9309999999999,382.9125" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M3" data-to="VPS" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Pesos best.pt" points="1137.9799999999998,382.9125 1329.188,382.9125" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="SCRIPT" data-to="FILT" data-label="Filtro: sin EPP objetivo">
+  <rect x="598.9180000000001" y="85.9625" width="122.78800000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="660.3120000000001" y="101.11250000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Filtro: sin EPP objetivo</text>
+</g>
+<g class="edge-label" data-from="M3" data-to="VPS" data-label="Pesos best.pt">
+  <rect x="1203.98" y="366.9125" width="81.20800000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1244.584" y="382.0625" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Pesos best.pt</text>
+</g>
+<g class="node" data-id="SCRIPT" data-label="Script Reproducible
+01_preparar_dataset.py
+(Remapeo + Enlaces simbólicos)" data-shape="rectangle">
+  <rect x="349.495" y="204.14166666666665" width="229.42299999999997" height="70.7" rx="0" ry="0" fill="#cfe2ff" stroke="#0d6efd" stroke-width="0.75" />
+  <text x="464.2065" y="239.49166666666665" text-anchor="middle" font-size="13" font-weight="500" fill="#084298"><tspan x="464.2065" dy="-12.350000000000001">Script Reproducible</tspan><tspan x="464.2065" dy="16.900000000000002">01_preparar_dataset.py</tspan><tspan x="464.2065" dy="16.900000000000002">(Remapeo + Enlaces simbólicos)</tspan></text>
+</g>
+<g class="node" data-id="FILT" data-label="25,804 imgs descartadas" data-shape="rectangle">
+  <rect x="765.7060000000001" y="83.51249999999999" width="188.668" height="36.900000000000006" rx="0" ry="0" fill="#f8d7da" stroke="#dc3545" stroke-width="0.75" />
+  <text x="860.0400000000002" y="101.96249999999999" text-anchor="middle" font-size="13" font-weight="500" fill="#721c24" dy="4.55">25,804 imgs descartadas</text>
+</g>
+<g class="node" data-id="CORPUS" data-label="Corpus Unificado (20,944 imgs)
+Casco: 47,700 | Chaleco: 9,850
+(Razón 4.84 : 1)" data-shape="rectangle">
+  <rect x="626.918" y="265.76250000000005" width="222.01299999999995" height="70.7" rx="0" ry="0" fill="#fff3cd" stroke="#ffc107" stroke-width="0.75" />
+  <text x="737.9245" y="301.11250000000007" text-anchor="middle" font-size="13" font-weight="500" fill="#856404"><tspan x="737.9245" dy="-12.350000000000001">Corpus Unificado (20,944 imgs)</tspan><tspan x="737.9245" dy="16.900000000000002">Casco: 47,700 | Chaleco: 9,850</tspan><tspan x="737.9245" dy="16.900000000000002">(Razón 4.84 : 1)</tspan></text>
+</g>
+<g class="node" data-id="VPS" data-label="VPS Contabo (Puerto 8090)
+Demo Web Interactiva" data-shape="rectangle">
+  <rect x="1329.188" y="356.01250000000005" width="201.26500000000001" height="53.800000000000004" rx="0" ry="0" fill="#d4edda" stroke="#28a745" stroke-width="0.75" />
+  <text x="1429.8205" y="382.9125" text-anchor="middle" font-size="13" font-weight="500" fill="#155724"><tspan x="1429.8205" dy="-3.9000000000000012">VPS Contabo (Puerto 8090)</tspan><tspan x="1429.8205" dy="16.900000000000002">Demo Web Interactiva</tspan></text>
+</g>
+<g class="node" data-id="S1" data-label="Roboflow v8
+(44,002 imgs)" data-shape="rectangle">
+  <rect x="162.704" y="247.60000000000002" width="118.273" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="221.84050000000002" y="274.5" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="221.84050000000002" dy="-3.9000000000000012">Roboflow v8</tspan><tspan x="221.84050000000002" dy="16.900000000000002">(44,002 imgs)</tspan></text>
+</g>
+<g class="node" data-id="S2" data-label="Construction-PPE
+(1,416 imgs)" data-shape="rectangle">
+  <rect x="131.58200000000002" y="84" width="147.91299999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="205.5385" y="110.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="205.5385" dy="-3.9000000000000012">Construction-PPE</tspan><tspan x="205.5385" dy="16.900000000000002">(1,416 imgs)</tspan></text>
+</g>
+<g class="node" data-id="S3" data-label="CHV Dataset
+(1,330 imgs)" data-shape="rectangle">
+  <rect x="162.704" y="329.40000000000003" width="115.30900000000001" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="220.35850000000002" y="356.3" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="220.35850000000002" dy="-3.9000000000000012">CHV Dataset</tspan><tspan x="220.35850000000002" dy="16.900000000000002">(1,330 imgs)</tspan></text>
+</g>
+<g class="node" data-id="S4" data-label="Pictor-v3
+(Descartado: solo 42 chalecos)" data-shape="rectangle">
+  <rect x="56" y="165.8" width="223.495" height="53.800000000000004" rx="0" ry="0" fill="#f8d7da" stroke="#dc3545" stroke-width="0.75" />
+  <text x="167.7475" y="192.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#721c24"><tspan x="167.7475" dy="-3.9000000000000012">Pictor-v3</tspan><tspan x="167.7475" dy="16.900000000000002">(Descartado: solo 42 chalecos)</tspan></text>
+</g>
+<g class="node" data-id="M1" data-label="YOLOv8n (Línea base)
+3.13M params | mAP50: 0.8415" data-shape="rectangle">
+  <rect x="918.9309999999999" y="192.4125" width="210.15699999999993" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1024.0095" y="219.3125" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1024.0095" dy="-3.9000000000000012">YOLOv8n (Línea base)</tspan><tspan x="1024.0095" dy="16.900000000000002">3.13M params | mAP50: 0.8415</tspan></text>
+</g>
+<g class="node" data-id="M2" data-label="YOLO11n (Comparador)
+2.60M params | mAP50: 0.8473" data-shape="rectangle">
+  <rect x="918.9309999999999" y="274.2125" width="219.04899999999992" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1028.4554999999998" y="301.11249999999995" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1028.4554999999998" dy="-3.9000000000000012">YOLO11n (Comparador)</tspan><tspan x="1028.4554999999998" dy="16.900000000000002">2.60M params | mAP50: 0.8473</tspan></text>
+</g>
+<g class="node" data-id="M3" data-label="YOLO26n (Propuesto)
+2.53M params | mAP50: 0.8592" data-shape="rectangle">
+  <rect x="918.9309999999999" y="356.01250000000005" width="219.04899999999992" height="53.800000000000004" rx="0" ry="0" fill="#d4edda" stroke="#28a745" stroke-width="0.75" />
+  <text x="1028.4554999999998" y="382.9125" text-anchor="middle" font-size="13" font-weight="500" fill="#155724"><tspan x="1028.4554999999998" dy="-3.9000000000000012">YOLO26n (Propuesto)</tspan><tspan x="1028.4554999999998" dy="16.900000000000002">2.53M params | mAP50: 0.8592</tspan></text>
+</g>
+</svg>

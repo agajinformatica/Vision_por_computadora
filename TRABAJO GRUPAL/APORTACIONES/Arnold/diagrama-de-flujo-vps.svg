@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2296.167 612.7943333333333" width="2296.167" height="612.7943333333333" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="CLIENTE" data-label="Navegador Web (Docente / Jurado)">
+  <rect x="58" y="334.07500000000005" width="311.811" height="229.4" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="58" y="334.07500000000005" width="311.811" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="70" y="348.07500000000005" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Navegador Web (Docente / Jurado)</text>
+</g>
+<g class="subgraph" data-id="VPS" data-label="VPS Contabo (213.136.69.236) · Rocky Linux 9.8 · 12 vCPU (Sin GPU)">
+  <rect x="643.683" y="61" width="1586.484" height="511.7943333333334" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="643.683" y="61" width="1586.484" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="655.683" y="75" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">VPS Contabo (213.136.69.236) · Rocky Linux 9.8 · 12 vCPU (Sin GPU)</text>
+<g class="subgraph" data-id="DOCKER" data-label="Contenedor Docker (epp-yolo26) · Puerto 8090 · Red aislada">
+  <rect x="689.683" y="154.3" width="1090.4769999999999" height="402.4943333333334" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="689.683" y="154.3" width="1090.4769999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="701.683" y="168.3" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Contenedor Docker (epp-yolo26) · Puerto 8090 · Red aislada</text>
+<g class="subgraph" data-id="ENDPOINTS" data-label="Rutas Expuestas">
+  <rect x="711.683" y="230.26666666666668" width="218.44499999999996" height="277.40000000000003" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="711.683" y="230.26666666666668" width="218.44499999999996" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="723.683" y="244.26666666666668" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Rutas Expuestas</text>
+</g>
+</g>
+</g>
+<polyline class="edge" data-from="UI" data-to="E1" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="1. Abre http://...:8090" points="353.811,391.5250000000001 441.391,391.52500000000003 441.391,301.1666666666667 732.4995,301.16666666666674" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="UI" data-to="E2" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="2. Consulta estado inicial" points="353.811,404.9750000000001 453.391,404.9750000000001 453.391,389.3111666666667 625.683,389.3111666666667 625.683,382.9666666666667 732.4995,382.9666666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="UI" data-to="E3" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="3. Envía foto + umbral (FormData)" points="353.811,418.42500000000007 412.999,418.425 412.999,434.0888333333334 625.683,434.0888333333334 625.683,455.79999999999995 732.4995,455.80000000000007" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E1" data-to="API" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="899.6785,301.16666666666663 953.9445,301.16666666666663 953.9445,383.9666666666667 988.9445,383.9666666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E2" data-to="API" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="918.9445,382.9666666666667 953.9445,382.9666666666667 953.9445,383.9666666666667 988.9445,383.9666666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E3" data-to="API" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="918.9445,464.76666666666665 953.9445,464.76666666666665 953.9445,383.9666666666667 988.9445,383.9666666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E3" data-to="PIL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="918.9445,464.76666666666665 953.9445,464.76666666666665 953.9445,473.73333333333335 988.9445,473.73333333333335" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MEM" data-to="VOL" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="No (1ra vez: ~17 s)" points="1370.479,473.73333333333335 738.7959999999998,390.3796666666667 738.7959999999998,137.3 1291.723,137.3 1291.723,110.26666666666671 1327.723,110.26666666666671" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="VOL" data-to="UL" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Carga diferida a RAM" points="1327.723,82.03333333333336 1291.723,82.03333333333336 1291.723,55 28,55 28,158.26666666666668 903.9599999999998,158.26666666666668 903.9599999999998,287.7101666666667 939.9599999999998,287.7101666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="UL" data-to="RES_UI" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="4. JSON (coordenadas xyxy, clase, %)" points="1764.1599999999999,357.6768333333334 2248.167,357.6768333333333 2248.167,51 40,51 40,503.67500000000007 74,503.67500000000007" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RES_UI" data-to="E3" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="5. Mover deslizador (re-consulta)" points="353.811,503.67500000000007 411.811,503.67500000000007 411.811,481.4166666666667 625.683,481.4166666666667 625.683,473.73333333333335 732.4995,473.7333333333334" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PIL" data-to="MEM" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1173.9074999999998,473.73333333333335 1236.357,473.7333333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MEM" data-to="UL" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sí (Siguientes: ~95 ms)" points="1348.1253333333334,496.08700000000005 1547.6429999999998,496.08700000000005 1547.6429999999998,366.6435 1583.6429999999998,366.6435" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="UI" data-to="E1" data-label="1. Abre http://...:8090">
+  <rect x="485.74500000000006" y="285.16666666666674" width="107.93800000000002" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="539.714" y="300.3166666666667" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">1. Abre http://...:8090</text>
+</g>
+<g class="edge-label" data-from="UI" data-to="E2" data-label="2. Consulta estado inicial">
+  <rect x="461.3910000000001" y="373.3111666666667" width="132.29199999999997" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="527.537" y="388.46116666666666" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">2. Consulta estado inicial</text>
+</g>
+<g class="edge-label" data-from="UI" data-to="E3" data-label="3. Envía foto + umbral (FormData)">
+  <rect x="420.999" y="418.0888333333334" width="172.684" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="507.341" y="433.2388333333334" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">3. Envía foto + umbral (FormData)</text>
+</g>
+<g class="edge-label" data-from="MEM" data-to="VOL" data-label="No (1ra vez: ~17 s)">
+  <rect x="1186.4769999999999" y="121.30000000000001" width="97.24600000000002" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1235.1" y="136.45000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">No (1ra vez: ~17 s)</text>
+</g>
+<g class="edge-label" data-from="VOL" data-to="UL" data-label="Carga diferida a RAM">
+  <rect x="532.5174999999999" y="39" width="117.44200000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="591.2384999999999" y="54.15" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Carga diferida a RAM</text>
+</g>
+<g class="edge-label" data-from="UL" data-to="RES_UI" data-label="4. JSON (coordenadas xyxy, clase, %)">
+  <rect x="398.427" y="35" width="195.256" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="496.055" y="50.15" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">4. JSON (coordenadas xyxy, clase, %)</text>
+</g>
+<g class="edge-label" data-from="RES_UI" data-to="E3" data-label="5. Mover deslizador (re-consulta)">
+  <rect x="419.8109999999999" y="465.4166666666667" width="173.872" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="506.74699999999996" y="480.56666666666666" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">5. Mover deslizador (re-consulta)</text>
+</g>
+<g class="edge-label" data-from="MEM" data-to="UL" data-label="Sí (Siguientes: ~95 ms)">
+  <rect x="1414.4789999999996" y="480.08700000000005" width="125.16400000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1477.0609999999997" y="495.237" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Sí (Siguientes: ~95 ms)</text>
+</g>
+<g class="node" data-id="UI" data-label="Interfaz HTML5 + Canvas
+(Arrastrar imagen + Deslizador)" data-shape="rectangle">
+  <rect x="125.87" y="378.07500000000005" width="227.94099999999997" height="53.800000000000004" rx="0" ry="0" fill="#cfe2ff" stroke="#0d6efd" stroke-width="0.75" />
+  <text x="239.8405" y="404.975" text-anchor="middle" font-size="13" font-weight="500" fill="#084298"><tspan x="239.8405" dy="-3.9000000000000012">Interfaz HTML5 + Canvas</tspan><tspan x="239.8405" dy="16.900000000000002">(Arrastrar imagen + Deslizador)</tspan></text>
+</g>
+<g class="node" data-id="RES_UI" data-label="Visualización en Vivo
+• Cajas: Casco (Ámbar) / Chaleco (Verde)
+• Contadores y Lista %
+• Tiempo (~95 ms)" data-shape="rectangle">
+  <rect x="74" y="459.87500000000006" width="279.811" height="87.60000000000001" rx="0" ry="0" fill="#cfe2ff" stroke="#0d6efd" stroke-width="0.75" />
+  <text x="213.9055" y="503.67500000000007" text-anchor="middle" font-size="13" font-weight="500" fill="#084298"><tspan x="213.9055" dy="-20.8">Visualización en Vivo</tspan><tspan x="213.9055" dy="16.900000000000002">• Cajas: Casco (Ámbar) / Chaleco (Verde)</tspan><tspan x="213.9055" dy="16.900000000000002">• Contadores y Lista %</tspan><tspan x="213.9055" dy="16.900000000000002">• Tiempo (~95 ms)</tspan></text>
+</g>
+<g class="node" data-id="VOL" data-label="Volumen Montado (Solo Lectura)
+/opt/epp-yolo26/pesos/best.pt
+(Pesos YOLO26n · 2.53M params)" data-shape="cylinder">
+  <rect x="1971.406" y="121.80000000000001" width="242.76099999999994" height="70.7" fill="#f3e5f5" stroke="none" />
+  <line x1="1971.406" y1="121.80000000000001" x2="1971.406" y2="192.5" stroke="#9c27b0" stroke-width="0.75" />
+  <line x1="2214.167" y1="121.80000000000001" x2="2214.167" y2="192.5" stroke="#9c27b0" stroke-width="0.75" />
+  <ellipse cx="2092.7864999999997" cy="192.5" rx="121.38049999999997" ry="7" fill="#f3e5f5" stroke="#9c27b0" stroke-width="0.75" />
+  <ellipse cx="2092.7864999999997" cy="121.80000000000001" rx="121.38049999999997" ry="7" fill="#f3e5f5" stroke="#9c27b0" stroke-width="0.75" />
+  <text x="2092.7864999999997" y="157.15" text-anchor="middle" font-size="13" font-weight="500" fill="#4a148c"><tspan x="2092.7864999999997" dy="-12.350000000000001">Volumen Montado (Solo Lectura)</tspan><tspan x="2092.7864999999997" dy="16.900000000000002">/opt/epp-yolo26/pesos/best.pt</tspan><tspan x="2092.7864999999997" dy="16.900000000000002">(Pesos YOLO26n · 2.53M params)</tspan></text>
+</g>
+<g class="node" data-id="API" data-label="Servidor Uvicorn + FastAPI
+(app.py)" data-shape="rectangle">
+  <rect x="988.9445" y="357.0666666666667" width="204.22899999999996" height="53.800000000000004" rx="0" ry="0" fill="#e2e3e5" stroke="#6c757d" stroke-width="0.75" />
+  <text x="1091.059" y="383.9666666666667" text-anchor="middle" font-size="13" font-weight="500" fill="#212529"><tspan x="1091.059" dy="-3.9000000000000012">Servidor Uvicorn + FastAPI</tspan><tspan x="1091.059" dy="16.900000000000002">(app.py)</tspan></text>
+</g>
+<g class="node" data-id="PIL" data-label="Preprocesamiento PIL
+(Decodifica bytes a RGB)" data-shape="rectangle">
+  <rect x="988.9445" y="446.83333333333337" width="184.96300000000002" height="53.800000000000004" rx="0" ry="0" fill="#fff3cd" stroke="#ffc107" stroke-width="0.75" />
+  <text x="1081.426" y="473.73333333333335" text-anchor="middle" font-size="13" font-weight="500" fill="#856404"><tspan x="1081.426" dy="-3.9000000000000012">Preprocesamiento PIL</tspan><tspan x="1081.426" dy="16.900000000000002">(Decodifica bytes a RGB)</tspan></text>
+</g>
+<g class="node" data-id="MEM" data-label="¿Modelo en
+RAM?" data-shape="diamond">
+  <polygon points="1303.418,406.6723333333333 1370.4789999999998,473.73333333333335 1303.418,540.7943333333334 1236.357,473.73333333333335" fill="#f8d7da" stroke="#dc3545" stroke-width="0.75" />
+  <text x="1303.418" y="473.73333333333335" text-anchor="middle" font-size="13" font-weight="500" fill="#721c24"><tspan x="1303.418" dy="-3.9000000000000012">¿Modelo en</tspan><tspan x="1303.418" dy="16.900000000000002">RAM?</tspan></text>
+</g>
+<g class="node" data-id="UL" data-label="Motor Ultralytics
+(PyTorch CPU · 640px)" data-shape="rectangle">
+  <rect x="1583.6429999999998" y="330.77683333333334" width="180.51699999999997" height="53.800000000000004" rx="0" ry="0" fill="#d4edda" stroke="#28a745" stroke-width="0.75" />
+  <text x="1673.9014999999997" y="357.6768333333333" text-anchor="middle" font-size="13" font-weight="500" fill="#155724"><tspan x="1673.9014999999997" dy="-3.9000000000000012">Motor Ultralytics</tspan><tspan x="1673.9014999999997" dy="16.900000000000002">(PyTorch CPU · 640px)</tspan></text>
+</g>
+<g class="node" data-id="E1" data-label="GET /
+(Sirve la interfaz web)" data-shape="rectangle">
+  <rect x="732.4995" y="274.26666666666665" width="167.179" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="816.089" y="301.16666666666663" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="816.089" dy="-3.9000000000000012">GET /</tspan><tspan x="816.089" dy="16.900000000000002">(Sirve la interfaz web)</tspan></text>
+</g>
+<g class="node" data-id="E2" data-label="GET /salud
+(Verifica estado y pesos)" data-shape="rectangle">
+  <rect x="732.4995" y="356.0666666666667" width="186.44499999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="825.722" y="382.9666666666667" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="825.722" dy="-3.9000000000000012">GET /salud</tspan><tspan x="825.722" dy="16.900000000000002">(Verifica estado y pesos)</tspan></text>
+</g>
+<g class="node" data-id="E3" data-label="POST /detectar
+(Recibe imagen + umbral)" data-shape="rectangle">
+  <rect x="732.4995" y="437.8666666666667" width="186.44499999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="825.722" y="464.76666666666665" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="825.722" dy="-3.9000000000000012">POST /detectar</tspan><tspan x="825.722" dy="16.900000000000002">(Recibe imagen + umbral)</tspan></text>
+</g>
+</svg>

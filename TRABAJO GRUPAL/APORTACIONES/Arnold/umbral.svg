@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 738.0099999999999 379.20000000000005" width="738.0099999999999" height="379.20000000000005" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="B" data-to="B1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="238.30100000000002,107.80000000000001 262.30100000000004,107.80000000000001 262.30100000000004,66.9 286.30100000000004,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="B2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="238.30100000000002,107.80000000000001 262.30100000000004,107.80000000000001 262.30100000000004,148.70000000000002 286.30100000000004,148.70000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S" data-to="S1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="238.30099999999996,271.40000000000003 262.30099999999993,271.40000000000003 262.30099999999993,230.50000000000003 286.30099999999993,230.50000000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S" data-to="S2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="238.30099999999996,271.40000000000003 262.30099999999993,271.40000000000003 262.30099999999993,312.3 286.30099999999993,312.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="B" data-label="🔽 Bajar el Umbral (ej. 0.20)" data-shape="rectangle">
+  <rect x="40.00000000000006" y="89.35000000000001" width="198.30099999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="139.15050000000002" y="107.80000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">🔽 Bajar el Umbral (ej. 0.20)</text>
+</g>
+<g class="node" data-id="B1" data-label="Sube el RECALL (Exhaustividad)
+No se le escapa casi ningún casco/chaleco real" data-shape="rectangle">
+  <rect x="286.30100000000004" y="40" width="320.56599999999986" height="53.800000000000004" rx="0" ry="0" fill="#d4edda" stroke="#28a745" stroke-width="0.75" />
+  <text x="446.58399999999995" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="#155724"><tspan x="446.58399999999995" dy="-3.9000000000000012">Sube el RECALL (Exhaustividad)</tspan><tspan x="446.58399999999995" dy="16.900000000000002">No se le escapa casi ningún casco/chaleco real</tspan></text>
+</g>
+<g class="node" data-id="B2" data-label="Baja la PRECISIÓN
+Aparecen más 'falsas alarmas' (Falsos Positivos)" data-shape="rectangle">
+  <rect x="286.30100000000004" y="121.80000000000001" width="328.7169999999999" height="53.800000000000004" rx="0" ry="0" fill="#f8d7da" stroke="#dc3545" stroke-width="0.75" />
+  <text x="450.6595" y="148.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#721c24"><tspan x="450.6595" dy="-3.9000000000000012">Baja la PRECISIÓN</tspan><tspan x="450.6595" dy="16.900000000000002">Aparecen más &#39;falsas alarmas&#39; (Falsos Positivos)</tspan></text>
+</g>
+<g class="node" data-id="S" data-label="🔼 Subir el Umbral (ej. 0.70)" data-shape="rectangle">
+  <rect x="40" y="252.95000000000005" width="198.30099999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="139.15049999999997" y="271.40000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">🔼 Subir el Umbral (ej. 0.70)</text>
+</g>
+<g class="node" data-id="S1" data-label="Sube la PRECISIÓN
+Casi todo lo que dibuja es 100% seguro" data-shape="rectangle">
+  <rect x="286.30099999999993" y="203.60000000000002" width="262.02699999999993" height="53.800000000000004" rx="0" ry="0" fill="#d4edda" stroke="#28a745" stroke-width="0.75" />
+  <text x="417.3144999999999" y="230.50000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="#155724"><tspan x="417.3144999999999" dy="-3.9000000000000012">Sube la PRECISIÓN</tspan><tspan x="417.3144999999999" dy="16.900000000000002">Casi todo lo que dibuja es 100% seguro</tspan></text>
+</g>
+<g class="node" data-id="S2" data-label="Baja el RECALL (Exhaustividad)
+Ignora cascos/chalecos lejanos o borrosos (Falsos Negativos)" data-shape="rectangle">
+  <rect x="286.30099999999993" y="285.40000000000003" width="411.70899999999995" height="53.800000000000004" rx="0" ry="0" fill="#f8d7da" stroke="#dc3545" stroke-width="0.75" />
+  <text x="492.1554999999999" y="312.3" text-anchor="middle" font-size="13" font-weight="500" fill="#721c24"><tspan x="492.1554999999999" dy="-3.9000000000000012">Baja el RECALL (Exhaustividad)</tspan><tspan x="492.1554999999999" dy="16.900000000000002">Ignora cascos/chalecos lejanos o borrosos (Falsos Negativos)</tspan></text>
+</g>
+</svg>

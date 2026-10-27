@@ -3,7 +3,7 @@
 Instrumento de seguimiento, **no texto del paper**. Un ítem por unidad de redacción, con
 criterio de cierre. Las cifras están incrustadas para no tener que ir a buscarlas.
 
-**Redacción: 100% humana.** Última actualización: **2026-10-09, 22:55** — tras completarse el entrenamiento
+**Redacción: 100% humana.** Última actualización: **2026-10-10** — cifras de 3.2 y 3.3 auditadas
 
 | Estado | Significa |
 |---|---|
@@ -102,11 +102,16 @@ título/resumen · 148 a texto completo · incluidos ⟦pendiente del cribado, c
       script lo admite, pero exigiría reentrenar los tres modelos
 - [ ] Origen de cada una de las tres fuentes, con su cita
 - [ ] Nº de imágenes aportadas por fuente **después** del remapeo
-- [ ] Licencia de Construction-PPE declarada (**AGPL-3.0**, copyleft fuerte)
+- [ ] Licencias declaradas: Roboflow **CC BY 4.0** · Construction-PPE **AGPL-3.0**
+      (copyleft fuerte) · CHV ⟦verificar licencia del repositorio oficial⟧
+- [ ] CHV: decir que son **1 330 imágenes seleccionadas de 10 000**, no el dataset completo
 - [ ] Dicho que dos de las tres fuentes no están revisadas por pares
-- [ ] ✔ **RESUELTO**: el casco del Roboflow pasa de 55 393 a 42 428 porque 55 393 = `Hardhat`
-      42 428 + `NO-Hardhat` 12 965. El remapeo (D10) toma **solo `Hardhat`**; las clases
-      negativas se descartan por diseño, al ser un esquema de 2 clases positivas
+- [x] ✔ **RESUELTO y verificado empíricamente el 2026-10-10**: el casco del Roboflow pasa de
+      55 393 a 42 428 porque 55 393 = `Hardhat` 42 428 + `NO-Hardhat` 12 965. El remapeo (D10)
+      toma **solo `Hardhat`**; las clases negativas se descartan por diseño, al ser un esquema
+      de 2 clases positivas. Contado sobre las 44 002 etiquetas crudas: `Hardhat` 42 428 ·
+      `NO-Hardhat` 12 965 · `Safety Vest` 6 448 · `NO-Safety Vest` 2 022 · `Person` 1 449 ·
+      109 561 cajas en total. **No se perdió ninguna instancia en el remapeo**
 - [ ] Clases: 2 positivas (`casco`, `chaleco`) y por qué solo esas
 - [ ] División train/val/test y la decisión de conservar las particiones originales
 - [ ] Dataset descartado (Pictor-v3) **con su motivo medido**: 39,2:1, solo 42 instancias de chaleco
@@ -115,12 +120,22 @@ título/resumen · 148 a texto completo · incluidos ⟦pendiente del cribado, c
 
 **Cifras verificadas** (`experimento/dataset_unificado/estadisticas.json`):
 
+> ⚠ **No citar `COMPARATIVA_DATASETS.md` para la Tabla 1.** Mide de forma inconsistente entre
+> fuentes: para Roboflow suma clase positiva + negativa (55 393 / 8 470), mientras que para
+> Construction-PPE ya da cifras netas (1 734 / 1 618). La fuente de verdad es
+> `estadisticas.json`. Sigue siendo válido para el análisis por clase y el descarte de Pictor-v3.
+
 | Fuente | Imágenes | Casco | Chaleco | Razón |
 |---|---:|---:|---:|---:|
 | Roboflow Combined v8 | 18 521 | 42 428 | 6 448 | 6,58 : 1 |
 | Construction-PPE | 1 113 | 1 734 | 1 618 | 1,07 : 1 |
 | CHV | 1 310 | 3 538 | 1 784 | 1,98 : 1 |
 | **Total** | **20 944** | **47 700** | **9 850** | **4,84 : 1** |
+
+Cuadre verificado: 20 944 conservadas + 25 804 descartadas = **46 748**, el total de las tres
+fuentes (44 002 + 1 416 + 1 330). Quedan sin usar **12 965 `NO-Hardhat` y 2 022 `NO-Safety
+Vest`** del Roboflow: es el material de la extensión de cumplimiento (D10) y un argumento
+concreto de trabajo futuro.
 
 | Partición | Imágenes | Casco | Chaleco | Razón |
 |---|---:|---:|---:|---:|
@@ -135,6 +150,9 @@ Insumo: `experimento/01_preparar_dataset.py`
 - [ ] Redimensionado a 640 × 640 y quién lo aplica (Ultralytics, en carga)
 - [ ] **Regla de remapeo de clases**, explícita y repetible
 - [ ] Filtrado: 25 804 imágenes descartadas por no contener ninguna clase relevante
+- [ ] 10 etiquetas huérfanas de Construction-PPE ignoradas — **30 cajas (16 casco,
+      14 chaleco)**. Explica por qué el crudo da 1 750 / 1 632 y el corpus 1 734 / 1 618.
+      Verificado el 2026-10-10; son `train/image94*(1).txt`
 - [ ] Aumento de datos — **valores reales leídos de `resultados/runs/yolo26n/args.yaml`**:
 
 | Aumento | Valor |
@@ -305,8 +323,8 @@ Nadie depende de ti para esto y vale puntos. Insumo: sección 6 de `GUIA_INVESTI
 | 1 Resumen | 7 | 0 | 🟡 |
 | 2 Introducción | 10 | 1 | 🟡 |
 | 3.1 PRISMA | 11 | 0 | 🟡 |
-| 3.2 Datasets | 11 | 2 | 🟢 |
-| 3.3 Preprocesamiento | 6 | 0 | 🟢 |
+| 3.2 Datasets | 12 | 2 | 🟢 |
+| 3.3 Preprocesamiento | 7 | 0 | 🟢 |
 | 3.4 Modelo | 7 | 4 | 🟢 |
 | 3.5 Línea base | 4 | 0 | 🟢 |
 | 3.6 Métricas | 6 | 0 | 🟢 |
@@ -316,9 +334,9 @@ Nadie depende de ti para esto y vale puntos. Insumo: sección 6 de `GUIA_INVESTI
 | 6 Declaración IA | 8 | 0 | 🟢 |
 | 7 Referencias | 8 | 0 | 🟢 |
 | 8 Cierre | 9 | 0 | 🟡 |
-| **Total** | **117** | **7** | |
+| **Total** | **119** | **7** | |
 
-**Escribible hoy sin ninguna dependencia: 76 ítems.** Con el entrenamiento cerrado, se suman
+**Escribible hoy sin ninguna dependencia: 78 ítems.** Con el entrenamiento cerrado, se suman
 Resultados (11), Discusión (11), 3.4 Modelo (7) y el Resumen en lo técnico.
 
 **Único bloqueo real que queda: la Figura 1**, que espera al cribado de los 148 textos
@@ -339,6 +357,8 @@ Orden recomendado: **3.2 → 3.3 → 3.5 → 3.6 → 6 → 7 → 3.1 → 2 → 5
 
 | Fecha | Bloque | Resultado |
 |---|---|---|
+| 2026-10-10 | Todo el artículo | Generado `REFERENCIA_PARRAFOS.md`: párrafos de referencia de todas las secciones en orden, con los irrenunciables de cada bloque. Material de lectura, no texto del paper. El párrafo (b) de la Introducción va solo como andamiaje: exige leer los PDF |
+| 2026-10-10 | 3.2 · 3.3 | Auditadas las cifras contra las etiquetas crudas de las tres fuentes. Confirmada la explicación del 55 393 contando clase por clase. Localizadas las 10 etiquetas huérfanas (30 cajas) que explican el desfase de Construction-PPE. Añadido aviso: `COMPARATIVA_DATASETS.md` no sirve para la Tabla 1 |
 | 2026-10-10 | 3.2 Datasets | Cerrado `--chv-externo` por coherencia con D16: no se usa. Bloque 3.2 pasa a 🟢 |
 | 2026-10-09 23:35 | 2 Introducción | **D16: se ajusta el texto a lo medible.** Aporte fijado; NMS-free y generalización pasan a trabajo futuro. Actualizado también el esqueleto .docx |
 | 2026-10-09 22:55 | Actualización general | Entrenamiento completado. Desbloqueados Resultados, Discusión y Resumen. Cerrados 5 huecos ⟦⟧ de 3.2 y 3.4 con datos reales. Único bloqueo restante: Figura 1 (cribado) |
