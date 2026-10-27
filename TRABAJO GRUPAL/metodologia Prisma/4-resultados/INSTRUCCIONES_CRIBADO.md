@@ -84,3 +84,8 @@ Consolidar en `cribado_texto_completo.csv` y avisar. Con eso se calculan:
 - Discrepancias entre revisores
 
 Y queda listo el diagrama de flujo con números reales.
+
+
+## Cierre operativo auditado — 2026-10-27
+
+El corpus está cerrado a nuevas inclusiones por instrucción del equipo: 57 retenidos. Ver `CIERRE_AUDITADO.md` y `AUDITORIA_CIERRE.csv`. E1–E6 siguen siendo los códigos de cribado de los revisores. **C0 aparece únicamente en motivo_final** como marcador administrativo explícito de 23 casos no reincorporados por cierre, cuya exclusión científica histórica no quedó firme frente a la evidencia R2. No usar C0 como criterio de elegibilidad ni contarlo como exclusión tras lectura de texto completo. Los 17 E5 se cuentan en recuperación (16 no recuperados y 1 PDF truncado).

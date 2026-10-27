@@ -1,3 +1,5 @@
+> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<../metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+
 # Referencias — descargas y procedencia
 
 > Documento de registro. Cada entrada lleva su **DOI** y la **URL exacta** desde la que se
@@ -126,10 +128,11 @@ Las tres no presentes y el motivo probable:
 **Ninguna se descarta por esto.** Figurar en una columna u otra del diagrama no afecta
 su validez como referencia ni su cumplimiento de los criterios I1-I7.
 
-### Estado de Web of Science
+### Estado de Web of Science — cerrado (D20)
 
-Pendiente. No se pudo ejecutar: la cuenta personal de Clarivate da acceso al Researcher
-Profile pero no a la Core Collection, y la conexión no procede de la red institucional.
-Hay que resolverlo por el portal de la biblioteca UNMSM, por VPN, o bien confirmar si la
-universidad tiene suscripción activa. **Si no la tuviera, debe declararse como limitación
-en Métodos**, no omitirse.
+**Abandonado por decisión del equipo**, no solo pendiente: la cuenta personal de Clarivate da
+acceso al Researcher Profile pero no a la Core Collection, y la conexión no procede de la red
+institucional. Se decidió no seguir el acceso por biblioteca/VPN porque el mínimo de 25
+referencias ya está superado con margen (74 solo de la revisión sistemática en Scopus). **Se
+declara como limitación en Métodos**: la búsqueda se realizó en Scopus, sin acceso
+institucional a WoS Core Collection.

@@ -1,3 +1,5 @@
+> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<../metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+
 # Checklist de redacción — Esqueleto_Paper_EPP_YOLO26.docx
 
 Instrumento de seguimiento, **no texto del paper**. Un ítem por unidad de redacción, con
@@ -92,7 +94,12 @@ Insumo: `metodologia Prisma/2-protocolo/` · Reportar según PRISMA-S.
 - [ ] Cifras del embudo coherentes con la Figura 1
 
 **Cifras disponibles:** 158 identificados en Scopus · 9 por otros métodos · 10 excluidos en
-título/resumen · 148 a texto completo · incluidos ⟦pendiente del cribado, cierre 1 nov⟧
+título/resumen · 148 a texto completo · **58 incluidos** (90 excluidos: 45 EPP/tarea fuera de
+alcance, 29 sin métrica cuantitativa, 16 texto completo inaccesible). Cribado cerrado el
+2026-10-26 con dos revisores independientes y dirimido. Para los 58 incluidos finales **se
+tiene el PDF real** en `referencias/` — los 16 que no se pudieron recuperar (paywall o sin DOI)
+se excluyeron en vez de quedar sin verificar. Ver `metodologia Prisma/4-resultados/
+DIRIMIDO_R3.md` y `referencias/PDFS_FALTANTES.md`.
 
 ### 3.2 Conjuntos de datos 🟢  ·  ~0,4 pág
 
@@ -197,12 +204,14 @@ Insumo: decisión D14 de `GUIA_INVESTIGADOR.md`
 - [ ] Si se reportan por tamaño de objeto, decirlo aquí (régimen de objeto pequeño en el casco)
 - [ ] Conjunto sobre el que se reporta: test, nunca visto en entrenamiento
 
-### Figura 1 — Diagrama de flujo PRISMA 🔴
+### Figura 1 — Diagrama de selección auditado ✅
 
-- [ ] Plantilla **new_SRs_v2** rellenada (la v2, por la columna de «otros métodos»)
-- [ ] Números reales, cuadrando con el texto de 3.1
-- [ ] Exportada a imagen e insertada en el docx
-- [ ] Pie redactado
+- [x] Adaptación documentada del flujo: selección documental, C0 administrativo y recuperación separados
+- [x] Recuentos verificados contra los CSV: 158 = 10 + 74 + 17 + 57; sin suma de bibliografía de contexto
+- [x] SVG y PNG generados; figura incorporada en el docx
+- [x] Pie actualizado a 57 estudios; comprobación visual de la figura realizada
+
+La sección 3.1 de Métodos sigue pendiente de redacción humana. No afirmar cumplimiento integral de PRISMA ni independencia humana de los pases de IA: ver CIERRE_AUDITADO.md.
 
 ---
 
@@ -328,19 +337,18 @@ Nadie depende de ti para esto y vale puntos. Insumo: sección 6 de `GUIA_INVESTI
 | 3.4 Modelo | 7 | 4 | 🟢 |
 | 3.5 Línea base | 4 | 0 | 🟢 |
 | 3.6 Métricas | 6 | 0 | 🟢 |
-| Figura 1 | 4 | 0 | 🔴 |
+| Figura 1 | 4 | 4 | ✅ |
 | 4 Resultados | 11 | 0 | 🟢 |
 | 5 Discusión | 11 | 0 | 🟢 |
 | 6 Declaración IA | 8 | 0 | 🟢 |
 | 7 Referencias | 8 | 0 | 🟢 |
 | 8 Cierre | 9 | 0 | 🟡 |
-| **Total** | **119** | **7** | |
+| **Total** | **119** | **11** | |
 
 **Escribible hoy sin ninguna dependencia: 78 ítems.** Con el entrenamiento cerrado, se suman
 Resultados (11), Discusión (11), 3.4 Modelo (7) y el Resumen en lo técnico.
 
-**Único bloqueo real que queda: la Figura 1**, que espera al cribado de los 148 textos
-(cierre 1 de noviembre).
+**Figura 1 actualizada el 2026-10-27:** 57 incluidos; SVG/PNG y pie del Word sincronizados. Ver CIERRE_AUDITADO.md para alcance y límites del corpus cerrado.
 
 ---
 
@@ -357,6 +365,8 @@ Orden recomendado: **3.2 → 3.3 → 3.5 → 3.6 → 6 → 7 → 3.1 → 2 → 5
 
 | Fecha | Bloque | Resultado |
 |---|---|---|
+| 2026-10-26 | 3.1 PRISMA | Cerrado el cribado de texto completo de los 148 estudios: R1 y R2 independientes + dirimido de discrepancias. **74 incluidos / 74 excluidos** en el dirimido inicial, basado en resumen/título — ver `DIRIMIDO_R3.md` |
+| 2026-10-26 | 3.1 PRISMA | Descargados los PDF reales de los incluidos. Los 16 que no se pudieron recuperar (14 tras paywall, 2 sin DOI) se reclasificaron a excluidos (E5, texto completo inaccesible). **Cifra final: 58 incluidos / 90 excluidos** |
 | 2026-10-10 | Todo el artículo | Generado `REFERENCIA_PARRAFOS.md`: párrafos de referencia de todas las secciones en orden, con los irrenunciables de cada bloque. Material de lectura, no texto del paper. El párrafo (b) de la Introducción va solo como andamiaje: exige leer los PDF |
 | 2026-10-10 | 3.2 · 3.3 | Auditadas las cifras contra las etiquetas crudas de las tres fuentes. Confirmada la explicación del 55 393 contando clase por clase. Localizadas las 10 etiquetas huérfanas (30 cajas) que explican el desfase de Construction-PPE. Añadido aviso: `COMPARATIVA_DATASETS.md` no sirve para la Tabla 1 |
 | 2026-10-10 | 3.2 Datasets | Cerrado `--chv-externo` por coherencia con D16: no se usa. Bloque 3.2 pasa a 🟢 |

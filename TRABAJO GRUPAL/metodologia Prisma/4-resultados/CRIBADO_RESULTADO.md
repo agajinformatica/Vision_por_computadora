@@ -92,17 +92,20 @@ ese recuento va en el diagrama de flujo y es lo que PRISMA exige reportar.
 
 ---
 
-## Estado del diagrama de flujo
+## Estado auditado del flujo — 2026-10-27
 
-| Casilla | Valor |
-|---|---|
-| Identificados en bases de datos | **158** (Scopus) · WoS pendiente |
-| Identificados por otros métodos | 9 |
-| Duplicados eliminados | — *(se calcula al sumar WoS)* |
-| Cribados por título y resumen | 158 |
-| Excluidos en cribado | **10** |
-| Buscados para recuperación | **148** |
-| No recuperados | — |
-| Evaluados en texto completo | — |
-| Excluidos en texto completo, con motivo | — |
-| **Estudios incluidos** | — |
+| Etapa | Registros |
+|---|---:|
+| Scopus identificados / cribados inicialmente | 158 |
+| Excluidos en título/resumen inicial | 10 |
+| Selección documental complementaria | 148 |
+| No retenidos en selección documental | 74 (39 E3, 12 E4, 23 C0 administrativo) |
+| Seleccionados para recuperación | 74 |
+| No evaluables en recuperación | 17 (16 no recuperados, 1 PDF truncado) |
+| Textos locales con secciones evaluadas | 57 |
+| Excluidos adicionales tras esta evaluación | 0 |
+| **Corpus cerrado de síntesis** | **57** |
+
+**158 = 10 + 74 + 17 + 57**. Los 17 E5 pertenecen a recuperación y no vuelven a contarse como exclusión de textos leídos. Los nueve registros de otros métodos permanecen en bibliografía de contexto; no se suman al corpus. C0 identifica 23 exclusiones históricas no firmes frente a la evidencia R2, mantenidas fuera por cierre del corpus solicitado por el equipo. No es una falta científica atribuida al artículo.
+
+Ver `CIERRE_AUDITADO.md`, `AUDITORIA_CIERRE.csv` y `estudios_incluidos.csv`. La revisión es asistida por IA y restringida por el cierre administrativo; no se afirma lectura humana independiente de 148 textos ni exhaustividad de elegibles.

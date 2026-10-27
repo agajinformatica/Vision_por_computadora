@@ -1,3 +1,5 @@
+> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<../metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+
 # Tabla de seguimiento de referencias
 
 Inventario unificado. Antes repartido entre `Arnold/`, `Javier/`, `eladio/` y la raíz;
@@ -59,7 +61,7 @@ como antecedente o contexto, pero **no entran al diagrama de flujo** como estudi
 |---|---|---|---|:--:|---|---|
 | **10** | HSE Annual Report and Accounts 2022-23 | HSE (informe de gobierno) · 2023 | eladio | ⚪ | NO (E1) | Intro (contexto) |
 | **12** | Revisión sistemática de cumplimiento de EPP con visión | Artificial Intelligence Review · 2024 | eladio | ✅ | NO (E1) | Intro (antecedente) |
-| **13** | Smart SSOMA: gestión de seguridad con visión y edge | LACCEI (actas) · 2026 | eladio | ⚪ | NO (E1) | Intro (contexto local) |
+| **13** | Smart SSOMA: gestión de seguridad con visión y edge | LACCEI (actas) · 2026 | eladio | ⚪ | NO (E1) — confirmado por D18 (docente: actas no cuentan para el mínimo de 25) | Intro (contexto local), sin contar en el mínimo |
 
 ## Pendientes de verificar  (1)
 

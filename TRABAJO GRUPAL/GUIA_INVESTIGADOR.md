@@ -1,3 +1,5 @@
+> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+
 # Guía del investigador — estado del proyecto
 
 Documento de orientación y seguimiento. Resume **qué se está construyendo, dónde está cada
@@ -100,9 +102,9 @@ que **crece** (los resultados), y mantiene la evidencia cruda auditable, que es 
 | Criterios I1-I7 y E1-E6 | ✅ definidos |
 | Cadenas de búsqueda | ✅ escritas para Scopus y WoS |
 | Búsqueda en Scopus | ✅ ejecutada — **158 registros**, exportados con resumen |
-| Búsqueda en WoS | ⬜ **bloqueada** — sin acceso institucional |
+| Búsqueda en WoS | ✅ **abandonada por decisión del equipo (D20)** — declarada como limitación en Métodos |
 | Cribado título/resumen | ✅ primer tamizaje — 10 excluidos, 148 pasan |
-| Cribado texto completo | ⬜ pendiente, lo hace el equipo |
+| Cribado texto completo | ✅ **cerrado: 58 incluidos / 90 excluidos**, con PDF real para los 58 (R1+R2 independientes, dirimido de 28 discrepancias, +16 excluidos por E5 al no conseguirse el texto completo) |
 | Esqueleto del artículo | ✅ generado en `doc-borrador/` |
 | Diagrama de flujo | ⬜ a medio llenar |
 
@@ -220,6 +222,9 @@ decisión del equipo** (ver sección 6).
 | D15 | Protocolo idéntico aplicado como diccionario único | Impide que se cuele un hiperparámetro distinto entre modelos. Es lo que hace legítima la comparación |
 | **D17** | No se usa `--chv-externo`: CHV permanece repartido en las tres particiones | Coherencia con D16. Usarlo exigiría reentrenar los tres modelos, y el aporte ya no lo promete. Queda como trabajo futuro, con el script preparado |
 | **D16** | **El aporte declarado se ajusta a lo medido**, no al revés | El esqueleto prometía modo NMS-free y generalización entre datasets; el experimento no midió ninguna. En vez de correr experimentos extra con el parcial a 4 semanas, se declara lo demostrado: *YOLO26 supera a dos generaciones previas con un 19 % menos de parámetros, bajo protocolo idéntico*. Lo descartado pasa a trabajo futuro |
+| D18 | Las actas de congreso **no** cuentan para el mínimo de 25 referencias — solo publicaciones en revista | Respuesta del docente a P1. La ref. #13 (*Smart SSOMA*, LACCEI, actas) queda fuera del conteo; puede seguir citándose como contexto pero no computa como "alto impacto". No afecta a los 58 estudios incluidos de la revisión sistemática: los 148 cribados son 100 % artículos de revista (`doc_type = Article` en Scopus), ninguno es acta |
+| D19 | En Web of Science solo cuentan revistas indexadas en **SCIE/SSCI**, no basta ESCI | Respuesta del docente a P2. Aplica cuando se resuelva el acceso a WoS (P4, aún bloqueado); mientras tanto no cambia nada porque la búsqueda se hizo solo en Scopus |
+| D20 | Se **abandona** la gestión de acceso institucional a WoS (P4) | Decisión del equipo: el mínimo de 25 referencias está superado con margen amplio (58 solo de la revisión sistemática en Scopus, todos con PDF real), así que el costo de perseguir el acceso ya no se justifica. Se declara como **limitación de Métodos**: "la búsqueda se realizó en Scopus; no se tuvo acceso institucional a Web of Science Core Collection" |
 
 ---
 
@@ -227,32 +232,35 @@ decisión del equipo** (ver sección 6).
 
 | # | Pendiente | Bloqueado por | Urgencia |
 |---|---|---|---|
-| P1 | ¿Cuentan las actas de congreso como "alto impacto"? | **Consulta al docente** | alta |
-| P2 | ¿Se admiten revistas solo en ESCI, o deben estar en SCIE? | **Consulta al docente** | alta |
+| ~~P1~~ | ~~¿Cuentan las actas de congreso como "alto impacto"?~~ | **resuelto (D18): no, solo revista** | — |
+| ~~P2~~ | ~~¿Se admiten revistas solo en ESCI, o deben estar en SCIE?~~ | **resuelto (D19): debe estar en SCIE/SSCI** | — |
 | ~~P3~~ | ~~Fechas exactas~~ | **resuelto: 7 nov y 12 dic** | — |
-| P4 | Acceso institucional a Web of Science | Biblioteca UNMSM / VPN | alta |
+| ~~P4~~ | ~~Acceso institucional a Web of Science~~ | **resuelto (D20): se abandona, declarado como limitación** | — |
 | ~~P5~~ | ~~Regla de homologación de clases~~ | **resuelto (D10)** | — |
 | ~~P6~~ | ~~Línea base del experimento~~ | **resuelto (D14)** | — |
-| P6 | Línea base del experimento | Decisión del equipo | alta |
-| P7 | Asignación de revisores para el cribado | Decisión del equipo | media |
+| ~~P7~~ | ~~Asignación de revisores para el cribado~~ | **resuelto: R1 = IA, R2 = otra IA, R3 (dirimido) = IA** | — |
 
-### Consulta al docente, lista para enviar
+### Consulta al docente — respondida (2026-10-26)
 
 > 1. Para la revisión sistemática, ¿las actas de congreso (CVPR, ICCV, ECCV, congresos IEEE)
 >    cuentan como "revistas de alto impacto indexadas en Scopus/WoS" para el mínimo de 25
 >    referencias, o la exigencia se limita estrictamente a publicaciones en revista?
+>    **→ Estrictamente a publicaciones en revista (D18).**
 > 2. En Web of Science, ¿se admiten revistas indexadas solo en ESCI, o deben estar en SCIE/SSCI?
+>    **→ Debe estar en SCIE/SSCI (D19).**
 
 
-### Sobre Web of Science
+### Sobre Web of Science — cerrado (D20)
 
 La cuenta personal de Clarivate da acceso al Researcher Profile pero **no a la Core
-Collection**. La conexión no procede de la red universitaria. Vías por explorar, en orden:
-portal de la biblioteca UNMSM, VPN institucional, o confirmar si la universidad tiene
-suscripción activa.
+Collection**, y la conexión no procede de la red universitaria. El equipo **decidió no seguir
+persiguiendo el acceso institucional** (portal de biblioteca, VPN): el mínimo de 25 referencias
+ya está superado con margen (58 solo de la revisión sistemática en Scopus), así que el costo no
+se justifica.
 
-> **Si la UNMSM no tuviera WoS, se declara como limitación en Métodos.** Buscar solo en
-> Scopus es válido si se justifica. Lo que no vale es decir que se buscó donde no se buscó.
+> **Se declara como limitación en Métodos**: *"la búsqueda se realizó en Scopus; no se tuvo
+> acceso institucional a Web of Science Core Collection"*. Buscar solo en Scopus es válido si
+> se justifica. Lo que no vale es decir que se buscó donde no se buscó.
 
 ---
 
@@ -304,7 +312,7 @@ rigor sin coste adicional.
 | Riesgo | Impacto | Mitigación |
 |---|---|---|
 | ~~No haber prototipo en semana 10~~ | ~~Techo de 14/20~~ | **resuelto: hay resultados** |
-| Sin acceso a WoS | Búsqueda incompleta | Portal de biblioteca o VPN; si no, declarar como limitación |
+| ~~Sin acceso a WoS~~ | ~~Búsqueda incompleta~~ | **resuelto (D20): se abandona, declarada como limitación en Métodos — no cambia el resultado porque el mínimo de 25 ya está superado con margen** |
 | 148 textos completos por evaluar | Carga alta para tres personas | El CSV viene ordenado por prioridad; lo irrelevante se resuelve en dos minutos |
 | Entrenar 30 765 imágenes | Excede el límite de sesión de Colab gratuito | Submuestrear para el parcial o conseguir GPU |
 | Paradigmas de anotación incompatibles | Impide fusionar datasets sin más | Entrenar en uno y evaluar en otro, o definir y documentar una regla de homologación |
@@ -314,12 +322,17 @@ rigor sin coste adicional.
 
 ## 9. Lo siguiente
 
-En orden de urgencia:
+Actualizado 2026-10-26 — todo lo técnico y metodológico de la revisión sistemática está
+resuelto (cribado cerrado en **58/148 incluidos**, con PDF real para los 58; P1-P7 respondidas).
+Lo que queda, en orden de urgencia:
 
-1. **Enviar la consulta al docente** (sección 5) — desbloquea tres decisiones de golpe
-2. **Arrancar el prototipo** — es el camino crítico y no depende de nada pendiente
-3. **Resolver el acceso a WoS** por la biblioteca
-4. **Repartir el cribado de texto completo** entre los revisores
+1. **Figura 1 — diagrama de flujo PRISMA** con los números reales del cribado (único punto
+   🔴 del checklist de redacción)
+2. **Verificar con el PDF real** los casos señalados en `metodologia Prisma/4-resultados/
+   DIRIMIDO_R3.md` antes de dar los 58 incluidos por definitivos para los que se dirimieron
+   solo por resumen
+3. **Redacción del paper** (100 % humana) — Métodos, Resultados, Discusión y Resumen ya están
+   desbloqueados técnicamente; solo falta que el equipo escriba
 
 ---
 
@@ -349,3 +362,7 @@ Registro cronológico de lo que se va completando, para sincronizar al equipo.
 | 2026-10-09 | Pesos de YOLO26n desplegados en el VPS; demo verificada con inferencia real (~95 ms/imagen) |
 | 2026-10-09 | D16: aporte del artículo ajustado a lo medido. Esqueleto .docx y checklist actualizados |
 | 2026-10-10 | D17: se descarta `--chv-externo` por coherencia con D16. Bloque 3.2 del checklist cerrado |
+| 2026-10-26 | Cribado de texto completo cerrado: **74 estudios incluidos** de los 148 evaluados, con dos revisores independientes y dirimido de discrepancias (basado en resumen, limitación declarada — ver `metodologia Prisma/4-resultados/DIRIMIDO_R3.md`) |
+| 2026-10-26 | **P1 y P2 respondidas por el docente** (D18, D19): las actas de congreso no cuentan para el mínimo de 25 referencias (solo revista); en WoS debe ser SCIE/SSCI, no basta ESCI. No afecta a los 74 de la revisión sistemática (son 100 % artículos de revista); sí confirma la exclusión ya aplicada a la ref. #13 (LACCEI, actas) |
+| 2026-10-26 | **D20: se abandona el acceso institucional a WoS (P4)**, declarado como limitación en Métodos. El mínimo de 25 ya está superado con margen, no se justifica seguir persiguiéndolo |
+| 2026-10-26 | Descargados los PDF reales de los 74 incluidos: 58 conseguidos (6 vía script + 38 manualmente por el equipo + 14 ya existentes), 16 sin acceso (14 tras paywall, 2 sin DOI). Esos 16 se **reclasificaron a excluidos (E5)** en vez de dejarlos sin verificar. **Cifra final del cribado: 58 incluidos / 90 excluidos**, todos los 58 incluidos con PDF real en `referencias/` |
