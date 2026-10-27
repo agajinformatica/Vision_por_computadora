@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1190" viewBox="0 0 1200 1190"><title>Flujo auditado de selección documental</title><rect width="1200" height="1190" fill="white"/>
 <text x="50" y="32" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#17324d">Figura 1. Flujo auditado de selección documental</text>
-<text x="50" y="65" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Adaptación del reporte PRISMA 2020 · corpus cerrado el 27 de octubre de 2026</text>
+<text x="50" y="65" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Adaptación del reporte PRISMA 2020 · resolución de 23 casos el 27 de octubre de 2026</text>
 <rect x="70" y="110" width="630" height="90" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
 <text x="385.0" y="141.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Registros identificados en Scopus</text>
 <text x="385.0" y="168.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 158</text>
@@ -15,26 +15,27 @@
 <text x="385.0" y="437.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Título, resumen y evidencia previa</text>
 <text x="385.0" y="464.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 148</text>
 <rect x="760" y="375" width="370" height="135" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
-<text x="945.0" y="415.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">No retenidos en esta selección</text>
-<text x="945.0" y="442.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">39 E3 + 12 E4 + 23 C0*</text>
-<text x="945.0" y="469.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 74</text>
+<text x="945.0" y="415.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">Exclusiones documentales previas</text>
+<text x="945.0" y="442.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">39 E3 + 12 E4</text>
+<text x="945.0" y="469.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 51</text>
 <rect x="70" y="550" width="630" height="90" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="581.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Informes seleccionados para recuperación</text>
-<text x="385.0" y="608.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 74</text>
+<text x="385.0" y="581.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Informes para recuperación o consulta</text>
+<text x="385.0" y="608.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 97</text>
 <rect x="760" y="535" width="370" height="120" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
 <text x="945.0" y="568.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">No evaluables en recuperación</text>
 <text x="945.0" y="595.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">16 no recuperados + 1 truncado</text>
 <text x="945.0" y="622.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 17 (E5)</text>
 <rect x="70" y="700" width="630" height="110" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="728.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Textos completos locales utilizables</text>
-<text x="385.0" y="755.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Secciones de métodos/resultados evaluadas</text>
-<text x="385.0" y="782.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 57</text>
+<text x="385.0" y="728.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Evidencia de elegibilidad evaluada</text>
+<text x="385.0" y="755.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">79 textos por secciones + 1 cuerpo indexado</text>
+<text x="385.0" y="782.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 80</text>
 <rect x="760" y="705" width="370" height="100" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
-<text x="945.0" y="741.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">Exclusiones adicionales</text>
-<text x="945.0" y="768.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">tras esta evaluación: n = 0</text>
+<text x="945.0" y="732.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Exclusiones adicionales</text>
+<text x="945.0" y="756.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#17324d">E5, paywall confirmado 27-oct</text>
+<text x="945.0" y="780.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 5</text>
 <rect x="70" y="875" width="1060" height="100" rx="10" fill="#eaf4e8" stroke="#4b7b4b" stroke-width="2"/>
-<text x="600.0" y="911.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Estudios conservados en el corpus cerrado</text>
-<text x="600.0" y="938.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 57</text>
+<text x="600.0" y="904.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#17324d">Estudios incluidos tras resolver los 23 casos y reclasificar 5 por paywall</text>
+<text x="600.0" y="934.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#17324d">n = 75</text>
 <path d="M385 200 L385 245 M379 235 L385 245 L391 235" fill="none" stroke="#65778a" stroke-width="3"/>
 <path d="M385 335 L385 380 M379 370 L385 380 L391 370" fill="none" stroke="#65778a" stroke-width="3"/>
 <path d="M385 495 L385 550 M379 540 L385 550 L391 540" fill="none" stroke="#65778a" stroke-width="3"/>
@@ -44,9 +45,9 @@
 <path d="M700 440 L760 440 M750 434 L760 440 L750 446" fill="none" stroke="#65778a" stroke-width="3"/>
 <path d="M700 595 L760 595 M750 589 L760 595 L750 601" fill="none" stroke="#65778a" stroke-width="3"/>
 <path d="M700 755 L760 755 M750 749 L760 755 L750 761" fill="none" stroke="#65778a" stroke-width="3"/>
-<text x="50" y="1020" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">* C0: cierre administrativo del corpus; no es criterio científico de exclusión.</text>
+<text x="50" y="1020" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">C0 revocado: los 23 casos cumplen los criterios originales y se incluyen.</text>
 <text x="50" y="1050" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Los 9 registros de otros métodos quedan como bibliografía de contexto, sin sumarse.</text>
-<text x="50" y="1080" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">No se afirma evaluación de 132/148 textos ni revisión humana independiente.</text>
-<text x="50" y="1110" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Balance: 158 = 10 + 74 + 17 + 57. Los E5 se cuentan una sola vez, en recuperación.</text>
-<text x="50" y="1150" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#17324d">Fuente: CSV consolidado, PDF locales y CIERRE_AUDITADO.md · elaboración propia.</text>
+<text x="50" y="1080" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">De los 80 con evidencia evaluada, 5 no tenían PDF accesible: paywall confirmado 27-oct, sin presupuesto.</text>
+<text x="50" y="1110" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Balance: 158 = 10 + 51 + 17 + 5 + 75. Excluidos totales = 73 (51 documentales + 22 E5).</text>
+<text x="50" y="1150" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#17324d">Fuente: CSV, evidencia documental y RESOLUCION_23_CASOS.md · elaboración propia.</text>
 </svg>

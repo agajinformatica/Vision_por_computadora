@@ -1,4 +1,7 @@
-> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<../metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+> **Estado vigente (2026-10-27, tarde): 75 incluidos / 73 excluidos.** De los 23 casos
+> reincorporados por evidencia (C0 revocado), 5 quedaron sin PDF accesible — paywall
+> confirmado por el equipo, sin presupuesto — y se reclasificaron a E5. Son los mismos 148
+> estudios, sin búsqueda de nuevos papers. Ver [estado auditado](<../metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores (80/68, 58/90, 74/74) son históricos.
 
 # Checklist de redacción — Esqueleto_Paper_EPP_YOLO26.docx
 
@@ -94,12 +97,13 @@ Insumo: `metodologia Prisma/2-protocolo/` · Reportar según PRISMA-S.
 - [ ] Cifras del embudo coherentes con la Figura 1
 
 **Cifras disponibles:** 158 identificados en Scopus · 9 por otros métodos · 10 excluidos en
-título/resumen · 148 a texto completo · **58 incluidos** (90 excluidos: 45 EPP/tarea fuera de
-alcance, 29 sin métrica cuantitativa, 16 texto completo inaccesible). Cribado cerrado el
-2026-10-26 con dos revisores independientes y dirimido. Para los 58 incluidos finales **se
-tiene el PDF real** en `referencias/` — los 16 que no se pudieron recuperar (paywall o sin DOI)
-se excluyeron en vez de quedar sin verificar. Ver `metodologia Prisma/4-resultados/
-DIRIMIDO_R3.md` y `referencias/PDFS_FALTANTES.md`.
+título/resumen · 148 a texto completo · **75 incluidos** (73 excluidos: 39 E3 EPP/tarea fuera de
+alcance, 12 sin métrica cuantitativa, 22 texto completo inaccesible). Cribado cerrado
+2026-10-26, con dos revisores independientes y dirimido; el 2026-10-27 se reabrieron 23 casos
+por evidencia real de elegibilidad (C0 revocado) y luego se reclasificaron 5 de ellos a
+inaccesibles por paywall confirmado. Los **75 incluidos finales tienen PDF real** en
+`referencias/`. Ver `metodologia Prisma/4-resultados/CIERRE_AUDITADO.md`,
+`metodologia Prisma/4-resultados/DIRIMIDO_R3.md` y `referencias/PDFS_FALTANTES.md`.
 
 ### 3.2 Conjuntos de datos 🟢  ·  ~0,4 pág
 
@@ -206,10 +210,10 @@ Insumo: decisión D14 de `GUIA_INVESTIGADOR.md`
 
 ### Figura 1 — Diagrama de selección auditado ✅
 
-- [x] Adaptación documentada del flujo: selección documental, C0 administrativo y recuperación separados
-- [x] Recuentos verificados contra los CSV: 158 = 10 + 74 + 17 + 57; sin suma de bibliografía de contexto
+- [x] Adaptación documentada del flujo: selección documental, recuperación y evidencia consultada separadas; C0 revocado
+- [x] Recuentos verificados contra los CSV: 158 = 10 + 51 + 22 + 75; sin suma de bibliografía de contexto
 - [x] SVG y PNG generados; figura incorporada en el docx
-- [x] Pie actualizado a 57 estudios; comprobación visual de la figura realizada
+- [x] Pie actualizado a 75 estudios; comprobación visual de la figura realizada
 
 La sección 3.1 de Métodos sigue pendiente de redacción humana. No afirmar cumplimiento integral de PRISMA ni independencia humana de los pases de IA: ver CIERRE_AUDITADO.md.
 
@@ -348,7 +352,7 @@ Nadie depende de ti para esto y vale puntos. Insumo: sección 6 de `GUIA_INVESTI
 **Escribible hoy sin ninguna dependencia: 78 ítems.** Con el entrenamiento cerrado, se suman
 Resultados (11), Discusión (11), 3.4 Modelo (7) y el Resumen en lo técnico.
 
-**Figura 1 actualizada el 2026-10-27:** 57 incluidos; SVG/PNG y pie del Word sincronizados. Ver CIERRE_AUDITADO.md para alcance y límites del corpus cerrado.
+**Figura 1 actualizada el 2026-10-27 (tarde):** 75 incluidos; SVG y pie del Word a resincronizar tras reclasificar 5 casos a E5 por paywall confirmado. Ver CIERRE_AUDITADO.md para alcance y límites de la evaluación documental.
 
 ---
 
@@ -367,6 +371,8 @@ Orden recomendado: **3.2 → 3.3 → 3.5 → 3.6 → 6 → 7 → 3.1 → 2 → 5
 |---|---|---|
 | 2026-10-26 | 3.1 PRISMA | Cerrado el cribado de texto completo de los 148 estudios: R1 y R2 independientes + dirimido de discrepancias. **74 incluidos / 74 excluidos** en el dirimido inicial, basado en resumen/título — ver `DIRIMIDO_R3.md` |
 | 2026-10-26 | 3.1 PRISMA | Descargados los PDF reales de los incluidos. Los 16 que no se pudieron recuperar (14 tras paywall, 2 sin DOI) se reclasificaron a excluidos (E5, texto completo inaccesible). **Cifra final: 58 incluidos / 90 excluidos** |
+| 2026-10-27 | 3.1 PRISMA | Resolución de 23 casos "C0" con evidencia real (web/PDF): C0 revocado, **80 incluidos / 68 excluidos** |
+| 2026-10-27 | 3.1 PRISMA | De esos 23, 5 (ids 80, 11, 87, 94, 100) sin PDF local ni acceso alternativo — paywall confirmado por el equipo, sin presupuesto. Reclasificados a E5. **Cifra final: 75 incluidos / 73 excluidos** (39 E3, 12 E4, 22 E5), con PDF real para los 75 |
 | 2026-10-10 | Todo el artículo | Generado `REFERENCIA_PARRAFOS.md`: párrafos de referencia de todas las secciones en orden, con los irrenunciables de cada bloque. Material de lectura, no texto del paper. El párrafo (b) de la Introducción va solo como andamiaje: exige leer los PDF |
 | 2026-10-10 | 3.2 · 3.3 | Auditadas las cifras contra las etiquetas crudas de las tres fuentes. Confirmada la explicación del 55 393 contando clase por clase. Localizadas las 10 etiquetas huérfanas (30 cajas) que explican el desfase de Construction-PPE. Añadido aviso: `COMPARATIVA_DATASETS.md` no sirve para la Tabla 1 |
 | 2026-10-10 | 3.2 Datasets | Cerrado `--chv-externo` por coherencia con D16: no se usa. Bloque 3.2 pasa a 🟢 |

@@ -85,7 +85,6 @@ Consolidar en `cribado_texto_completo.csv` y avisar. Con eso se calculan:
 
 Y queda listo el diagrama de flujo con números reales.
 
+## Correccion del cierre administrativo — 2026-10-27
 
-## Cierre operativo auditado — 2026-10-27
-
-El corpus está cerrado a nuevas inclusiones por instrucción del equipo: 57 retenidos. Ver `CIERRE_AUDITADO.md` y `AUDITORIA_CIERRE.csv`. E1–E6 siguen siendo los códigos de cribado de los revisores. **C0 aparece únicamente en motivo_final** como marcador administrativo explícito de 23 casos no reincorporados por cierre, cuya exclusión científica histórica no quedó firme frente a la evidencia R2. No usar C0 como criterio de elegibilidad ni contarlo como exclusión tras lectura de texto completo. Los 17 E5 se cuentan en recuperación (16 no recuperados y 1 PDF truncado).
+C0 queda revocado: no pertenece al protocolo. Los 23 casos se resolvieron como incluir aplicando I1–I7 y la regla operativa de clase explicita, cifra y tarea central con cajas. El corpus actual es 80 incluidos y 68 excluidos (39 E3, 12 E4, 17 E5). R1/R2 y sus discrepancias se conservan como antecedentes; esta correccion final asistida por IA no acredita independencia humana. Ver CIERRE_AUDITADO.md y RESOLUCION_23_CASOS.md para evidencia, limites y recuentos reales. La version anterior del cierre se conserva en historico/.

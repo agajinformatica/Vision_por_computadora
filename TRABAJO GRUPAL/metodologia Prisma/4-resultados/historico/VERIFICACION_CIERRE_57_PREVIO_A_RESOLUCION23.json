@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-10-27",
+  "incluidos": 57,
+  "no_incluidos": 91,
+  "motivos": {
+    "E5": 17,
+    "E3": 39,
+    "C0": 23,
+    "E4": 12
+  },
+  "seleccion_documental_no_retenidos": 74,
+  "no_evaluables_recuperacion": 17,
+  "pdf_utilizables_evaluados": 57,
+  "nuevas_inclusiones": 0,
+  "r1_r2_preservados": true,
+  "archivos_csv": [
+    {
+      "file": "cribado_texto_completo.csv",
+      "rows": 148,
+      "sha256": "55c0ca75d1cb4fdefdb1e6f5491cfb6f94c3f7ad924fe707ca22e51b3bfd0a8a"
+    },
+    {
+      "file": "cribado_lote_1.csv",
+      "rows": 74,
+      "sha256": "f33d607d610a120483a7e16c02230bcb292eeefcec0be2080dd1d912fc0f1579"
+    },
+    {
+      "file": "cribado_lote_2.csv",
+      "rows": 74,
+      "sha256": "442c588ba58ef3c180cbf8a93244cbe44ac3fa45e1f29c9c95bd8e88fada7c62"
+    }
+  ]
+}

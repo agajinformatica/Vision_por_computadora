@@ -7,6 +7,7 @@
 8,A Novel Implementation of an AI-Based Smart Construction Safety Inspection Protocol in the UAE,10.1109/ACCESS.2021.3135662,48_A-Novel-Implementation-of-an-AI-Based_IEEEAccess-2021.pdf,precision ~99%; recall 90.2%
 9,Real-Time Personal Protective Equipment Compliance Detection Based on Deep Learning Algorithm,10.3390/su15010391,35_Real-Time-PPE-Compliance_Sustainability-2022.pdf,mAP 97%
 10,Investigation Into Recognition Algorithm of Helmet Violation Based on YOLOv5-CBAM-DCN,10.1109/ACCESS.2022.3180796,55_Investigation-Into-Recognition-Algorithm_IEEEAccess-2022.pdf,detection accuracy 91.6%
+12,SHEL5K: An Extended Dataset and Benchmarking for Safety Helmet Detection,10.3390/s22062315,referencias\02_SHEL5K-Dataset-Benchmark_Sensors-2022.pdf,YOLOv5x AP50 helmet=0.8896
 13,Verification and performance comparison of CNN-based algorithms for two-step helmet-wearing detection,10.1016/j.eswa.2023.120096,44_Verification-and-performance-comparison_ExpertSystemswithApp-2023.pdf,mAP 91.4%; F1 93.7%
 14,Real-Time Safety Helmet Detection Using Yolov5 at Construction Sites,10.32604/iasc.2023.031359,27_Real-Time-Helmet-YOLOv5_IASC-2022.pdf,mAP 95.8%
 15,Automated non-PPE detection on construction sites using YOLOv10 and transformer architectures for surveillance and body worn cameras with benchmark datasets,10.1038/s41598-025-12468-8,14_Non-PPE-YOLOv10-transformers_SciRep-2025.pdf,AP50 non-helmet 92.4%; non-vest 87.17%
@@ -14,6 +15,10 @@
 17,Safety Helmet Wearing Detection Model Based on Improved YOLO-M,10.1109/ACCESS.2023.3257183,59_Safety-Helmet-Wearing-Detection-Model_IEEEAccess-2023.pdf,mejora accuracy 2.22%
 19,Real-Time ISR-YOLOv4 Based Small Object Detection for Safe Shop Floor in Smart Factories,10.3390/electronics11152348,71_Real-Time-ISR-YOLOv4-Based-Small-Object_ElectronicsSwitzerla-2022.pdf,mAP 0.933; Helmet AP 0.932
 20,Domain-adaptive faster R-CNN for non-PPE identification on construction sites from body-worn and general images,10.1038/s41598-026-35148-7,28_Domain-adaptive-FasterRCNN-nonPPE_SciRep-2026.pdf,mAP 86.84%
+21,Automatic detection of safety helmet wearing based on head region location,10.1049/ipr2.12231,metodologia Prisma\4-resultados\evidencia_23\ID_021.pdf,Precision del metodo de uso de casco=95.1%; FP=13.7%; miss=15.8%
+22,Deep Learning Technique for Object Detection from Panoramic Video Frames,10.7763/IJCTE.2022.V14.1306,metodologia Prisma\4-resultados\evidencia_23\ID_022.pdf,mAP del detector alrededor de 32.82% durante el entrenamiento
+23,Research on Safety Helmet Detection Algorithm Based on Improved YOLOv5s,10.3390/s23135824,referencias\25_Helmet-Improved-YOLOv5s_Sensors-2023.pdf,mAP50=92.4%; mAP50:95=59.2%
+26,DST-DETR: Image Dehazing RT-DETR for Safety Helmet Detection in Foggy Weather,10.3390/s24144628,metodologia Prisma\4-resultados\evidencia_23\ID_026.pdf,mAP50=0.9481; mAP50:95=0.6051
 27,YOLOv7-WFD: A Novel Convolutional Neural Network Model for Helmet Detection in High-Risk Workplaces,10.1109/ACCESS.2023.3323588,64_YOLOv7-WFD-A-Novel-Convolutional-Neural_IEEEAccess-2023.pdf,mAP 92.6%
 28,SAFETY HELMET WEARING DETECTION BASED ON AN IMPROVED YOLOV3 SCHEME,10.24507/ijicic.18.03.973,36_SAFETY-HELMET-WEARING-DETECTION-BASED-ON_InternationalJournal-2022.pdf,mAP 95.13%
 31,Multi-Scale Safety Helmet Detection Based on RSSE-YOLOv3,10.3390/s22166061,75_Multi-Scale-Safety-Helmet-Detection_Sensors-2022.pdf,mAP 92.8%
@@ -21,6 +26,7 @@
 33,Real-time Safety Helmet-wearing Detection Based on Improved YOLOv5,10.32604/csse.2022.028224,62_Real-time-Safety-Helmet-wearing_ComputerSystemsScien-2022.pdf,AP50 96.7%; mAP 93.1%
 34,Research on helmet wearing detection method based on deep learning,10.1038/s41598-024-57433-z,30_Helmet-wearing-deep-learning_SciRep-2024.pdf,mejora precision 0.9%; recall 2.8%
 35,A Detailed Comparative Analysis of You Only Look Once-Based Architectures for the Detection of Personal Protective Equipment on Construction Sites,10.3390/eng5010019,73_A-Detailed-Comparative-Analysis-of-You_Eng-2024.pdf,mAP 92.30%
+36,Detection Method for Safety Helmet Wearing on Construction Sites Based on UAV Images and YOLOv8,10.3390/buildings15030354,metodologia Prisma\4-resultados\evidencia_23\ID_036.pdf,AP50 helmet=0.968; mAP50 agregado=0.975
 39,Detection of Safety Helmet-Wearing Based on the YOLO_CA Model,10.32604/cmc.2023.043671,60_Detection-of-Safety-Helmet-Wearing-Based_ComputersMaterialsan-2023.pdf,mAP 96.73%
 40,YOLO-Helmet: A Novel Algorithm for Detecting Dense Small Safety Helmets in Construction Scenes,10.1109/ACCESS.2024.3435700,63_YOLO-Helmet-A-Novel-Algorithm-for_IEEEAccess-2024.pdf,mAP 93.1%
 41,EGS-YOLO: A Fast and Reliable Safety Helmet Detection Method Modified Based on YOLOv7,10.3390/app14177923,67_EGS-YOLO-A-Fast-and-Reliable-Safety_AppliedSciencesSwitz-2024.pdf,mAP50 91.1%
@@ -37,6 +43,7 @@
 57,A deep learning method for hard-hat-wearing detection based on head center localization,10.24425/bpasts.2023.147340,49_A-deep-learning-method-for-hard-hat_BulletinofthePolishA-2023.pdf,AP 67.5%; AP no-casco 64.1%
 58,DAF-YOLO: Detection of Unsafe Behaviors on Construction Sites,10.3390/s25237216,78_DAF-YOLO-Detection-of-Unsafe-Behaviors_Sensors-2025.pdf,mAP50 mejora 3.6%
 59,LSH-YOLO: A Lightweight Algorithm for Helmet-Wear Detection,10.3390/buildings15162918,70_LSH-YOLO-A-Lightweight-Algorithm-for_Buildings-2025.pdf,mAP50 92.9%
+60,CSOD-24: Construction Site Object Detection Dataset for Safety Monitoring at Construction Site using Deep Learning,10.36548/jiip.2025.1.009,,mAP50=0.982; mAP50:95=0.794; AP50:95 worker with helmet=0.666
 63,Detection and tracking of safety helmet wearing based on deep learning,10.1515/comp-2024-0017,46_Detection-and-tracking-of-safety-helmet_OpenComputerScience-2024.pdf,precision 93.16%; recall 88.96%
 64,Faster-PPENet: Advancing Logistic Intelligence for PPE Recognition at Construction Sites,10.1109/ACCESS.2025.3578110,53_Faster-PPENet-Advancing-Logistic_IEEEAccess-2025.pdf,mAP CHV 0.8845; SHD 0.9321
 68,Enhanced YOLOv8n-Based Three-Module Lightweight Helmet Detection System,10.3390/s25247664,79_Enhanced-YOLOv8n-Based-Three-Module_Sensors-2025.pdf,mAP 94.4%
@@ -46,13 +53,24 @@
 75,AE-LFOG-YOLO: robust safety helmet detection via adaptive anchors and illumination invariant learning,10.1038/s41598-026-37326-z,07_AE-LFOG-YOLO-Tunel-Iluminacion_SciRep-2026.pdf,mAP50 94.83%
 77,An Algorithm for Safety Helmet Detection Based on Improved YOLOv8,10.3390/app16104613,68_An-Algorithm-for-Safety-Helmet-Detection_AppliedSciencesSwitz-2026.pdf,mAP50 95.7%; mAP50:95 74.6%
 81,Personal Protective Equipment Detection: A Deep-Learning-Based Sustainable Approach,10.3390/su151813990,16_PPE-Detection-Sustainable-YOLOX_Sustainability-2023.pdf,"mAP 96% (tabla 6), 86% (conclusion)"
+86,Safety Helmet Detection Based on YOLOv5 Driven by Super-Resolution Reconstruction,10.3390/s23041822,referencias\23_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf,P=88.6%; R=71.5%; AP=79.1%
 90,Personal Protective Equipment Detection for Construction Workers: A Novel Dataset and Enhanced YOLOv5 Approach,10.1109/ACCESS.2024.3382817,15_PPE-Detection-Novel-Dataset_IEEEAccess-2024.pdf,mejora mAP 0.4%; AP 0.9%
+92,Effectiveness of Image Augmentation Techniques on Non-Protective Personal Equipment Detection Using YOLOv8,10.3390/app15052631,metodologia Prisma\4-resultados\evidencia_23\ID_092.pdf,PVT brightness: AP50 Non-Helmet=68.66; Non-Vest=74.11; promedio=73.12
+93,SH17: A dataset for human safety and personal protective equipment detection in manufacturing industry,10.1016/j.jnlssr.2024.09.002,,YOLOv9-e mAP50=70.9%
+95,Real-Time Personal Protective Equipment Non-Compliance Recognition on AI Edge Cameras,10.3390/electronics13152990,metodologia Prisma\4-resultados\evidencia_23\ID_095.pdf,mAP IoU0.50=43%; F-score IoU0.50=52%
 97,A high-performance framework for personal protective equipment detection on the offshore drilling platform,10.1007/s40747-023-01028-0,39_A-high-performance-framework-for_ComplexandIntelligen-2023.pdf,mAP 88.41%; AP Helmet 84.21%
 101,ESPCN-YOLO: A High-Accuracy Framework for Personal Protective Equipment Detection Under Low-Light and Small Object Conditions,10.3390/buildings15101609,69_ESPCN-YOLO-A-High-Accuracy-Framework-for_Buildings-2025.pdf,mAP50 0.922
 109,Investigation of Unsafe Construction Site Conditions Using Deep Learning Algorithms Using Unmanned Aerial Vehicles,10.3390/s24206737,77_Investigation-of-Unsafe-Construction_Sensors-2024.pdf,precision 93.1%; mAP 58.45%
+110,A Fast and Robust Safety Helmet Network Based on a Mutilscale Swin Transformer,10.3390/buildings14030688,metodologia Prisma\4-resultados\evidencia_23\ID_110.pdf,mAP50 Pictor-v3=0.9630; SHWD=0.9470
+112,SC-YOLO: A Real-Time CSP-Based YOLOv11n Variant Optimized with Sophia for Accurate PPE Detection on Construction Sites,10.3390/buildings15162854,metodologia Prisma\4-resultados\evidencia_23\ID_112.pdf,VOC2007-1 mAP50=97.6%; Hardhat=96.8%; Vest=97.3%
+115,A deep learning-based algorithm for the detection of personal protective equipment,10.1371/journal.pone.0322115,metodologia Prisma\4-resultados\evidencia_23\ID_115.pdf,Tabla 3: AP50 helmet=64.8%; vest=72.3%
 116,PPE-EYE: A Deep Learning Approach to Personal Protective Equipment Compliance Detection,10.3390/computers15010045,04_PPE-EYE-Compliance_Computers-2026.pdf,mAP50 0.969
 122,Real-time construction safety monitoring using a drone based deep hybrid attention model,10.1038/s41598-025-31392-5,40_Real-time-construction-safety-monitoring_ScientificReports-2026.pdf,tabla 5 Hardhat P94.5/R96.2/F1 95.3; Vest P92.8/R94.1/F1 93.4
+125,Comparative Evaluation of YOLOv11n Neck-Level Modifications for Precast Component and PPE Object Detection in Construction Environments,10.3390/buildings16091728,metodologia Prisma\4-resultados\evidencia_23\ID_125.pdf,SG mAP50=0.936-0.968; DAM hardhat AP50=0.972; vest=0.981
 128,Validation and Performance Contrast of Deep Neural Network Based Mechanism for Real-Time Automatic Safety Helmet Detection,10.14445/23488379/IJEEE-V11I5P110,54_Validation-and-Performance-Contrast-of_SSRGInternationalJou-2024.pdf,mAP ~95% / 81%
 130,Advanced AI-Driven Safety Compliance Monitoring in Dynamic Construction Environment,10.14569/IJACSA.2025.0160641,56_Advanced-AI-Driven-Safety-Compliance_InternationalJournal-2025.pdf,P89.5/R85/mAP50 91.6%
+132,INTELLIGENT WORKSITE PROTECTIVE EQUIPMENT COMPLIANCE DETECTION USING DEEP NEURAL NETWORKS,10.5935/jetia.v12i58.3224,,"mAP alrededor de 85%; P=90%; R=88%; exactitud helmet=88%, vest=94%"
 136,MicroPPE-Guard: an efficient model for accurate personal protective equipment,10.1016/j.measurement.2026.122842,43_MicroPPE-Guard-an-efficient-model-for_MeasurementJournalof-2026.pdf,mAP50 0.924
+141,Noninvasive Worker Safety Monitoring and Augmented Reality Feedback for Real-Time Intervention,10.3390/safety12040090,metodologia Prisma\4-resultados\evidencia_23\ID_141.pdf,Test mAP50=0.763; AP50 hardhat=0.811; safety vest=0.865; no safety vest=0.404
+142,A Vision-Based Sensing Framework for PPE Detection and Safety Harness Compliance Recognition in High-Formwork Construction Environments Using YOLO-ILB,10.3390/s26134147,metodologia Prisma\4-resultados\evidencia_23\ID_142.pdf,mAP50=0.939; AP50 helmet=0.975; no-helmet=0.949
 146,Heterogeneous Multi-Model Ensemble for PPE Detection in Construction Environments,10.4108/eetiot.9971,47_Heterogeneous-Multi-Model-Ensemble-for_EAIEndorsedTransacti-2025.pdf,mAP50 0.760; P0.765/R0.735

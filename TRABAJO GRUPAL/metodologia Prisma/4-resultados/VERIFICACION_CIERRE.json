@@ -1,33 +1,153 @@
 {
   "fecha": "2026-10-27",
-  "incluidos": 57,
-  "no_incluidos": 91,
+  "alcance": "resolver los 23 C0 sin reabrir los otros 125",
+  "casos_resueltos": 23,
+  "resolucion": {
+    "incluir": 23,
+    "excluir": 0
+  },
+  "C0_pendientes": 0,
+  "incluidos": 80,
+  "excluidos": 68,
   "motivos": {
     "E5": 17,
     "E3": 39,
-    "C0": 23,
     "E4": 12
   },
-  "seleccion_documental_no_retenidos": 74,
+  "exclusiones_documentales_previas": 51,
   "no_evaluables_recuperacion": 17,
-  "pdf_utilizables_evaluados": 57,
-  "nuevas_inclusiones": 0,
-  "r1_r2_preservados": true,
+  "textos_por_secciones_consultados": 79,
+  "cuerpo_publicado_indexado": 1,
+  "nuevos_estudios_identificados": 0,
+  "r1_r2_discrepancia_metadatos_preservados": true,
+  "bytes_fuera_de_celdas_finales_preservados": true,
   "archivos_csv": [
     {
-      "file": "cribado_texto_completo.csv",
-      "rows": 148,
-      "sha256": "55c0ca75d1cb4fdefdb1e6f5491cfb6f94c3f7ad924fe707ca22e51b3bfd0a8a"
+      "archivo": "cribado_texto_completo.csv",
+      "filas": 148,
+      "sha256": "4cab8d62a23d7a427b5051ac44c497549de476eb8d66631a14f440218dba21f5"
     },
     {
-      "file": "cribado_lote_1.csv",
-      "rows": 74,
-      "sha256": "f33d607d610a120483a7e16c02230bcb292eeefcec0be2080dd1d912fc0f1579"
+      "archivo": "cribado_lote_1.csv",
+      "filas": 74,
+      "sha256": "02b562b24a5a4eeaaa4dbeabf1f5fae59790450ff57bf937ee77fd6371c4982a"
     },
     {
-      "file": "cribado_lote_2.csv",
-      "rows": 74,
-      "sha256": "442c588ba58ef3c180cbf8a93244cbe44ac3fa45e1f29c9c95bd8e88fada7c62"
+      "archivo": "cribado_lote_2.csv",
+      "filas": 74,
+      "sha256": "b8fffabc2d8ce4209385c04a89ef09d024b41179d8b83f3426857790df2124c5"
     }
-  ]
+  ],
+  "validacion_humana_independiente": "no acreditada por esta adjudicacion IA",
+  "qa_word": "Exportado con Word instalado: 11 paginas; figura/pie pagina 3 inspeccionados, resto del texto preservado",
+  "qa_figura": "SVG/PNG y figura incrustada sincronizados; sin recortes ni solapes",
+  "evidencia_pdf": [
+    {
+      "id": 12,
+      "archivo": "referencias\\02_SHEL5K-Dataset-Benchmark_Sensors-2022.pdf",
+      "paginas": 23,
+      "sha256": "0d2aef820fecaeab426d66a17513b6aed36cc0f2c20832e40af0f02808b7903a",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 21,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_021.pdf",
+      "paginas": 13,
+      "sha256": "b147a1f49502c1026c28219e90e84d10e5e9991e27af757340753e6be509da13",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 22,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_022.pdf",
+      "paginas": 7,
+      "sha256": "3ed3d286c9188b464313244878c1a3d261444c2b91c229635bf42d8351847619",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 23,
+      "archivo": "referencias\\25_Helmet-Improved-YOLOv5s_Sensors-2023.pdf",
+      "paginas": 23,
+      "sha256": "57845d92c1705d8b55664820146029a63e8a6a6a8e62e6c44d854d799878ff1d",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 26,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_026.pdf",
+      "paginas": 22,
+      "sha256": "f2e491103c8468ce4d5fa8ff5b8b33dd13bf46353f76c8b9da1ac86082af7525",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 36,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_036.pdf",
+      "paginas": 13,
+      "sha256": "d03c9ccabfa5e63a6ac0f92c50b213b315d8bb1ec4c8a8b07fe2a85c7356615d",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 86,
+      "archivo": "referencias\\23_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf",
+      "paginas": 14,
+      "sha256": "884213bc2c64f4a75de1a52f5072fa9bbbe247c183ba0aeeab95947a15a25f0a",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 92,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_092.pdf",
+      "paginas": 20,
+      "sha256": "4f079d4e9fbc2d3a00af495817ea0b062d7b2a246c5a780b5322213fd57bb38c",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 95,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_095.pdf",
+      "paginas": 28,
+      "sha256": "a5e7f2453288590fc1324e5973f5282a20b9d1e2b3b2a80513be04141ee2132c",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 110,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_110.pdf",
+      "paginas": 12,
+      "sha256": "5eb4719ff7ddefadfd8ef0be4f62c29ee5470af1a1db8db59a17e47feb4fa229",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 112,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_112.pdf",
+      "paginas": 34,
+      "sha256": "4bb9387868add99c1ee58370413f06ec40243d1f0513de1e90db051f7a303cdc",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 115,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_115.pdf",
+      "paginas": 22,
+      "sha256": "c22ea00bc2ce9dd5f99e11f6727557ddfd798774185b7f3ba62e23ff161c449a",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 125,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_125.pdf",
+      "paginas": 33,
+      "sha256": "fc99358ba02692392e015d231787f22398978d28cf88c058a78fda5dd5963aa7",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 141,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_141.pdf",
+      "paginas": 18,
+      "sha256": "b5c27529c8075ff92252966e19f8e1ef6cf8583d06de7caef66fd551d34b0e50",
+      "doi_cabecera_confirmado": true
+    },
+    {
+      "id": 142,
+      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_142.pdf",
+      "paginas": 20,
+      "sha256": "e2c147adfced220db818f82276253af057eeb143f79a9dc4a0d1b77226ee2689",
+      "doi_cabecera_confirmado": true
+    }
+  ],
+  "origen_23": "23 EID individuales y Source=Scopus confirmados",
+  "independencia_humana": "No acreditada; pendiente segun protocolo del equipo"
 }

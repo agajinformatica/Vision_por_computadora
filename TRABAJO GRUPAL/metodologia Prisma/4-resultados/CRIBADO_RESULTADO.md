@@ -92,20 +92,32 @@ ese recuento va en el diagrama de flujo y es lo que PRISMA exige reportar.
 
 ---
 
-## Estado auditado del flujo — 2026-10-27
+## Estado del flujo tras resolver C0 y reclasificar 5 por paywall — 2026-10-27
 
-| Etapa | Registros |
+## Recuentos y limites de reporte
+
+| Etapa real | Registros |
 |---|---:|
-| Scopus identificados / cribados inicialmente | 158 |
-| Excluidos en título/resumen inicial | 10 |
-| Selección documental complementaria | 148 |
-| No retenidos en selección documental | 74 (39 E3, 12 E4, 23 C0 administrativo) |
-| Seleccionados para recuperación | 74 |
-| No evaluables en recuperación | 17 (16 no recuperados, 1 PDF truncado) |
-| Textos locales con secciones evaluadas | 57 |
-| Excluidos adicionales tras esta evaluación | 0 |
-| **Corpus cerrado de síntesis** | **57** |
+| Scopus identificados, sin DOI repetidos detectados | 158 |
+| Excluidos en filtro inicial titulo/resumen | 10 |
+| Registros preseleccionados | 148 |
+| Exclusiones documentales previas conservadas en este encargo | 51 (39 E3 + 12 E4) |
+| Seleccionados para recuperacion o consulta adicional | 97 |
+| No evaluables en recuperacion (E5) | 22 (16 no recuperados + 1 PDF truncado + 5 con evidencia web pero sin PDF accesible, paywall confirmado 2026-10-27) |
+| Con evidencia de elegibilidad evaluada | 80 |
+| De ellos, reclasificados a E5 por falta de acceso confirmable | 5 |
+| **Incluidos** | **75** |
+| **Excluidos (total)** | **73** |
 
-**158 = 10 + 74 + 17 + 57**. Los 17 E5 pertenecen a recuperación y no vuelven a contarse como exclusión de textos leídos. Los nueve registros de otros métodos permanecen en bibliografía de contexto; no se suman al corpus. C0 identifica 23 exclusiones históricas no firmes frente a la evidencia R2, mantenidas fuera por cierre del corpus solicitado por el equipo. No es una falta científica atribuida al artículo.
+**158 = 10 + 51 + 22 + 75; 148 = 51 + 22 + 75; 73 = 39 E3 + 12 E4 + 22 E5.** E1/E2/E6: cero. De los
+23 casos reincorporados por evidencia (ver `CIERRE_AUDITADO.md`), 5 (ids 80, 11, 87, 94, 100) no
+llegaron a tener PDF local ni acceso alternativo verificable — el equipo confirmó paywall real sin
+presupuesto, y el enlace de ResearchGate citado como evidencia también resultó bloqueado al
+reintentarlo. Se reclasifican a excluir (E5), conservando su evidencia documentada en
+`AUDITORIA_CIERRE.csv` y `RESOLUCION_23_CASOS.csv`. Los 9 registros históricos de otros métodos
+siguen como contexto y no se suman.
 
-Ver `CIERRE_AUDITADO.md`, `AUDITORIA_CIERRE.csv` y `estudios_incluidos.csv`. La revisión es asistida por IA y restringida por el cierre administrativo; no se afirma lectura humana independiente de 148 textos ni exhaustividad de elegibles.
+Resolver C0 corrige la seleccion administrativa, pero no acredita por si solo cumplimiento integral de PRISMA 2020. Las otras 51 exclusiones documentales no se reabrieron en esta tarea. No se afirma que se hayan leido 148 ni 132 textos completos ni se sustituye la validacion de revisores humanos independientes. Los dos registros sin DOI siguen sin intento exhaustivo por titulo, segun la auditoria previa. Estos limites deben mantenerse al redactar Metodos.
+
+
+Ver CIERRE_AUDITADO.md y RESOLUCION_23_CASOS.md.

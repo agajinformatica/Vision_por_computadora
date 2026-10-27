@@ -1,4 +1,7 @@
-> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+> **Estado vigente (2026-10-27, tarde): 75 incluidos / 73 excluidos.** De los 23 casos
+> reincorporados por evidencia (C0 revocado), 5 quedaron sin PDF accesible — paywall
+> confirmado por el equipo, sin presupuesto — y se reclasificaron a E5. Son los mismos 148
+> estudios, sin búsqueda de nuevos papers. Ver [estado auditado](<metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores (80/68, 58/90, 74/74) son históricos.
 
 # Guía del investigador — estado del proyecto
 
@@ -104,7 +107,7 @@ que **crece** (los resultados), y mantiene la evidencia cruda auditable, que es 
 | Búsqueda en Scopus | ✅ ejecutada — **158 registros**, exportados con resumen |
 | Búsqueda en WoS | ✅ **abandonada por decisión del equipo (D20)** — declarada como limitación en Métodos |
 | Cribado título/resumen | ✅ primer tamizaje — 10 excluidos, 148 pasan |
-| Cribado texto completo | ✅ **cerrado: 58 incluidos / 90 excluidos**, con PDF real para los 58 (R1+R2 independientes, dirimido de 28 discrepancias, +16 excluidos por E5 al no conseguirse el texto completo) |
+| Cribado texto completo | ✅ **cerrado: 75 incluidos / 73 excluidos**, con PDF real para los 75 (R1+R2+dirimido → 58/90; +23 reincorporados por evidencia real el 2026-10-27 → 80/68; −5 reclasificados a E5 por paywall confirmado → 75/73) |
 | Esqueleto del artículo | ✅ generado en `doc-borrador/` |
 | Diagrama de flujo | ⬜ a medio llenar |
 
@@ -222,7 +225,7 @@ decisión del equipo** (ver sección 6).
 | D15 | Protocolo idéntico aplicado como diccionario único | Impide que se cuele un hiperparámetro distinto entre modelos. Es lo que hace legítima la comparación |
 | **D17** | No se usa `--chv-externo`: CHV permanece repartido en las tres particiones | Coherencia con D16. Usarlo exigiría reentrenar los tres modelos, y el aporte ya no lo promete. Queda como trabajo futuro, con el script preparado |
 | **D16** | **El aporte declarado se ajusta a lo medido**, no al revés | El esqueleto prometía modo NMS-free y generalización entre datasets; el experimento no midió ninguna. En vez de correr experimentos extra con el parcial a 4 semanas, se declara lo demostrado: *YOLO26 supera a dos generaciones previas con un 19 % menos de parámetros, bajo protocolo idéntico*. Lo descartado pasa a trabajo futuro |
-| D18 | Las actas de congreso **no** cuentan para el mínimo de 25 referencias — solo publicaciones en revista | Respuesta del docente a P1. La ref. #13 (*Smart SSOMA*, LACCEI, actas) queda fuera del conteo; puede seguir citándose como contexto pero no computa como "alto impacto". No afecta a los 58 estudios incluidos de la revisión sistemática: los 148 cribados son 100 % artículos de revista (`doc_type = Article` en Scopus), ninguno es acta |
+| D18 | Las actas de congreso **no** cuentan para el mínimo de 25 referencias — solo publicaciones en revista | Respuesta del docente a P1. La ref. #13 (*Smart SSOMA*, LACCEI, actas) queda fuera del conteo; puede seguir citándose como contexto pero no computa como "alto impacto". No afecta a los 75 estudios incluidos de la revisión sistemática: los 148 cribados son 100 % artículos de revista (`doc_type = Article` en Scopus), ninguno es acta |
 | D19 | En Web of Science solo cuentan revistas indexadas en **SCIE/SSCI**, no basta ESCI | Respuesta del docente a P2. Aplica cuando se resuelva el acceso a WoS (P4, aún bloqueado); mientras tanto no cambia nada porque la búsqueda se hizo solo en Scopus |
 | D20 | Se **abandona** la gestión de acceso institucional a WoS (P4) | Decisión del equipo: el mínimo de 25 referencias está superado con margen amplio (58 solo de la revisión sistemática en Scopus, todos con PDF real), así que el costo de perseguir el acceso ya no se justifica. Se declara como **limitación de Métodos**: "la búsqueda se realizó en Scopus; no se tuvo acceso institucional a Web of Science Core Collection" |
 
@@ -323,13 +326,13 @@ rigor sin coste adicional.
 ## 9. Lo siguiente
 
 Actualizado 2026-10-26 — todo lo técnico y metodológico de la revisión sistemática está
-resuelto (cribado cerrado en **58/148 incluidos**, con PDF real para los 58; P1-P7 respondidas).
+resuelto (cribado cerrado en **75/148 incluidos**, con PDF real para los 75; P1-P7 respondidas).
 Lo que queda, en orden de urgencia:
 
 1. **Figura 1 — diagrama de flujo PRISMA** con los números reales del cribado (único punto
    🔴 del checklist de redacción)
 2. **Verificar con el PDF real** los casos señalados en `metodologia Prisma/4-resultados/
-   DIRIMIDO_R3.md` antes de dar los 58 incluidos por definitivos para los que se dirimieron
+   DIRIMIDO_R3.md` antes de dar los 75 incluidos por definitivos para los que se dirimieron
    solo por resumen
 3. **Redacción del paper** (100 % humana) — Métodos, Resultados, Discusión y Resumen ya están
    desbloqueados técnicamente; solo falta que el equipo escriba
@@ -366,3 +369,5 @@ Registro cronológico de lo que se va completando, para sincronizar al equipo.
 | 2026-10-26 | **P1 y P2 respondidas por el docente** (D18, D19): las actas de congreso no cuentan para el mínimo de 25 referencias (solo revista); en WoS debe ser SCIE/SSCI, no basta ESCI. No afecta a los 74 de la revisión sistemática (son 100 % artículos de revista); sí confirma la exclusión ya aplicada a la ref. #13 (LACCEI, actas) |
 | 2026-10-26 | **D20: se abandona el acceso institucional a WoS (P4)**, declarado como limitación en Métodos. El mínimo de 25 ya está superado con margen, no se justifica seguir persiguiéndolo |
 | 2026-10-26 | Descargados los PDF reales de los 74 incluidos: 58 conseguidos (6 vía script + 38 manualmente por el equipo + 14 ya existentes), 16 sin acceso (14 tras paywall, 2 sin DOI). Esos 16 se **reclasificaron a excluidos (E5)** en vez de dejarlos sin verificar. **Cifra final del cribado: 58 incluidos / 90 excluidos**, todos los 58 incluidos con PDF real en `referencias/` |
+| 2026-10-27 | Resolución de 23 casos "C0": evidencia real (PDF/web) reincorpora 23 estudios que habían quedado excluidos por ambigüedad de resumen. C0 revocado. **80 incluidos / 68 excluidos** — ver `CIERRE_AUDITADO.md` y `RESOLUCION_23_CASOS.md` |
+| 2026-10-27 | De esos 23, el equipo intentó descargar los 5 que seguían sin PDF local (ids 80, 11, 87, 94, 100) y confirma **paywall real, sin presupuesto**; el enlace de ResearchGate citado como evidencia también resultó bloqueado al reintentarlo. Reclasificados a excluidos (E5). **Cifra final: 75 incluidos / 73 excluidos** (39 E3, 12 E4, 22 E5), con PDF real para los 75 |

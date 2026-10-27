@@ -1,4 +1,4 @@
-> **Estado vigente 2026-10-27:** corpus cerrado de **57 estudios**. Auditoría y figura completadas, sin nuevas inclusiones; ID 126 excluido por PDF truncado. Se separan 74 no retenidos en selección documental y 17 no evaluables en recuperación. Los 9 de otros métodos no se suman. Ver [cierre auditado](<4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
+> **Estado vigente tras resolver C0 (2026-10-27): 80 incluidos / 68 excluidos.** Los 23 casos se incluyen por evidencia y C0 queda revocado. Son los mismos 148 estudios, sin busqueda de nuevos papers. Los 17 E5 y las 51 exclusiones documentales previas no se reabrieron. Ver [estado auditado](<4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son historicos.
 
 # Metodología PRISMA — organización de la carpeta
 
