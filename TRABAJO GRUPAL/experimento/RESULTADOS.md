@@ -40,7 +40,7 @@ equivoca algo más al hacerlo.
 
 Para seguridad en obra ese intercambio es favorable —un casco no detectado es peor que una
 falsa alarma— y conecta con el argumento de asimetría de costes del estudio de *Buildings* 2026
-que está en `referencias/05_Real-Synthetic-Data-Mixing_Buildings-2026.pdf`.
+que está en `referencias/_contexto_no_citados/C05_Real-Synthetic-Data-Mixing_Buildings-2026.pdf`.
 **Debe declararse en la Discusión, no omitirse.**
 
 **La brecha casco-chaleco persiste**: 0,9251 frente a 0,7933, unos 13 puntos. Es el reflejo

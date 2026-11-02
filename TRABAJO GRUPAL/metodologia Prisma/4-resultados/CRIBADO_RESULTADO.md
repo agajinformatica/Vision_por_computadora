@@ -1,3 +1,5 @@
+> **Cifras oficiales del cribado: [RESUMEN_CRIBADO_PRISMA.docx](<RESUMEN_CRIBADO_PRISMA.docx>) — 158 identificados, 75 incluidos / 73 excluidos.** Si este archivo muestra otras cifras, son históricas.
+
 # Cribado por título y resumen — resultado
 
 > **Primer tamizaje automatizado, no una decisión del equipo.** Las decisiones de cribado
@@ -68,7 +70,7 @@ de alto impacto, entre ellos:
 | 93 | Towards on-site hazards identification of improper use of PPE |
 | 90 | Construction Site Safety Management: A Computer Vision and Deep Learning approach |
 
-El segundo de esa lista es la **referencia #16 que el equipo ya había descargado y valorado
+El segundo de esa lista es la **referencia #16 (hoy #08) que el equipo ya había descargado y valorado
 como pertinente**. Un criterio que excluye lo que el propio equipo seleccionó está mal
 aplicado: la ausencia de una palabra en el resumen no prueba la ausencia del contenido
 en el estudio. Esa verificación corresponde a la etapa de texto completo, no a esta.

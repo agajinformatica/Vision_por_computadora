@@ -1,6 +1,8 @@
+> **Cifras oficiales del cribado: [RESUMEN_CRIBADO_PRISMA.docx](<RESUMEN_CRIBADO_PRISMA.docx>) — 158 identificados, 75 incluidos / 73 excluidos.** Si este archivo muestra otras cifras, son históricas.
+
 # Resolucion individual de los 23 casos C0
 
-Fecha: 2026-10-27. **Los 23 casos C0 quedan resueltos como incluir. Corpus: 80 incluidos y 68 excluidos de los mismos 148 registros.** No se identifica ni agrega ningun estudio nuevo. Se revoca el limite de 57 por cierre administrativo: la instruccion de no buscar mas papers no permite excluir elegibles de la lista original.
+Fecha: 2026-10-27. **Los 23 casos C0 quedan resueltos como incluir. Corpus: 80 incluidos y 68 excluidos de los mismos 148 registros.** (Estado posterior: 5 de los 23 se reclasificaron a E5 por paywall confirmado, por lo que `RESOLUCION_23_CASOS.csv` registra 18 incluir y 5 E5; cifra final: 75 incluidos / 73 excluidos.) No se identifica ni agrega ningun estudio nuevo. Se revoca el limite de 57 por cierre administrativo: la instruccion de no buscar mas papers no permite excluir elegibles de la lista original.
 
 Se mantienen intactas las columnas R1/R2 y sus motivos, las discrepancias historicas y los metadatos. Esta es una adjudicacion documental asistida por IA; no constituye otro revisor humano independiente. El protocolo original I1-I7 y E1-E6 sigue vigente. No se exige que el articulo use YOLO26, no hay umbral minimo de mAP, y los estudios de dataset con benchmark original son primarios. Se aceptan metricas agregadas o mejoras relativas y clases de presencia/ausencia, tal como en los 57 previos. Tener una interfaz de alertas, pose o AR no vuelve incidental el EPP cuando el detector es un objetivo principal con evaluacion propia.
 
@@ -84,7 +86,7 @@ Clases: safety helmet. Modelo: YOLOv5s-Improved. Cifra: **mAP50=92.4%; mAP50:95=
 
 Detector central de casco con regresion de cajas y experimento cuantitativo; la ausencia de cifras en resumen no equivale a E4.
 
-[Publicacion primaria](https://doi.org/10.3390/s23135824). [Fuente consultada](Vision_por_computadora\TRABAJO GRUPAL\referencias\25_Helmet-Improved-YOLOv5s_Sensors-2023.pdf).
+[Publicacion primaria](https://doi.org/10.3390/s23135824). [Fuente consultada](Vision_por_computadora\TRABAJO GRUPAL\referencias\12_Helmet-Improved-YOLOv5s_Sensors-2023.pdf).
 
 ### ID 26 — incluir
 
@@ -134,7 +136,7 @@ Clases: safety helmet. Modelo: SR residual + improved YOLOv5. Cifra: **P=88.6%; 
 
 El objetivo es deteccion de casco y el detector tiene AP propio. PSNR/SSIM del resumen son metricas auxiliares, no el fundamento de inclusion.
 
-[Publicacion primaria](https://doi.org/10.3390/s23041822). [Fuente consultada](Vision_por_computadora\TRABAJO GRUPAL\referencias\23_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf).
+[Publicacion primaria](https://doi.org/10.3390/s23041822). [Fuente consultada](Vision_por_computadora\TRABAJO GRUPAL\referencias\11_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf).
 
 ### ID 87 — incluir
 

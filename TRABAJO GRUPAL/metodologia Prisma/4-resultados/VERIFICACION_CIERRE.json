@@ -1,5 +1,20 @@
 {
   "fecha": "2026-10-27",
+  "nota": "Instantanea historica del cierre tras resolver los 23 C0 (80 incluidos / 68 excluidos). Las cifras vigentes estan en estado_vigente y en RESUMEN_CRIBADO_PRISMA.docx.",
+  "estado_vigente": {
+    "fecha": "2026-10-27 (tarde)",
+    "identificados": 158,
+    "excluidos_titulo_resumen": 10,
+    "cribados": 148,
+    "incluidos": 75,
+    "excluidos": 73,
+    "motivos": {
+      "E3": 39,
+      "E4": 12,
+      "E5": 22
+    },
+    "cambio_respecto_a_esta_instantanea": "5 de los 23 reincorporados (ids 80, 11, 87, 94, 100) pasaron a E5 por paywall confirmado: 17 E5 previos (16 sin PDF y el id 126 con PDF truncado) + 5 = 22 E5; incluidos 80 - 5 = 75; excluidos 68 + 5 = 73"
+  },
   "alcance": "resolver los 23 C0 sin reabrir los otros 125",
   "casos_resueltos": 23,
   "resolucion": {
@@ -51,98 +66,98 @@
     },
     {
       "id": 21,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_021.pdf",
+      "archivo": "63_Automatic-detection-of-safety-helmet_IETImageProcessing-2021.pdf",
       "paginas": 13,
       "sha256": "b147a1f49502c1026c28219e90e84d10e5e9991e27af757340753e6be509da13",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 22,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_022.pdf",
+      "archivo": "62_Deep-Learning-Technique-for-Object_InternationalJournal-2022.pdf",
       "paginas": 7,
       "sha256": "3ed3d286c9188b464313244878c1a3d261444c2b91c229635bf42d8351847619",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 23,
-      "archivo": "referencias\\25_Helmet-Improved-YOLOv5s_Sensors-2023.pdf",
+      "archivo": "referencias\\12_Helmet-Improved-YOLOv5s_Sensors-2023.pdf",
       "paginas": 23,
       "sha256": "57845d92c1705d8b55664820146029a63e8a6a6a8e62e6c44d854d799878ff1d",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 26,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_026.pdf",
+      "archivo": "74_DST-DETR-Image-Dehazing-RT-DETR-for_Sensors-2024.pdf",
       "paginas": 22,
       "sha256": "f2e491103c8468ce4d5fa8ff5b8b33dd13bf46353f76c8b9da1ac86082af7525",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 36,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_036.pdf",
+      "archivo": "66_Detection-Method-for-Safety-Helmet_Buildings-2025.pdf",
       "paginas": 13,
       "sha256": "d03c9ccabfa5e63a6ac0f92c50b213b315d8bb1ec4c8a8b07fe2a85c7356615d",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 86,
-      "archivo": "referencias\\23_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf",
+      "archivo": "referencias\\11_Helmet-YOLOv5-Super-Resolution_Sensors-2023.pdf",
       "paginas": 14,
       "sha256": "884213bc2c64f4a75de1a52f5072fa9bbbe247c183ba0aeeab95947a15a25f0a",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 92,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_092.pdf",
+      "archivo": "64_Effectiveness-of-Image-Augmentation_AppliedSciencesSwitz-2025.pdf",
       "paginas": 20,
       "sha256": "4f079d4e9fbc2d3a00af495817ea0b062d7b2a246c5a780b5322213fd57bb38c",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 95,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_095.pdf",
+      "archivo": "70_Real-Time-Personal-Protective-Equipment_ElectronicsSwitzerla-2024.pdf",
       "paginas": 28,
       "sha256": "a5e7f2453288590fc1324e5973f5282a20b9d1e2b3b2a80513be04141ee2132c",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 110,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_110.pdf",
+      "archivo": "65_A-Fast-and-Robust-Safety-Helmet-Network_Buildings-2024.pdf",
       "paginas": 12,
       "sha256": "5eb4719ff7ddefadfd8ef0be4f62c29ee5470af1a1db8db59a17e47feb4fa229",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 112,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_112.pdf",
+      "archivo": "67_SC-YOLO-A-Real-Time-CSP-Based-YOLOv11n_Buildings-2025.pdf",
       "paginas": 34,
       "sha256": "4bb9387868add99c1ee58370413f06ec40243d1f0513de1e90db051f7a303cdc",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 115,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_115.pdf",
+      "archivo": "72_A-deep-learning-based-algorithm-for-the_PLOSONE-2025.pdf",
       "paginas": 22,
       "sha256": "c22ea00bc2ce9dd5f99e11f6727557ddfd798774185b7f3ba62e23ff161c449a",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 125,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_125.pdf",
+      "archivo": "68_Comparative-Evaluation-of-YOLOv11n-Neck_Buildings-2026.pdf",
       "paginas": 33,
       "sha256": "fc99358ba02692392e015d231787f22398978d28cf88c058a78fda5dd5963aa7",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 141,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_141.pdf",
+      "archivo": "73_Noninvasive-Worker-Safety-Monitoring-and_Safety-2026.pdf",
       "paginas": 18,
       "sha256": "b5c27529c8075ff92252966e19f8e1ef6cf8583d06de7caef66fd551d34b0e50",
       "doi_cabecera_confirmado": true
     },
     {
       "id": 142,
-      "archivo": "metodologia Prisma\\4-resultados\\evidencia_23\\ID_142.pdf",
+      "archivo": "75_A-Vision-Based-Sensing-Framework-for-PPE_Sensors-2026.pdf",
       "paginas": 20,
       "sha256": "e2c147adfced220db818f82276253af057eeb143f79a9dc4a0d1b77226ee2689",
       "doi_cabecera_confirmado": true

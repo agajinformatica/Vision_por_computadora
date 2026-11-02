@@ -1,7 +1,7 @@
 # 02 · Flujo de la revisión sistemática
 
 Cómo funciona el embudo PRISMA y en qué punto estamos.
-**Actualizado: 2026-10-09**
+**Actualizado: 2026-11-02 (cribado cerrado)**
 
 ```mermaid
 flowchart TB
@@ -22,14 +22,19 @@ flowchart TB
     end
     DUP --> C1 --> C2
 
-    subgraph ELE["ELEGIBILIDAD · texto completo"]
-        E1["148 textos a evaluar<br/>79 alta confianza<br/>69 a verificar"]:::todo
-        E2["Excluidos con motivo<br/>codigos E1 a E6"]:::todo
+    subgraph ELE["ELEGIBILIDAD · selección documental y recuperación"]
+        E1["148 cribados por I1-I7"]:::ok
+        E2["Excluidos en selección documental: 51<br/>39 E3 · 12 E4"]:::ok
+        E3["97 buscados para recuperación"]:::ok
+        E4["No recuperados: 22 (E5)"]:::ok
+        E5["75 evaluados<br/>0 excluidos tras la evaluación"]:::ok
     end
-    C1 --> E1 --> E2
+    C1 --> E1 --> E3 --> E5
+    E1 --> E2
+    E3 --> E4
 
-    INC(["ESTUDIOS INCLUIDOS<br/>alimentan la Introduccion"]):::meta
-    E1 --> INC
+    INC(["ESTUDIOS INCLUIDOS: 75<br/>alimentan la Introduccion"]):::ok
+    E5 --> INC
 
     classDef ok fill:#d4edda,stroke:#28a745,color:#155724
     classDef todo fill:#fff3cd,stroke:#ffc107,color:#856404
@@ -57,13 +62,16 @@ texto completo solo cuesta tiempo. Por eso la primera es permisiva y la segunda,
 |---|---|
 | Identificados en bases de datos | **158** · Scopus |
 | Identificados por otros métodos | 9 |
-| Duplicados eliminados | — *(al sumar WoS)* |
+| Duplicados eliminados | 0 (sin DOI repetidos; sin WoS no hubo deduplicación) |
 | Cribados por título y resumen | 158 |
 | Excluidos en cribado | **10** |
-| Buscados para recuperación | **148** |
-| Evaluados en texto completo | — |
-| Excluidos en texto completo, con motivo | — |
-| **Estudios incluidos** | — |
+| Cribados por criterios I1-I7 (selección documental) | **148** |
+| Excluidos en selección documental | **51** (39 E3, 12 E4) |
+| Buscados para recuperación | **97** |
+| No recuperados (E5) | **22** |
+| Evaluados para elegibilidad | **75** |
+| Excluidos tras la evaluación | 0 |
+| **Estudios incluidos** | **75** |
 
 ## Quién hace qué
 
@@ -78,4 +86,4 @@ flowchart LR
 ```
 
 PRISMA exige **dos revisores independientes** y un tercero que resuelva discrepancias.
-El equipo son tres personas, así que encaja exacto. Se reporta cuántas discrepancias hubo.
+Se planteó con tres revisores (R1, R2, R3); en la práctica fueron asistentes de IA. Se reporta cuántas discrepancias hubo (28).

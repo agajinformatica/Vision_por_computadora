@@ -1,6 +1,8 @@
-> **Estado vigente tras resolver C0 (2026-10-27): 80 incluidos / 68 excluidos; ningun C0 pendiente.** Se reincorporan los 23 por evidencia de elegibilidad, sin agregar estudios a los 148 originales. Ver [CIERRE_AUDITADO.md](CIERRE_AUDITADO.md) y [RESOLUCION_23_CASOS.md](RESOLUCION_23_CASOS.md). Los recuentos de 57 y C0 que siguen son historicos.
+> **Cifras oficiales del cribado: [RESUMEN_CRIBADO_PRISMA.docx](<RESUMEN_CRIBADO_PRISMA.docx>) — 158 identificados, 75 incluidos / 73 excluidos.** Si este archivo muestra otras cifras, son históricas.
 
-> **Estado vigente — auditoría 2026-10-27:** corpus cerrado de **57 incluidos / 91 no incluidos**. No se añaden estudios. Ver [CIERRE_AUDITADO.md](CIERRE_AUDITADO.md) y `AUDITORIA_CIERRE.csv`. Los recuentos siguientes son históricos; no usar 64, 74, 58 ni 132 como resultado actual. Se distinguen selección documental, cierre administrativo C0 y recuperación E5.
+> **Estado previo (histórico) tras resolver C0 (2026-10-27): 80 incluidos / 68 excluidos; ningun C0 pendiente.** Se reincorporan los 23 por evidencia de elegibilidad, sin agregar estudios a los 148 originales. Ver [CIERRE_AUDITADO.md](CIERRE_AUDITADO.md) y [RESOLUCION_23_CASOS.md](RESOLUCION_23_CASOS.md). Los recuentos de 57 y C0 que siguen son historicos.
+
+> **Estado previo (histórico) — auditoría 2026-10-27:** corpus cerrado de **57 incluidos / 91 no incluidos**. No se añaden estudios. Ver [CIERRE_AUDITADO.md](CIERRE_AUDITADO.md) y `AUDITORIA_CIERRE.csv`. Los recuentos siguientes son históricos; no usar 64, 74, 58 ni 132 como resultado actual. Se distinguen selección documental, cierre administrativo C0 y recuperación E5.
 
 # Cribado de texto completo — dirimido (R3)
 

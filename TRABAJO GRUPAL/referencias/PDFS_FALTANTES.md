@@ -7,7 +7,7 @@
 # PDF de los 75 estudios incluidos — actualizado 2026-10-27
 
 **Los 75 incluidos tienen PDF real** en esta carpeta. El 2026-10-27 se catalogaron 15 PDFs
-nuevos (numerados 80 a 94) correspondientes a estudios reincorporados al resolver los 23 casos,
+nuevos (que entonces se numeraron 80 a 94; hoy renumerados, ver `MAPA_RENUMERACION.csv`) correspondientes a estudios reincorporados al resolver los 23 casos,
 y se eliminaron 8 descargas duplicadas exactas (mismo contenido, nombre distinto) de papers que
 ya estaban catalogados.
 

@@ -8,7 +8,7 @@
 Instrumento de seguimiento, **no texto del paper**. Un ítem por unidad de redacción, con
 criterio de cierre. Las cifras están incrustadas para no tener que ir a buscarlas.
 
-**Redacción: 100% humana.** Última actualización: **2026-10-10** — cifras de 3.2 y 3.3 auditadas
+**Redacción: 100% humana** (regla del equipo; el borrador actual incluye texto asistido por IA y declarado, pendiente de decisión — ver `GUIA_INVESTIGADOR.md`, frente D). Última actualización: **2026-11-02** — 32 referencias (27 de revista), 8 páginas, cifras contrastadas con los PDFs
 
 | Estado | Significa |
 |---|---|
@@ -23,7 +23,7 @@ y verificar que no queda ninguno.
 
 ## 0 · Portada 🟢
 
-- [ ] Nombres y apellidos completos de los tres integrantes, en el orden acordado
+- [ ] Nombres y apellidos completos de los cinco integrantes, en el orden acordado
 - [ ] Correo de contacto único (decidir cuál)
 - [ ] Afiliación verificada: *Maestría en Inteligencia Artificial · Universidad Nacional Mayor de San Marcos*
 - [ ] Título definitivo confirmado (hoy: *Detección de casco y chaleco de seguridad en obras de construcción mediante YOLO26*)
@@ -32,7 +32,7 @@ y verificar que no queda ninguno.
 
 ## 1 · Resumen 🟡  ·  150-200 palabras  ·  se escribe AL FINAL
 
-> Desbloqueado en lo técnico: el resultado principal ya existe (**mAP50 0,8592**). Sigue
+> Desbloqueado en lo técnico: el resultado principal ya existe (**mAP50-95 0,5322**, métrica principal; mAP50 0,8592). Sigue
 > conviniendo escribirlo al final, cuando Discusión esté cerrada.
 
 Los seis elementos en este orden. Cada uno es un ítem porque la rúbrica los busca uno por uno.
@@ -65,9 +65,9 @@ Los seis elementos en este orden. Cada uno es un ítem porque la rúbrica los bu
 
 - [x] ✔ **Decisión tomada (D16)**: se ajusta el texto. Aporte definitivo en el recuadro de arriba
 - [ ] (a) El problema de visión planteado y su relevancia para la seguridad en obra
-- [ ] (a) Dato de contexto con cita (informe HSE, ref. 10) — magnitud del problema, no opinión
+- [ ] (a) Dato de contexto con cita (informe HSE, ref. C10) — magnitud del problema, no opinión
 - [ ] (b) Antecedentes **integrados en la prosa**, no listados
-- [ ] (b) Mención de la revisión sistemática previa como antecedente (ref. 12, *AI Review* 2024)
+- [ ] (b) Mención de la revisión sistemática previa como antecedente (ref. C12, *AI Review* 2024)
 - [ ] (b) Al menos una frase que identifique el hueco que este trabajo cubre
 - [ ] (c) Objetivo del trabajo, explícito
 - [ ] (c) Aporte, usando la frase fijada en D16 — **no prometer NMS-free ni generalización**
@@ -95,14 +95,16 @@ Insumo: `metodologia Prisma/2-protocolo/` · Reportar según PRISMA-S.
 - [ ] Limitación declarada: búsqueda en una sola base
 - [ ] ⟦quién ejecutó la búsqueda⟧ y ⟦formato de exportación⟧ — faltan en `CADENAS_BUSQUEDA.md`
 - [ ] Cifras del embudo coherentes con la Figura 1
+- [ ] Limitaciones del cribado declaradas según `RESUMEN_CRIBADO_PRISMA.docx`: revisores asistentes de IA, cegamiento de R2 no garantizado, selección documental no reabierta con texto completo y 22 E5 (incluido el ID 80)
 
-**Cifras disponibles:** 158 identificados en Scopus · 9 por otros métodos · 10 excluidos en
-título/resumen · 148 a texto completo · **75 incluidos** (73 excluidos: 39 E3 EPP/tarea fuera de
-alcance, 12 sin métrica cuantitativa, 22 texto completo inaccesible). Cribado cerrado
-2026-10-26, con dos revisores independientes y dirimido; el 2026-10-27 se reabrieron 23 casos
-por evidencia real de elegibilidad (C0 revocado) y luego se reclasificaron 5 de ellos a
-inaccesibles por paywall confirmado. Los **75 incluidos finales tienen PDF real** en
-`referencias/`. Ver `metodologia Prisma/4-resultados/CIERRE_AUDITADO.md`,
+**Cifras disponibles (oficiales: `metodologia Prisma/4-resultados/RESUMEN_CRIBADO_PRISMA.docx`):**
+158 identificados en Scopus · 9 por otros métodos (contexto, no entran en el balance) · 10
+excluidos en título/resumen · 148 cribados por criterios I1-I7 · 51 excluidos en selección
+documental (39 E3, 12 E4) · 97 buscados para recuperación · 22 no recuperados (E5) · 75
+evaluados y **75 incluidos** (72 con PDF local, 2 con PDF web y 1 con cuerpo indexado).
+Cribado cerrado el 2026-10-27, con R1, R2 y R3 asistentes de IA (no revisores humanos
+independientes); ese día se reabrieron 23 casos por evidencia (C0 revocado) y 5 de ellos se
+reclasificaron a E5 por paywall confirmado. Ver `metodologia Prisma/4-resultados/CIERRE_AUDITADO.md`,
 `metodologia Prisma/4-resultados/DIRIMIDO_R3.md` y `referencias/PDFS_FALTANTES.md`.
 
 ### 3.2 Conjuntos de datos 🟢  ·  ~0,4 pág
@@ -352,7 +354,7 @@ Nadie depende de ti para esto y vale puntos. Insumo: sección 6 de `GUIA_INVESTI
 **Escribible hoy sin ninguna dependencia: 78 ítems.** Con el entrenamiento cerrado, se suman
 Resultados (11), Discusión (11), 3.4 Modelo (7) y el Resumen en lo técnico.
 
-**Figura 1 actualizada el 2026-10-27 (tarde):** 75 incluidos; SVG y pie del Word a resincronizar tras reclasificar 5 casos a E5 por paywall confirmado. Ver CIERRE_AUDITADO.md para alcance y límites de la evaluación documental.
+**Figura 1 sincronizada el 2026-11-02:** flujo en orden PRISMA 2020 (158 → 10 → 148 → 51 → 97 → 22 → 75); SVG, PNG y pie del Word actualizados con las cifras de `RESUMEN_CRIBADO_PRISMA.docx`. Ver CIERRE_AUDITADO.md para alcance y límites de la evaluación documental.
 
 ---
 
@@ -369,6 +371,8 @@ Orden recomendado: **3.2 → 3.3 → 3.5 → 3.6 → 6 → 7 → 3.1 → 2 → 5
 
 | Fecha | Bloque | Resultado |
 |---|---|---|
+| 2026-11-02 | 3.1 PRISMA | **Cribado dado por final** con `RESUMEN_CRIBADO_PRISMA.docx` como fuente oficial (158 → 75 incluidos / 73 excluidos). Figura 1 (SVG, PNG y pie del Word) y resúmenes sincronizados |
+| 2026-11-02 | Paper único (`Esqueleto_Paper_EPP_YOLO26.docx`): introducción y referencias del Borrador fusionadas, 2.1 PRISMA y declaración de IA redactadas, 2 clases en todo el texto, cifras validadas contra `RESULTADOS.md`, `estadisticas.json` y el cribado; **la literatura citada se limita a los 75 incluidos** (32 referencias: 27 de revista y 5 de método; 8 páginas; cifras contrastadas con los PDFs) |
 | 2026-10-26 | 3.1 PRISMA | Cerrado el cribado de texto completo de los 148 estudios: R1 y R2 independientes + dirimido de discrepancias. **74 incluidos / 74 excluidos** en el dirimido inicial, basado en resumen/título — ver `DIRIMIDO_R3.md` |
 | 2026-10-26 | 3.1 PRISMA | Descargados los PDF reales de los incluidos. Los 16 que no se pudieron recuperar (14 tras paywall, 2 sin DOI) se reclasificaron a excluidos (E5, texto completo inaccesible). **Cifra final: 58 incluidos / 90 excluidos** |
 | 2026-10-27 | 3.1 PRISMA | Resolución de 23 casos "C0" con evidencia real (web/PDF): C0 revocado, **80 incluidos / 68 excluidos** |

@@ -1,3 +1,5 @@
+> **Cifras oficiales del cribado: [RESUMEN_CRIBADO_PRISMA.docx](<../metodologia Prisma/4-resultados/RESUMEN_CRIBADO_PRISMA.docx>) — 158 identificados, 75 incluidos / 73 excluidos.** Si este archivo muestra otras cifras, son históricas.
+
 Revisión sistemática · PRISMA 2020
 
 # Cómo cribar los 148 estudios

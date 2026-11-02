@@ -1,4 +1,6 @@
-> **Estado vigente tras resolver C0 (2026-10-27): 80 incluidos / 68 excluidos.** Los 23 casos se incluyen por evidencia y C0 queda revocado. Son los mismos 148 estudios, sin busqueda de nuevos papers. Los 17 E5 y las 51 exclusiones documentales previas no se reabrieron. Ver [estado auditado](<4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son historicos.
+> **Cifras oficiales del cribado: [RESUMEN_CRIBADO_PRISMA.docx](<4-resultados/RESUMEN_CRIBADO_PRISMA.docx>) — 158 identificados, 75 incluidos / 73 excluidos.** Si este archivo muestra otras cifras, son históricas.
+
+> **Estado vigente (cribado cerrado, 2026-10-27): 158 identificados, 75 incluidos / 73 excluidos** (39 E3, 12 E4, 22 E5). Es el estado posterior a resolver C0 (80/68) y reclasificar 5 casos a E5 por paywall confirmado. Son los mismos 148 estudios, sin búsqueda de nuevos papers; las 51 exclusiones documentales no se reabrieron. Ver [estado auditado](<4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son históricos.
 
 # Metodología PRISMA — organización de la carpeta
 
@@ -69,11 +71,14 @@ Lo que sale de procesar la evidencia. **Esta carpeta crece conforme avanza el tr
 
 | Etapa | Valor |
 |---|---|
-| Identificados en bases de datos | **158** (Scopus) · WoS pendiente |
-| Identificados por otros métodos | 9 |
-| Duplicados eliminados | — *(al sumar WoS)* |
+| Identificados en bases de datos | **158** (Scopus) · WoS abandonado (D20) |
+| Identificados por otros métodos | 9 (contexto, no entran en el balance) |
+| Duplicados eliminados | 0 (sin DOI repetidos; sin WoS no hubo deduplicación entre bases) |
 | Excluidos en cribado título/resumen | **10** |
-| Buscados para recuperación | **148** |
-| Evaluados en texto completo | — |
-| Excluidos en texto completo, con motivo | — |
-| **Estudios incluidos** | — |
+| Cribados por criterios I1-I7 (selección documental) | **148** |
+| Excluidos en selección documental | **51** (39 E3, 12 E4) |
+| Buscados para recuperación | **97** |
+| No recuperados (E5) | **22** |
+| Evaluados para elegibilidad | **75** |
+| Excluidos tras la evaluación | 0 |
+| **Estudios incluidos** | **75** |

@@ -19,8 +19,8 @@ flowchart LR
 
     subgraph DEP["Dependen de algo"]
         Z1["Cadena definitiva<br/>en las bases correctas"]:::todo
-        Z2["Cribado texto completo<br/>148 papers"]:::todo
-        Z3["Diagrama de flujo<br/>con numeros reales"]:::todo
+        Z2["Cribado de elegibilidad<br/>75 incluidos / 73 excluidos"]:::ok
+        Z3["Diagrama de flujo<br/>con numeros reales"]:::ok
         Z4["Introduccion"]:::todo
     end
 

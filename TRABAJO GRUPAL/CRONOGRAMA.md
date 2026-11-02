@@ -17,7 +17,7 @@ Lo que se evalúa: problema delimitado (5) · datos descritos y divididos (5) ·
 | ~~**S1**~~ | ~~9 – 11 oct~~ | ✅ **completada el 9 oct**: dataset, entrenamiento y resultados | Arnold |
 | **S2** | 12 – 18 oct | Resultados en tabla. Repartir y arrancar cribado de texto completo | equipo |
 | **S3** | 19 – 25 oct | Cribado avanzado. Redactar Introducción y Métodos | equipo |
-| **S4** | 26 oct – 1 nov | Cerrar estudios incluidos. Diagrama de flujo con números reales | equipo |
+| ~~**S4**~~ | ~~26 oct – 1 nov~~ | ✅ **completada**: cribado cerrado (27 oct) y diagrama de flujo con números reales (2 nov) | equipo |
 | **S5** | 2 – 7 nov | Preparar y ensayar la exposición del avance | equipo |
 
 > **El entrenamiento debe quedar listo este fin de semana.** Todo lo demás depende de
@@ -31,7 +31,7 @@ formato (2).
 | Semana | Fechas | Objetivo |
 |---|---|---|
 | S6-S7 | 8 – 22 nov | Corregir lo señalado en el parcial. Experimentos adicionales si procede |
-| S8 | 23 – 29 nov | Redacción completa: Resultados y Discusión |
+| S8 | 23 – 29 nov | ✅ Borrador completo ya existe (2 nov, 8 páginas); queda decidir autoría y pulir Resultados y Discusión |
 | S9 | 30 nov – 6 dic | Referencias en IEEE, figuras, formato. Notebook reproducible de principio a fin |
 | S10 | 7 – 12 dic | Ensayar la defensa. Desplegar la demo en el VPS |
 
@@ -40,8 +40,8 @@ formato (2).
 | Para | Fecha tope | Por qué |
 |---|---|---|
 | ~~Entrenamiento terminado~~ | ~~12 oct~~ | ✅ **hecho el 9 oct, tres días antes** |
-| Cribado de 148 textos cerrado | **1 nov** | Alimenta la Introducción y el diagrama de flujo |
-| Borrador completo del paper | **29 nov** | Deja dos semanas para pulir |
+| ~~Cribado de 148 textos cerrado~~ | ~~1 nov~~ | ✅ **cerrado el 27 oct**: 75 incluidos / 73 excluidos (`metodologia Prisma/4-resultados/RESUMEN_CRIBADO_PRISMA.docx`). Alimenta la Introducción y el diagrama de flujo |
+| ~~Borrador completo del paper~~ | ~~29 nov~~ | ✅ **hecho el 2 nov** (`doc-borrador/Esqueleto_Paper_EPP_YOLO26.docx`); quedan pulido y decisión de autoría |
 | Demo desplegada en el VPS | **7 dic** | Para ensayar la defensa con ella funcionando |
 
 ## Riesgo principal

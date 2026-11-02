@@ -1,3 +1,5 @@
+> **Cifras oficiales del cribado: [RESUMEN_CRIBADO_PRISMA.docx](<RESUMEN_CRIBADO_PRISMA.docx>) — 158 identificados, 75 incluidos / 73 excluidos.** Si este archivo muestra otras cifras, son históricas.
+
 > **Estado vigente (2026-10-27, tarde): 75 incluidos / 73 excluidos.** De los 23 casos
 > reincorporados por evidencia web (abajo), 5 (ids 80, 11, 87, 94, 100) no tenían PDF local ni
 > acceso alternativo verificable: el equipo intentó descargarlos y confirma paywall real, sin

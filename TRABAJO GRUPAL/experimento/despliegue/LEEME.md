@@ -13,7 +13,7 @@ defensa oral**, que vale 6 de los 20 puntos del examen final.
 | Imagen | `epp-yolo26-epp-yolo26:latest` |
 | Desplegado | 2026-10-09 ✅ |
 | Interfaz | v0.2 — visualización de cajas sobre la imagen |
-| Modelo | ⬜ pendiente de entrenamiento |
+| Modelo | ✅ `yolo26n_best.pt` entrenado (RESULTADOS.md); estado del servidor según GUIA §3.C: `pesos_presentes: true` |
 
 ## Endpoints
 

@@ -1,53 +1,384 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1190" viewBox="0 0 1200 1190"><title>Flujo auditado de selección documental</title><rect width="1200" height="1190" fill="white"/>
-<text x="50" y="32" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#17324d">Figura 1. Flujo auditado de selección documental</text>
-<text x="50" y="65" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Adaptación del reporte PRISMA 2020 · resolución de 23 casos el 27 de octubre de 2026</text>
-<rect x="70" y="110" width="630" height="90" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="141.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Registros identificados en Scopus</text>
-<text x="385.0" y="168.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 158</text>
-<rect x="70" y="245" width="630" height="90" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="276.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Cribado inicial por título y resumen</text>
-<text x="385.0" y="303.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 158</text>
-<rect x="760" y="245" width="370" height="90" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
-<text x="945.0" y="276.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">Excluidos inicialmente</text>
-<text x="945.0" y="303.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 10</text>
-<rect x="70" y="380" width="630" height="115" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="410.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Selección documental complementaria</text>
-<text x="385.0" y="437.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Título, resumen y evidencia previa</text>
-<text x="385.0" y="464.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 148</text>
-<rect x="760" y="375" width="370" height="135" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
-<text x="945.0" y="415.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">Exclusiones documentales previas</text>
-<text x="945.0" y="442.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">39 E3 + 12 E4</text>
-<text x="945.0" y="469.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 51</text>
-<rect x="70" y="550" width="630" height="90" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="581.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Informes para recuperación o consulta</text>
-<text x="385.0" y="608.5" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 97</text>
-<rect x="760" y="535" width="370" height="120" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
-<text x="945.0" y="568.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">No evaluables en recuperación</text>
-<text x="945.0" y="595.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#17324d">16 no recuperados + 1 truncado</text>
-<text x="945.0" y="622.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 17 (E5)</text>
-<rect x="70" y="700" width="630" height="110" rx="10" fill="#eef5fb" stroke="#4b7192" stroke-width="2"/>
-<text x="385.0" y="728.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">Evidencia de elegibilidad evaluada</text>
-<text x="385.0" y="755.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#17324d">79 textos por secciones + 1 cuerpo indexado</text>
-<text x="385.0" y="782.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#17324d">n = 80</text>
-<rect x="760" y="705" width="370" height="100" rx="10" fill="#fff1e8" stroke="#b67c53" stroke-width="2"/>
-<text x="945.0" y="732.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Exclusiones adicionales</text>
-<text x="945.0" y="756.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#17324d">E5, paywall confirmado 27-oct</text>
-<text x="945.0" y="780.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">n = 5</text>
-<rect x="70" y="875" width="1060" height="100" rx="10" fill="#eaf4e8" stroke="#4b7b4b" stroke-width="2"/>
-<text x="600.0" y="904.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#17324d">Estudios incluidos tras resolver los 23 casos y reclasificar 5 por paywall</text>
-<text x="600.0" y="934.0" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#17324d">n = 75</text>
-<path d="M385 200 L385 245 M379 235 L385 245 L391 235" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M385 335 L385 380 M379 370 L385 380 L391 370" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M385 495 L385 550 M379 540 L385 550 L391 540" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M385 640 L385 700 M379 690 L385 700 L391 690" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M385 810 L385 875 M379 865 L385 875 L391 865" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M700 290 L760 290 M750 284 L760 290 L750 296" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M700 440 L760 440 M750 434 L760 440 L750 446" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M700 595 L760 595 M750 589 L760 595 L750 601" fill="none" stroke="#65778a" stroke-width="3"/>
-<path d="M700 755 L760 755 M750 749 L760 755 L750 761" fill="none" stroke="#65778a" stroke-width="3"/>
-<text x="50" y="1020" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">C0 revocado: los 23 casos cumplen los criterios originales y se incluyen.</text>
-<text x="50" y="1050" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Los 9 registros de otros métodos quedan como bibliografía de contexto, sin sumarse.</text>
-<text x="50" y="1080" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">De los 80 con evidencia evaluada, 5 no tenían PDF accesible: paywall confirmado 27-oct, sin presupuesto.</text>
-<text x="50" y="1110" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#17324d">Balance: 158 = 10 + 51 + 17 + 5 + 75. Excluidos totales = 73 (51 documentales + 22 E5).</text>
-<text x="50" y="1150" dominant-baseline="middle" text-anchor="start" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#17324d">Fuente: CSV, evidencia documental y RESOLUCION_23_CASOS.md · elaboración propia.</text>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="967.68pt" height="835.2pt" viewBox="0 0 967.68 835.2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:c2pa="http://c2pa.org/manifest">
+ <metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmMzQxYzUzMC0wOTgyLTRmZWMtYTQ1Yi1lYTY4MDcwMDY0MDkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOZPvnKIpHKR1WH3/2OzD6IAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2NGZiNTUwOC05N2Q2LTRlNTUtOTM1MC1mZmEyNTc3OWQ1MzhscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoBAgoK0OcX8R0CCJAYQap0wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggmfghtV1Hl5PQyFsVOcvfNdpooETicuRkjIS4cr1cHfOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPzFR1YghIjjRFIbQXZsv8UAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHYTPzNu8xaI8kszVJPuVmX3a834vhiRatxrTKTSDeDCZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQF7Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmYzNDFjNTMwLTA5ODItNGZlYy1hNDViLWVhNjgwNzAwNjQwOS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjMzYTJlZmEzLWQ5ZWUtNDZhMC1iNjEyLWRjMmNkNWFkYjJiN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCZ+CG1XUeXk9DIWxU5y9812migROJy5GSMhLhyvVwd86JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggvJXd0KalO0mS6jiJ7b+Ahb1AyFhM6Z8evVsKEZf2YU2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggIYtG+LvA6VKL4pBASlpgtZ/ro3DD1g6xE3qqYt18R9h0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCGeYpWe6H1fUQQJ4c7FSxBcAq7JaJKv/FUf0ZzBn8W5W//JAKcIahv8/y55PgHRnrXF1eNCucBJuf6LCWEhYKA=</c2pa:manifest>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T17:35:47.817832</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 835.2 
+L 967.68 835.2 
+L 967.68 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 60.48 79.2 
+L 447.84 79.2 
+Q 457.92 79.2 457.92 89.28 
+L 457.92 161.28 
+Q 457.92 171.36 447.84 171.36 
+L 60.48 171.36 
+Q 50.4 171.36 50.4 161.28 
+L 50.4 89.28 
+Q 50.4 79.2 60.48 79.2 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 254.16 173.363906 
+Q 254.16 188.642459 254.16 202.132157 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 256.96 196.532157 
+L 254.16 202.132157 
+L 251.36 196.532157 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 550.08 79.2 
+L 930.24 79.2 
+Q 940.32 79.2 940.32 89.28 
+L 940.32 161.28 
+Q 940.32 171.36 930.24 171.36 
+L 550.08 171.36 
+Q 540 171.36 540 161.28 
+L 540 89.28 
+Q 540 79.2 550.08 79.2 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 459.921401 125.28 
+Q 498.961184 125.28 536.212113 125.28 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 530.612113 122.48 
+L 536.212113 125.28 
+L 530.612113 128.08 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 60.48 205.92 
+L 447.84 205.92 
+Q 457.92 205.92 457.92 216 
+L 457.92 288 
+Q 457.92 298.08 447.84 298.08 
+L 60.48 298.08 
+Q 50.4 298.08 50.4 288 
+L 50.4 216 
+Q 50.4 205.92 60.48 205.92 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 254.16 300.083906 
+Q 254.16 315.362459 254.16 328.852157 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 256.96 323.252157 
+L 254.16 328.852157 
+L 251.36 323.252157 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 550.08 205.92 
+L 930.24 205.92 
+Q 940.32 205.92 940.32 216 
+L 940.32 288 
+Q 940.32 298.08 930.24 298.08 
+L 550.08 298.08 
+Q 540 298.08 540 288 
+L 540 216 
+Q 540 205.92 550.08 205.92 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 459.921401 252 
+Q 498.961184 252 536.212113 252 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 530.612113 249.2 
+L 536.212113 252 
+L 530.612113 254.8 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 60.48 332.64 
+L 447.84 332.64 
+Q 457.92 332.64 457.92 342.72 
+L 457.92 414.72 
+Q 457.92 424.8 447.84 424.8 
+L 60.48 424.8 
+Q 50.4 424.8 50.4 414.72 
+L 50.4 342.72 
+Q 50.4 332.64 60.48 332.64 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 254.16 426.803906 
+Q 254.16 442.082459 254.16 455.572157 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 256.96 449.972157 
+L 254.16 455.572157 
+L 251.36 449.972157 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 550.08 332.64 
+L 930.24 332.64 
+Q 940.32 332.64 940.32 342.72 
+L 940.32 414.72 
+Q 940.32 424.8 930.24 424.8 
+L 550.08 424.8 
+Q 540 424.8 540 414.72 
+L 540 342.72 
+Q 540 332.64 550.08 332.64 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 459.921401 378.72 
+Q 498.961184 378.72 536.212113 378.72 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 530.612113 375.92 
+L 536.212113 378.72 
+L 530.612113 381.52 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 60.48 459.36 
+L 447.84 459.36 
+Q 457.92 459.36 457.92 469.44 
+L 457.92 541.44 
+Q 457.92 551.52 447.84 551.52 
+L 60.48 551.52 
+Q 50.4 551.52 50.4 541.44 
+L 50.4 469.44 
+Q 50.4 459.36 60.48 459.36 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 254.16 553.523906 
+Q 254.16 568.802459 254.16 582.292157 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 256.96 576.692157 
+L 254.16 582.292157 
+L 251.36 576.692157 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 550.08 459.36 
+L 930.24 459.36 
+Q 940.32 459.36 940.32 469.44 
+L 940.32 541.44 
+Q 940.32 551.52 930.24 551.52 
+L 550.08 551.52 
+Q 540 551.52 540 541.44 
+L 540 469.44 
+Q 540 459.36 550.08 459.36 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #fbefee; stroke: #d9534f; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 459.921401 505.44 
+Q 498.961184 505.44 536.212113 505.44 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 530.612113 502.64 
+L 536.212113 505.44 
+L 530.612113 508.24 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 60.48 586.08 
+L 447.84 586.08 
+Q 457.92 586.08 457.92 596.16 
+L 457.92 668.16 
+Q 457.92 678.24 447.84 678.24 
+L 60.48 678.24 
+Q 50.4 678.24 50.4 668.16 
+L 50.4 596.16 
+Q 50.4 586.08 60.48 586.08 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 254.16 680.243906 
+Q 254.16 695.522459 254.16 709.012157 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 256.96 703.412157 
+L 254.16 709.012157 
+L 251.36 703.412157 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 550.08 586.08 
+L 930.24 586.08 
+Q 940.32 586.08 940.32 596.16 
+L 940.32 668.16 
+Q 940.32 678.24 930.24 678.24 
+L 550.08 678.24 
+Q 540 678.24 540 668.16 
+L 540 596.16 
+Q 540 586.08 550.08 586.08 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #ffffff; stroke: #c9c9c0; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 459.921401 632.16 
+Q 498.961184 632.16 536.212113 632.16 
+" clip-path="url(#p76066bdbb2)" style="fill: none; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 530.612113 629.36 
+L 536.212113 632.16 
+L 530.612113 634.96 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #b9b9b0; stroke: #b9b9b0; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 60.48 712.8 
+L 447.84 712.8 
+Q 457.92 712.8 457.92 722.88 
+L 457.92 794.88 
+Q 457.92 804.96 447.84 804.96 
+L 60.48 804.96 
+Q 50.4 804.96 50.4 794.88 
+L 50.4 722.88 
+Q 50.4 712.8 60.48 712.8 
+z
+" clip-path="url(#p76066bdbb2)" style="fill: #e8f0fa; stroke: #2f7bd6; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15.876px; font-family: 'Inter'; text-anchor: start; fill: #1f1f1f" x="30.24" y="34.575205" transform="rotate(-0 30.24 34.575205)">Figura 1. Flujo de selección de estudios (PRISMA 2020)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="30.24" y="56.946797" transform="rotate(-0 30.24 56.946797)">Scopus, búsqueda del 2026-10-09 · cribado cerrado el 2026-10-27</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="108.132539" transform="rotate(-0 254.16 108.132539)">Identificados en Scopus</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="129.732539" transform="rotate(-0 254.16 129.732539)">n = 158</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="150.677754" transform="rotate(-0 254.16 150.677754)">búsqueda del 2026-10-09</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: start; fill: #1f1f1f" x="560.16" y="109.572539" transform="rotate(-0 560.16 109.572539)">Duplicados eliminados: 0</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="128.946797" transform="rotate(-0 560.16 128.946797)">sin DOI repetidos</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="149.106797" transform="rotate(-0 560.16 149.106797)">Web of Science no consultado</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="234.852539" transform="rotate(-0 254.16 234.852539)">Cribados por título y resumen</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="256.452539" transform="rotate(-0 254.16 256.452539)">n = 158</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="277.397754" transform="rotate(-0 254.16 277.397754)">criterio permisivo: ante la duda, pasa</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: start; fill: #1f1f1f" x="560.16" y="236.292539" transform="rotate(-0 560.16 236.292539)">Excluidos: 10</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="255.666797" transform="rotate(-0 560.16 255.666797)">7 E3 (EPP fuera de alcance)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="275.826797" transform="rotate(-0 560.16 275.826797)">3 E1 (revisiones)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="361.572539" transform="rotate(-0 254.16 361.572539)">Cribados por criterios I1-I7 (selección documental)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="383.172539" transform="rotate(-0 254.16 383.172539)">n = 148</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="404.117754" transform="rotate(-0 254.16 404.117754)">R1 y R2 por separado (cegamiento no garantizado); R3 dirime 28</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: start; fill: #1f1f1f" x="560.16" y="363.012539" transform="rotate(-0 560.16 363.012539)">Excluidos en selección documental: 51</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="382.386797" transform="rotate(-0 560.16 382.386797)">39 E3 (EPP o tarea fuera de alcance) · 12 E4 (sin métrica)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="402.546797" transform="rotate(-0 560.16 402.546797)">no reabiertos con texto completo</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="488.292539" transform="rotate(-0 254.16 488.292539)">Buscados para recuperación del texto</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="509.892539" transform="rotate(-0 254.16 509.892539)">n = 97</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="530.837754" transform="rotate(-0 254.16 530.837754)">PDF local, PDF web, copia de autor o cuerpo indexado</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: start; fill: #1f1f1f" x="560.16" y="489.732539" transform="rotate(-0 560.16 489.732539)">No recuperados: 22 (E5)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="509.106797" transform="rotate(-0 560.16 509.106797)">17 sin PDF accesible o PDF truncado</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10.08px; font-family: 'Inter'; text-anchor: start; fill: #6b6b6b" x="560.16" y="529.266797" transform="rotate(-0 560.16 529.266797)">5 por paywall (se había consultado copia de autor)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="615.012539" transform="rotate(-0 254.16 615.012539)">Evaluados para elegibilidad</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="636.612539" transform="rotate(-0 254.16 636.612539)">n = 75</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="657.557754" transform="rotate(-0 254.16 657.557754)">con evidencia más allá del resumen</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: start; fill: #1f1f1f" x="560.16" y="636.612539" transform="rotate(-0 560.16 636.612539)">Excluidos tras la evaluación: 0</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="730.932539" transform="rotate(-0 254.16 730.932539)">Estudios incluidos</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 12.24px; font-family: 'Inter'; text-anchor: middle; fill: #1f1f1f" x="254.16" y="752.532539" transform="rotate(-0 254.16 752.532539)">n = 75</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="773.477754" transform="rotate(-0 254.16 773.477754)">los 75 con PDF local</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10.44px; font-family: 'Inter'; text-anchor: middle; fill: #6b6b6b" x="254.16" y="795.077754" transform="rotate(-0 254.16 795.077754)">métrica comprobada en los 75</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p76066bdbb2">
+   <rect x="0" y="0" width="967.68" height="835.2"/>
+  </clipPath>
+ </defs>
 </svg>

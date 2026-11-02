@@ -11,8 +11,8 @@ flowchart TB
         B2["Busqueda Scopus<br/>158 registros"]:::ok
         B3["Cribado titulo/resumen<br/>10 excluidos, 148 pasan"]:::ok
         B4["Busqueda WoS"]:::blocked
-        B5["Cribado texto completo<br/>148 papers"]:::todo
-        B6["Estudios incluidos<br/>+ diagrama de flujo"]:::todo
+        B5["Cribado de elegibilidad<br/>148 → 75 incluidos / 73 excluidos"]:::ok
+        B6["Estudios incluidos: 75<br/>+ diagrama de flujo"]:::ok
         B1 --> B2 --> B3 --> B5 --> B6
         B4 -.-> B5
     end
@@ -68,5 +68,5 @@ flowchart TB
 
 - **Los datos están resueltos.** El frente B está completo y alimenta tanto al experimento como a la sección de Métodos.
 - **El experimento está resuelto**: YOLO26n alcanza mAP50 0,8592 y supera a la línea base.
-- **La bibliografía va a medias**: el protocolo y Scopus están hechos; falta WoS y el cribado de texto completo.
+- **La bibliografía está resuelta en lo metodológico**: protocolo, búsqueda en Scopus y cribado cerrados (158 → 75 incluidos / 73 excluidos; WoS abandonado, D20) y Figura 1 sincronizada. Falta solo la redacción de Métodos.
 - **La redacción solo tiene el esqueleto**, y depende de que lleguen resultados.

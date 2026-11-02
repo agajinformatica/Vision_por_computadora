@@ -1,5 +1,7 @@
 # Párrafos de referencia — material de lectura
 
+> **Renumeración (2026-11-02):** los `ref. NN` de este documento usan ya la numeración nueva de `referencias/` (01-75; `C##` = contexto no citado). Equivalencias en `referencias/MAPA_RENUMERACION.csv`.
+
 > **Qué es esto y qué no es.** Material de referencia para leer, evaluar e interpretar antes
 > de redactar. **No es el texto del artículo** y no está pensado para copiarse: el lineamiento
 > del proyecto (sección 6 de `GUIA_INVESTIGADOR.md`) se mantiene — la redacción del paper es
@@ -59,16 +61,16 @@ cerrar.
 > organismo británico de seguridad y salud contabilizó 123 trabajadores fallecidos en
 > accidentes laborales durante el ejercicio 2021/22 en el conjunto de las actividades
 > económicas, y sitúa a la construcción entre las industrias de mayor riesgo del país
-> [ref. 10]. ⟦Si consigues la cifra sectorial —el mismo organismo publica estadísticas de
+> [ref. C10]. ⟦Si consigues la cifra sectorial —el mismo organismo publica estadísticas de
 > construcción por separado— o la estadística peruana del MTPE, sustituye aquí: una cifra
 > específica del sector sostiene mejor el párrafo que una agregada⟧. Una proporción relevante
 > de esos siniestros se relaciona con la ausencia o el uso incorrecto del equipo de protección
 > personal, y en particular del casco y del chaleco de alta visibilidad, cuya obligatoriedad
-> está normativamente establecida —en el caso peruano, por la R.M. 050-2013-TR [ref. 13]—.
+> está normativamente establecida —en el caso peruano, por la R.M. 050-2013-TR [ref. C13]—.
 > La verificación de su uso, sin embargo, sigue descansando en la inspección visual humana, un
-> procedimiento laborioso y propenso al error [ref. 16] que en la práctica resulta
+> procedimiento laborioso y propenso al error [ref. 08] que en la práctica resulta
 > discontinuo, dependiente de la disponibilidad de personal y de trazabilidad limitada
-> [ref. 13]. Automatizar esa verificación sobre las imágenes que las obras ya capturan
+> [ref. C13]. Automatizar esa verificación sobre las imágenes que las obras ya capturan
 > convierte un control intermitente en uno continuo, y constituye por ello un problema de
 > visión por computadora cuyas consecuencias recaen directamente sobre la seguridad de las
 > personas.
@@ -79,21 +81,21 @@ cerrar.
 > detectores de objetos de propósito general, y los modelos de una sola etapa se han
 > consolidado como el enfoque dominante sobre imagen de obra. Trabajos representativos de esa
 > consolidación reportan precisiones medias del 92,44 % sobre un conjunto de cinco mil
-> imágenes de cascos [ref. 20] y del 97 % sobre un corpus propio de once mil imágenes que
-> incluye casco y chaleco de alta visibilidad [ref. 35], mientras que la comparación
+> imágenes de cascos [ref. 09] y del 97 % sobre un corpus propio de once mil imágenes que
+> incluye casco y chaleco de alta visibilidad [ref. 17], mientras que la comparación
 > sistemática de ocho variantes de una misma familia sobre un conjunto de obra con seis clases
 > situó el mejor resultado en el 86,55 % [ref. 01]. Una línea posterior se ha concentrado en
 > las dificultades propias del dominio más que en la arquitectura general. El tamaño reducido
 > del casco en planos generales ha motivado la incorporación de escalas de predicción
 > adicionales y mecanismos de atención, con mejoras de 6,3 puntos sobre el modelo de partida
-> [ref. 21] y ganancias concentradas específicamente en los objetos más pequeños [ref. 09]. La
+> [ref. 10] y ganancias concentradas específicamente en los objetos más pequeños [ref. 05]. La
 > oclusión mutua entre trabajadores ha llevado a sustituir la supresión de no máximos por
-> variantes más permisivas, con un aumento de 2,8 puntos en exhaustividad [ref. 30], y a
+> variantes más permisivas, con un aumento de 2,8 puntos en exhaustividad [ref. 15], y a
 > explorar arquitecturas basadas en transformadores para objetos pequeños y parcialmente
-> ocultos [ref. 03]. Las condiciones de iluminación adversas han dado lugar a módulos
-> invariantes a la iluminación evaluados en túneles [ref. 07] y en minería subterránea
-> [ref. 06]. Un tercer grupo ha priorizado el despliegue sobre hardware limitado, reduciendo
-> el tamaño del modelo en un 83 % con una pérdida mínima de precisión [ref. 24].
+> ocultos [ref. C03]. Las condiciones de iluminación adversas han dado lugar a módulos
+> invariantes a la iluminación evaluados en túneles [ref. 04] y en minería subterránea
+> [ref. C06]. Un tercer grupo ha priorizado el despliegue sobre hardware limitado, reduciendo
+> el tamaño del modelo en un 83 % con una pérdida mínima de precisión [ref. C24].
 
 **(b) Antecedentes — segundo párrafo: la revisión previa y el vacío**
 
@@ -101,19 +103,19 @@ cerrar.
 > datos, e identifica como barreras la variabilidad entre industrias y entornos, el coste
 > computacional del procesamiento en tiempo real y los problemas de identificación de personas,
 > para concluir que el avance de estas soluciones exige el desarrollo de conjuntos de datos
-> públicos adecuados [ref. 12]. Dos observaciones se desprenden de esta literatura y motivan el
+> públicos adecuados [ref. C12]. Dos observaciones se desprenden de esta literatura y motivan el
 > presente trabajo. La primera es que el chaleco recibe una atención sensiblemente menor que el
 > casco: de los estudios revisados, en torno a la mitad abordan únicamente la detección del
 > casco, y el chaleco aparece casi siempre como una clase más dentro de un esquema multiclase
 > y no como el problema central, un desequilibrio que la literatura ya ha señalado
-> explícitamente [ref. 15] y que los conjuntos de datos disponibles reproducen. La segunda es
+> explícitamente [ref. 07] y que los conjuntos de datos disponibles reproducen. La segunda es
 > que las cifras reportadas, pese a su aparente homogeneidad, no son comparables entre sí:
 > oscilan entre el 82 % y el 97 % de precisión media, pero se miden sobre conjuntos distintos
 > y, en una proporción considerable de los casos, sobre corpus construidos específicamente para
 > cada estudio y no publicados. A ello se añade que la mayoría de las comparaciones entre
 > arquitecturas se realizan mediante una única ejecución por modelo; un trabajo que repitió su
 > comparación con varias semillas encontró que la ventaja observada en una sola corrida no se
-> mantenía al promediar las repeticiones [ref. 05]. En conjunto, estas condiciones dificultan
+> mantenía al promediar las repeticiones [ref. C05]. En conjunto, estas condiciones dificultan
 > atribuir las diferencias observadas a la arquitectura y no al experimento.
 
 **(c) Objetivo y aporte** — ajustado a D16: nada de NMS-free ni generalización
@@ -137,21 +139,21 @@ cerrar.
 | En el texto | Referencia |
 |---|---|
 | ref. 01 | Wang et al., *Sensors*, 2021 — CHV |
-| ref. 03 | MRC-DETR, *Sensors*, 2025 |
-| ref. 05 | *Buildings*, 2026 — mezcla real/sintético con semillas repetidas |
-| ref. 06 | YOLOv11-SRA, *Sci. Rep.*, 2026 — minería subterránea |
-| ref. 07 | AE-LFOG-YOLO, *Sci. Rep.*, 2026 — túnel |
-| ref. 09 | YOLOv10 multiescala, *Sci. Rep.*, 2026 |
-| ref. 10 | HSE, informe anual 2022/23 |
-| ref. 12 | *AI Review*, 2024 — revisión sistemática |
-| ref. 13 | LACCEI, 2026 — pymes peruanas, R.M. 050-2013-TR |
-| ref. 15 | *IEEE Access*, 2024 — ropa reflectante |
-| ref. 16 | *Sustainability*, 2023 — CHVG, Faster R-CNN |
-| ref. 20 | *Appl. Sci.*, 2022 — YOLOv5x |
-| ref. 21 | *IEEE Access*, 2021 — multiescala |
-| ref. 24 | *Sensors*, 2023 — YOLOv4 ligero |
-| ref. 30 | *Sci. Rep.*, 2024 — BiFEL-YOLOv5s, Soft-NMS |
-| ref. 35 | *Sustainability*, 2022 — casco y chaleco, 11 000 img |
+| ref. C03 | MRC-DETR, *Sensors*, 2025 |
+| ref. C05 | *Buildings*, 2026 — mezcla real/sintético con semillas repetidas |
+| ref. C06 | YOLOv11-SRA, *Sci. Rep.*, 2026 — minería subterránea |
+| ref. 04 | AE-LFOG-YOLO, *Sci. Rep.*, 2026 — túnel |
+| ref. 05 | YOLOv10 multiescala, *Sci. Rep.*, 2026 |
+| ref. C10 | HSE, informe anual 2022/23 |
+| ref. C12 | *AI Review*, 2024 — revisión sistemática |
+| ref. C13 | LACCEI, 2026 — pymes peruanas, R.M. 050-2013-TR |
+| ref. 07 | *IEEE Access*, 2024 — ropa reflectante |
+| ref. 08 | *Sustainability*, 2023 — CHVG, Faster R-CNN |
+| ref. 09 | *Appl. Sci.*, 2022 — YOLOv5x |
+| ref. 10 | *IEEE Access*, 2021 — multiescala |
+| ref. C24 | *Sensors*, 2023 — YOLOv4 ligero |
+| ref. 15 | *Sci. Rep.*, 2024 — BiFEL-YOLOv5s, Soft-NMS |
+| ref. 17 | *Sustainability*, 2022 — casco y chaleco, 11 000 img |
 
 **Irrenunciables**
 
@@ -165,10 +167,10 @@ cerrar.
 
 **Verifica antes de citar**
 
-- ⚠ **ref. 10 no da la cifra sectorial.** Sus 123 fallecidos son de todas las actividades
+- ⚠ **ref. C10 no da la cifra sectorial.** Sus 123 fallecidos son de todas las actividades
   económicas de Gran Bretaña. Lo que sí respalda es la afirmación cualitativa sobre el riesgo
   del sector. No le atribuyas un dato de construcción que no contiene.
-- ⚠ **ref. 12 y ref. 15 merecen lectura completa.** Son las dos que sostienen el argumento; lo
+- ⚠ **ref. C12 y ref. 07 merecen lectura completa.** Son las dos que sostienen el argumento; lo
   que aquí se usa procede de sus resúmenes.
 - El recuento «en torno a la mitad» es tuyo, sobre tu inventario. Si lo afinas al cerrar el
   cribado de texto completo, puedes dar la proporción exacta sobre los estudios incluidos, que
@@ -208,27 +210,29 @@ cerrar.
 > prueba la ausencia del contenido en el estudio, se optó por trasladar esa verificación a la
 > lectura del texto completo. Esta decisión excluyó 10 registros y mantuvo 148 para la segunda
 > etapa; la alternativa estricta habría excluido 74, entre ellos ⟦14⟧ estudios de alto impacto.
-> En la segunda etapa se evaluó el texto completo, registrando el motivo de cada exclusión
-> conforme a los códigos E1-E6. Ambas etapas fueron realizadas por dos revisores de forma
-> independiente, y las discrepancias se resolvieron por un tercer revisor ⟦confirmar que así
-> se ejecutó, y reportar el número de discrepancias resueltas⟧. El proceso completo, con los
-> recuentos de cada etapa, se resume en la Figura 1.
+> En la segunda etapa se aplicaron los criterios I1-I7 y E1-E6 a los 148 registros y se
+> registró el motivo de cada exclusión: 51 se excluyeron en selección documental, 22 no pudieron
+> recuperarse (E5) y 75 se evaluaron con evidencia más allá del resumen (texto completo en 74
+> y cuerpo publicado indexado en 1) y se incluyeron. Los tres revisores (R1, R2 y R3, este
+> último dirimente de 28 discrepancias) fueron asistentes de IA y no revisores humanos
+> independientes; es una limitación declarada. El proceso completo, con los recuentos de cada
+> etapa, se resume en la Figura 1.
 
 **Irrenunciables**
 
 - **Fecha exacta, base y cadena literal.** Sin los tres, la búsqueda no es reproducible.
 - **Declarar que WoS no se consultó.** Decir que se buscó donde no se buscó es lo único grave.
 - Los códigos I1-I7 y E1-E6 enunciados, no solo referenciados.
-- **Dos revisores y un tercero que dirime**, con el número de discrepancias.
+- **Revisores R1, R2 y R3 (asistentes de IA)**, con el número de discrepancias (28) y la limitación declarada: no son revisores humanos independientes.
 - La justificación del I5 permisivo: es una decisión metodológica fuerte y te defiende sola.
-- ⚠ El cribado de texto completo **aún no está cerrado**. Hasta el 1 de noviembre, los
-  recuentos finales y la Figura 1 van con huecos.
+- ✅ El cribado **está cerrado** (2026-10-27): usar las cifras de `RESUMEN_CRIBADO_PRISMA.docx`;
+  la Figura 1 ya está sincronizada.
 
 **Pie de la Figura 1**
 
-> Figura 1. Diagrama de flujo PRISMA 2020 del proceso de identificación, cribado y selección
-> de los estudios incluidos en la revisión. Se emplea la variante para revisiones nuevas con
-> registro de fuentes adicionales a las bases de datos.
+> Figura 1. Diagrama de flujo PRISMA 2020, adaptado, del proceso de identificación, cribado y
+> selección de los estudios incluidos en la revisión (158 registros de Scopus; 75 incluidos).
+> Se separan la selección documental, la recuperación del texto y la evaluación de elegibilidad.
 
 ### 2.2 Conjuntos de datos
 

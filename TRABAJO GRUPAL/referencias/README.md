@@ -1,6 +1,10 @@
-> **Estado vigente tras resolver C0 (2026-10-27): 80 incluidos / 68 excluidos.** Los 23 casos se incluyen por evidencia y C0 queda revocado. Son los mismos 148 estudios, sin busqueda de nuevos papers. Los 17 E5 y las 51 exclusiones documentales previas no se reabrieron. Ver [estado auditado](<../metodologia Prisma/4-resultados/CIERRE_AUDITADO.md>). Los recuentos anteriores que difieran son historicos.
+> **Estado vigente (cribado cerrado, 2026-10-27): 158 identificados, 75 incluidos / 73 excluidos** (39 E3, 12 E4, 22 E5). Cifras oficiales en [RESUMEN_CRIBADO_PRISMA.docx](<../metodologia Prisma/4-resultados/RESUMEN_CRIBADO_PRISMA.docx>). Los recuentos anteriores (80/68, 58/90, 74/74) son históricos.
 
 # Referencias — descargas y procedencia
+
+> **Renumeración (2026-11-02):** los 75 PDFs incluidos llevan prefijo consecutivo `01`-`75` (orden del inventario original). Los 15 de contexto, en `_contexto_no_citados/`, pasaron a `C##` conservando su número antiguo. La columna `#` de las tablas de abajo ya usa los números nuevos. Equivalencias: `MAPA_RENUMERACION.csv`.
+
+> **Carpeta única de PDFs (2026-11-02):** los 75 incluidos están aquí, sin copias en otras carpetas (se borró `4-resultados/evidencia_23/`, que eran duplicados exactos). La columna `pdf_local` de `estudios_incluidos.csv` apunta a estos archivos. `INDICE_PAPER.md` relaciona cada referencia del paper con su PDF. En `referencias/` quedan solo los 75 PDFs incluidos; los 15 restantes (estudios de contexto, descartes de etapas anteriores y el preprint arXiv de SH17, `80b_...`) están en `_contexto_no_citados/` y el paper no los cita. `TABLA_SEGUIMIENTO.csv` indica la subcarpeta.
 
 > Documento de registro. Cada entrada lleva su **DOI** y la **URL exacta** desde la que se
 > descargó el PDF, para que la obtención sea reproducible y verificable.
@@ -10,7 +14,7 @@ Descargado el **2026-10-09**. Todos cumplen los criterios I1-I7 del
 artículo primario, revista indexada, 2021-2026, detección de objetos, casco y/o chaleco,
 dominio de construcción o industrial, con métricas cuantitativas.
 
-La numeración continúa la del inventario del grupo (1-12 ya estaban repartidos entre
+Numeración original del inventario del grupo (1-12 ya estaban repartidos entre
 las carpetas `Arnold`, `Javier`, `eladio` y la raíz).
 
 ---
@@ -19,32 +23,32 @@ las carpetas `Arnold`, `Javier`, `eladio` y la raíz).
 
 | # | Referencia | Revista · Año | Citas | DOI | URL de descarga |
 |---|---|---|---:|---|---|
-| 14 ✅ | Automated non-PPE detection on construction sites using YOLOv10 and transformers | Scientific Reports · 2025 | 45 | `10.1038/s41598-025-12468-8` | nature.com/articles/s41598-025-12468-8.pdf |
-| 15 ✅ | Personal Protective Equipment Detection for Construction Workers: A Novel Dataset | IEEE Access · 2024 | 33 | `10.1109/access.2024.3382817` | vía OpenAlex (localización OA) |
-| 16 ✅ | Personal Protective Equipment Detection: A Deep-Learning-Based Sustainable Approach | Sustainability · 2023 | 85 | `10.3390/su151813990` | mdpi.com/2071-1050/15/18/13990/pdf |
-| 28 ✅ | Domain-adaptive faster R-CNN for non-PPE identification on construction sites | Scientific Reports · 2026 | 27 | `10.1038/s41598-026-35148-7` | nature.com/articles/s41598-026-35148-7.pdf |
+| 06 ✅ | Automated non-PPE detection on construction sites using YOLOv10 and transformers | Scientific Reports · 2025 | 45 | `10.1038/s41598-025-12468-8` | nature.com/articles/s41598-025-12468-8.pdf |
+| 07 ✅ | Personal Protective Equipment Detection for Construction Workers: A Novel Dataset | IEEE Access · 2024 | 33 | `10.1109/access.2024.3382817` | vía OpenAlex (localización OA) |
+| 08 ✅ | Personal Protective Equipment Detection: A Deep-Learning-Based Sustainable Approach | Sustainability · 2023 | 85 | `10.3390/su151813990` | mdpi.com/2071-1050/15/18/13990/pdf |
+| 14 ✅ | Domain-adaptive faster R-CNN for non-PPE identification on construction sites | Scientific Reports · 2026 | 27 | `10.1038/s41598-026-35148-7` | nature.com/articles/s41598-026-35148-7.pdf |
 
 ## Detección de casco
 
 | # | Referencia | Revista · Año | Citas | DOI | URL de descarga |
 |---|---|---|---:|---|---|
-| 20 ✅ | Deep Learning-Based Automatic Safety Helmet Detection System for Construction Safety | Applied Sciences · 2022 | 134 | `10.3390/app12168268` | mdpi.com/2076-3417/12/16/8268/pdf |
-| 21 ✅ | Deep Learning-Based Workers Safety Helmet Wearing Detection on Construction Sites Using Multi-Scale Features | IEEE Access · 2021 | 91 | `10.1109/access.2021.3138407` | vía OpenAlex (localización OA) |
-| 23 ✅ | Safety Helmet Detection Based on YOLOv5 Driven by Super-Resolution Reconstruction | Sensors · 2023 | 50 | `10.3390/s23041822` | mdpi.com/1424-8220/23/4/1822/pdf |
-| 24 ⚪ | Lightweight Helmet Detection Algorithm Using an Improved YOLOv4 | Sensors · 2023 | 50 | `10.3390/s23031256` | mdpi.com/1424-8220/23/3/1256/pdf |
-| 25 ✅ | Research on Safety Helmet Detection Algorithm Based on Improved YOLOv5s | Sensors · 2023 | 33 | `10.3390/s23135824` | mdpi.com/1424-8220/23/13/5824/pdf |
-| 27 ✅ | Real-Time Safety Helmet Detection Using YOLOv5 at Construction Sites | Intell. Autom. Soft Comput. · 2022 | 51 | `10.32604/iasc.2023.031359` | vía OpenAlex (localización OA) |
-| 29 ⚪ | Research on improved algorithm for helmet detection based on YOLOv5 | Scientific Reports · 2023 | 29 | `10.1038/s41598-023-45383-x` | nature.com/articles/s41598-023-45383-x.pdf |
-| 30 ✅ | Research on helmet wearing detection method based on deep learning | Scientific Reports · 2024 | 23 | `10.1038/s41598-024-57433-z` | nature.com/articles/s41598-024-57433-z.pdf |
-| 31 ✅ | A Remote-Vision-Based Safety Helmet and Harness Monitoring System | Remote Sensing · 2023 | 24 | `10.3390/rs15020347` | mdpi.com/2072-4292/15/2/347/pdf |
+| 09 ✅ | Deep Learning-Based Automatic Safety Helmet Detection System for Construction Safety | Applied Sciences · 2022 | 134 | `10.3390/app12168268` | mdpi.com/2076-3417/12/16/8268/pdf |
+| 10 ✅ | Deep Learning-Based Workers Safety Helmet Wearing Detection on Construction Sites Using Multi-Scale Features | IEEE Access · 2021 | 91 | `10.1109/access.2021.3138407` | vía OpenAlex (localización OA) |
+| 11 ✅ | Safety Helmet Detection Based on YOLOv5 Driven by Super-Resolution Reconstruction | Sensors · 2023 | 50 | `10.3390/s23041822` | mdpi.com/1424-8220/23/4/1822/pdf |
+| C24 ⚪ | Lightweight Helmet Detection Algorithm Using an Improved YOLOv4 | Sensors · 2023 | 50 | `10.3390/s23031256` | mdpi.com/1424-8220/23/3/1256/pdf |
+| 12 ✅ | Research on Safety Helmet Detection Algorithm Based on Improved YOLOv5s | Sensors · 2023 | 33 | `10.3390/s23135824` | mdpi.com/1424-8220/23/13/5824/pdf |
+| 13 ✅ | Real-Time Safety Helmet Detection Using YOLOv5 at Construction Sites | Intell. Autom. Soft Comput. · 2022 | 51 | `10.32604/iasc.2023.031359` | vía OpenAlex (localización OA) |
+| C29 ⚪ | Research on improved algorithm for helmet detection based on YOLOv5 | Scientific Reports · 2023 | 29 | `10.1038/s41598-023-45383-x` | nature.com/articles/s41598-023-45383-x.pdf |
+| 15 ✅ | Research on helmet wearing detection method based on deep learning | Scientific Reports · 2024 | 23 | `10.1038/s41598-024-57433-z` | nature.com/articles/s41598-024-57433-z.pdf |
+| C31 ✅ | A Remote-Vision-Based Safety Helmet and Harness Monitoring System | Remote Sensing · 2023 | 24 | `10.3390/rs15020347` | mdpi.com/2072-4292/15/2/347/pdf |
 
 ## Contexto técnico: despliegue, arquitecturas alternativas y plataformas
 
 | # | Referencia | Revista · Año | Citas | DOI | URL de descarga |
 |---|---|---|---:|---|---|
-| 32 ⚪ | Investigation of Edge Computing in Computer Vision-Based Construction Monitoring | Buildings · 2022 | 24 | `10.3390/buildings12122167` | mdpi.com/2075-5309/12/12/2167/pdf |
-| 33 ✅ | Faster R-CNN-LSTM Construction Site Unsafe Behavior Recognition Model | Applied Sciences · 2023 | 29 | `10.3390/app131910700` | mdpi.com/2076-3417/13/19/10700/pdf |
-| 34 ✅ | Unmanned Aerial Systems and Deep Learning for Safety and Health Activity Monitoring | Sensors · 2023 | 48 | `10.3390/s23156690` | mdpi.com/1424-8220/23/15/6690/pdf |
+| C32 ⚪ | Investigation of Edge Computing in Computer Vision-Based Construction Monitoring | Buildings · 2022 | 24 | `10.3390/buildings12122167` | mdpi.com/2075-5309/12/12/2167/pdf |
+| C33 ✅ | Faster R-CNN-LSTM Construction Site Unsafe Behavior Recognition Model | Applied Sciences · 2023 | 29 | `10.3390/app131910700` | mdpi.com/2076-3417/13/19/10700/pdf |
+| 16 ✅ | Unmanned Aerial Systems and Deep Learning for Safety and Health Activity Monitoring | Sensors · 2023 | 48 | `10.3390/s23156690` | mdpi.com/1424-8220/23/15/6690/pdf |
 
 ---
 
@@ -54,15 +58,15 @@ Se buscó diversidad deliberada para que la revisión no sea quince variantes de
 
 | Enfoque | Referencias |
 |---|---|
-| YOLO (v4, v5, v10, YOLOX) | 14, 16, 20, 23, 24, 25, 27, 29, 30 |
-| **Faster R-CNN / dos etapas** | 28, 33 |
-| **Transformers** | 14 |
-| **Adaptación de dominio** | 28 |
-| **Edge computing** | 32 |
-| **Plataformas aéreas (UAV)** | 34 |
-| **Dataset propio** | 15, 16 |
+| YOLO (v4, v5, v10, YOLOX) | 06, 08, 09, 11, C24, 12, 13, C29, 15 |
+| **Faster R-CNN / dos etapas** | 14, C33 |
+| **Transformers** | 06 |
+| **Adaptación de dominio** | 14 |
+| **Edge computing** | C32 |
+| **Plataformas aéreas (UAV)** | 16 |
+| **Dataset propio** | 07, 08 |
 
-La #28 merece atención especial: adaptación de dominio para identificación de **no-EPP**.
+La #14 merece atención especial: adaptación de dominio para identificación de **no-EPP**.
 Es la más cercana al análisis de generalización cruzada entre datasets que planteamos.
 
 ## Pendientes — bloqueados por el editor
@@ -121,9 +125,9 @@ Las tres no presentes y el motivo probable:
 
 | # | Referencia | Motivo |
 |---|---|---|
-| 24 | Lightweight Helmet Detection YOLOv4 | Términos o indexación no capturados por la cadena |
-| 29 | Research on improved algorithm for helmet detection YOLOv5 | Ídem |
-| 32 | Investigation of Edge Computing in CV-Based Construction Monitoring | Trata monitoreo general, no detección de EPP |
+| C24 | Lightweight Helmet Detection YOLOv4 | Términos o indexación no capturados por la cadena |
+| C29 | Research on improved algorithm for helmet detection YOLOv5 | Ídem |
+| C32 | Investigation of Edge Computing in CV-Based Construction Monitoring | Trata monitoreo general, no detección de EPP |
 
 **Ninguna se descarta por esto.** Figurar en una columna u otra del diagrama no afecta
 su validez como referencia ni su cumplimiento de los criterios I1-I7.
@@ -133,6 +137,6 @@ su validez como referencia ni su cumplimiento de los criterios I1-I7.
 **Abandonado por decisión del equipo**, no solo pendiente: la cuenta personal de Clarivate da
 acceso al Researcher Profile pero no a la Core Collection, y la conexión no procede de la red
 institucional. Se decidió no seguir el acceso por biblioteca/VPN porque el mínimo de 25
-referencias ya está superado con margen (74 solo de la revisión sistemática en Scopus). **Se
+referencias ya está superado con margen (75 al cierre del cribado, solo de la revisión sistemática en Scopus). **Se
 declara como limitación en Métodos**: la búsqueda se realizó en Scopus, sin acceso
 institucional a WoS Core Collection.

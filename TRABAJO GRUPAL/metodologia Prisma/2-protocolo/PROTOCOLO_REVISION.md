@@ -60,7 +60,7 @@ visión por computadora.
 ## 5. Cribado — asignación propuesta
 
 PRISMA 2020 requiere cribado independiente por al menos dos revisores, con un tercero
-que resuelva discrepancias. El equipo son tres personas, lo que encaja exactamente:
+que resuelva discrepancias. El equipo se planteó como tres revisores (hoy son cinco integrantes; al final R1, R2 y R3 fueron asistentes de IA, ver P7 en la guía):
 
 | Fase | Revisores independientes | Resolución de discrepancias |
 |---|---|---|

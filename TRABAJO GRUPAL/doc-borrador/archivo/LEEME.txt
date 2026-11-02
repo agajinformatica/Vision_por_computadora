@@ -1,0 +1,2 @@
+Archivo histórico: listas de referencias y tablas sueltas de una versión anterior del paper, con numeración que ya no coincide.
+El paper único es ../Esqueleto_Paper_EPP_YOLO26.docx (Tablas 1 a 3 y referencias incluidas).
