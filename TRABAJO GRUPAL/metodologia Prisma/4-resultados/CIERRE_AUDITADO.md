@@ -11,7 +11,7 @@
 
 # Estado auditado tras resolver los 23 casos
 
-Fecha: 2026-10-27. **Los 23 casos C0 quedan resueltos como incluir. Corpus: 80 incluidos y 68 excluidos de los mismos 148 registros.** No se identifica ni agrega ningun estudio nuevo. Se revoca el limite de 57 por cierre administrativo: la instruccion de no buscar mas papers no permite excluir elegibles de la lista original.
+Fecha: 2026-10-27. **Los 23 casos C0 quedan resueltos como incluir. Corpus vigente: 75 incluidos y 73 excluidos de los mismos 148 registros.** De los 80 incluidos tras resolver los 23 casos, 5 (ids 80, 11, 87, 94, 100) se reclasificaron después a E5 por paywall confirmado sin PDF verificable; la reconciliación detallada más abajo (80/68) corresponde al estado inmediatamente anterior a esa reclasificación. No se identifica ni agrega ningun estudio nuevo. Se revoca el limite de 57 por cierre administrativo: la instruccion de no buscar mas papers no permite excluir elegibles de la lista original.
 
 Se mantienen intactas las columnas R1/R2 y sus motivos, las discrepancias historicas y los metadatos. Esta es una adjudicacion documental asistida por IA; no constituye otro revisor humano independiente. El protocolo original I1-I7 y E1-E6 sigue vigente. No se exige que el articulo use YOLO26, no hay umbral minimo de mAP, y los estudios de dataset con benchmark original son primarios. Se aceptan metricas agregadas o mejoras relativas y clases de presencia/ausencia, tal como en los 57 previos. Tener una interfaz de alertas, pose o AR no vuelve incidental el EPP cuando el detector es un objetivo principal con evaluacion propia.
 
